@@ -10,7 +10,7 @@
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="shortcut icon" href="/img/ico/favicon.ico">
-        <title>Graphics Demo</title>
+        <title>Immunology | Graphics Demo</title>
     </head>
 
     <body>
@@ -29,7 +29,7 @@
                     
                     </div>
                     
-                    <div class="col s8 right">
+                    <div class="col s8 right breadcrumbs-2">
                     
                         <a href="/Notes/NotesIndex.html" class="breadcrumb">Notes</a>
                         <a class="breadcrumb">Immunology</a>
@@ -65,7 +65,7 @@
 
                 <ul class="tabs">
 
-                    <li class="tab col s2 active"><a href="#IMM2011">IMM2011</a></li>
+                    <li class="tab col s2"><a class="active" href="#IMM2011">IMM2011</a></li>
 
                     <li class="tab col s2 disabled"><a href="#IMM2022">IMM2022</a></li>
                     
@@ -1008,6 +1008,10 @@
         <script>
         
             M.AutoInit();
+            
+            var instance = M.Tabs.init(el, options);
+            
+            
         
         </script>
         

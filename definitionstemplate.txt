@@ -1,0 +1,41 @@
+<div class="container z-depth-1 white DefinitionContainer">
+        
+    <div class="row">
+
+        <div class="col s12 accent-top title-row">
+
+            <p class="topic-empha">Definitions</p>
+
+            <div class="divider"></div>
+
+        </div>
+
+        <div class="col s12 Definitions">
+
+            <div class='row'>
+
+                <div class='col s4 m3 l3'>
+
+                    <div class='tabs-vertical'>
+
+                        <ul class='tabs'>
+
+${definitionslist}                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class='col s8 m9 l9 valign-wrapper DefineAnswer'>
+
+${definitionscontainers}                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- End Definitions -->

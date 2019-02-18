@@ -10,7 +10,7 @@
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="shortcut icon" href="/img/ico/favicon.ico">
-        <title> | Graphics Demo</title>
+        <title>${pagetitle} | Graphics Demo</title>
     </head>
 
     <body>
@@ -32,8 +32,8 @@
                     <div class="col s8 right breadcrumbs-3">
                     
                         <a href="/Notes/NotesIndex.html" class="breadcrumb">Notes</a>
-                        <a href="/Notes/" class="breadcrumb"></a>
-                        <a class="breadcrumb"></a>
+                        <a href="/Notes/${subject}/${subject}Index.html" class="breadcrumb">${subject}</a>
+                        <a class="breadcrumb">${pagetitle}</a>
                     
                     </div>
                     
@@ -55,9 +55,9 @@
 
                     <div class="section">
 
-                        <h4 class="grey-text">Topic</h4>
+                        <h4 class="grey-text">${pagetitle}</h4>
 
-                        <p class="grey-text">Context</p>
+                        <p class="grey-text">${description}</p>
 
                     </div>
 
@@ -79,9 +79,7 @@
                 
                     <ul class="browser-default">
 
-                        <li class="padme"><a href="#"></a></li>
-                        <li class="padme"><a href="#"></a></li>
-
+${learningobjectiveslist}
                     </ul>
                 
                 </div>
@@ -96,41 +94,7 @@
         
         <!-- Start Content -->
 
-        <div class="row container z-depth-1 scrollspy white" id="">
-
-            <div class="col s12 title-row">
-
-                <p class="topic-empha">Objective</p>
-                
-                <div class="divider"></div>
-
-            </div>
-
-            <div class="col s12 content-col">
-
-                <p>dsfds</p>
-
-            </div>
-
-        </div>
-        
-        <div class="row container z-depth-1 scrollspy white" id="">
-
-            <div class="col s12 title-row">
-
-                <p class="topic-empha">Objective</p>
-                
-                <div class="divider"></div>
-
-            </div>
-
-            <div class="col s12 content-col">
-
-                <p>dsfds</p>
-
-            </div>
-
-        </div>
+${learningobjectivecontainers}
 
         <!-- End Content -->
         
@@ -138,93 +102,7 @@
         
         <!-- Start Definitions -->
         
-        <div class="container z-depth-1 white DefinitionContainer">
-        
-            <div class="row">
-            
-                <div class="col s12 accent-top title-row">
-
-                    <p class="topic-empha">Definitions (There's a Generator to make these that also needs fixing future Same)</p>
-                    
-                    <div class="divider"></div>
-                    
-                </div>
-            
-                <div class="col s12 Definitions">
-
-                    <div class='row'>
-
-                        <div class='col s4 m4 l2'>
-
-                            <div class='tabs-vertical'>
-
-                                <ul class='tabs'>
-
-                                    <li class='tab active'><a href='#0'>Estrogen</a></li>
-
-                                    <li class='tab'><a href='#1'>Fertilisation</a></li>
-
-                                    <li class='tab'><a href='#2'>Folliculogenesis</a></li>
-
-                                    <li class='tab'><a href='#3'>Gestation</a></li>
-
-                                </ul>
-
-                            </div>
-
-                        </div>
-
-                        <div class='col s8 m8 l10 valign-wrapper DefineAnswer'>
-
-                            <div id='0' class='tab-content'>
-                                
-                                <p class="DefinitionWord accent-left">Estrogen</p>
-                                
-                                <p class="DefinitionContent">The primary female sex hormone. It is responsible for the development and regulation of the female reproductive system and secondary sex characteristics. There are three major endogenous estrogens in females that have estrogenic hormonal activity: estrone, estradiol, and estriol.</p>
-                                
-                                <br><br>
-
-                            </div>
-
-                            <div id='1' class='tab-content'>
-                                
-                                <p class="DefinitionWord accent-left">Fertilisation</p>
-
-                                <p class="DefinitionContent">The fusion of gametes to initiate the development of a new individual organism. The cycle of fertilisation and development of new individuals is called sexual reproduction.</p>
-                                
-                                <br><br>
-
-                            </div>
-
-                            <div id='2' class='tab-content'>
-
-                                <p class="DefinitionWord accent-left">Folliculogenesis</p>
-                                
-                                <p class="DefinitionContent">The maturation of the ovarian follicle, a densely packed shell of somatic cells that contains an immature oocyte. Folliculogenesis describes the progression of a number of small primordial follicles into large preovulatory follicles that occurs in part during the menstrual cycle.</p>
-
-                                <br><br>
-                                
-                            </div>
-
-                            <div id='3' class='tab-content'>
-
-                                <p class="DefinitionWord accent-left">Gestation</p>
-                                
-                                <p class="DefinitionContent">The period of development during the carrying of an embryo or fetus inside viviparous animals. It is typical for mammals, but also occurs for some non-mammals. Mammals during pregnancy can have one or more gestations at the same time for example in a multiple birth.</p>
-
-                                <br><br>
-                                
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                
-            </div>
-            
-        </div>
+        <p>Definition Container Here</p>
         
         <!-- End Definitions -->
         
