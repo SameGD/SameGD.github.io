@@ -1,6 +1,6 @@
 var TemplateContents = "";
 
-function LoadFile() {
+function LoadFileTopic() {
     var oFrame = document.getElementById("TopicTemplate");
     var strRawContents = oFrame.contentWindow.document.body.childNodes[0].innerHTML;
     
@@ -14,6 +14,8 @@ String.prototype.replaceAll = function(str1, str2, ignore)
 
 document.getElementById('GenerateTopicPage').onclick = function() {
                 
+    LoadFileTopic();
+    
     //Stores the values that will be inserted into the template
     
     var pagetitle = document.getElementById("Topic").value;
@@ -50,8 +52,6 @@ document.getElementById('GenerateTopicPage').onclick = function() {
         console.log(learningobjectivescontainers);
         
     };
-    
-    function LoadFile()
     
     TemplateContents = TemplateContents.replaceAll("${pagetitle}", pagetitle);
     TemplateContents = TemplateContents.replaceAll("${subject}", subject);

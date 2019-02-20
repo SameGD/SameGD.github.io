@@ -127,11 +127,17 @@
                 
                 <div class="accent-top grey lighten-3">
                     
-                    <div class="ro valign-wrapper">
+                    <div class="valign-wrapper">
                     
-                        <div class="col s6"><p class="empha" style="padding:10px; padding-left: 0;">Definitions Generator</p></div>
+                        <div class="col s4"><p class="empha" style="padding:10px; padding-left: 0;">Definitions Generator</p></div>
                         
-                        <div class="col s6"><a class="btn-flat accent-bg accent-left right" style="text-transform: capitalize;" onclick="AutofillDefinitions()">Autofill Definitions</a></div>
+                        <div class="col s8 right-align">
+                            <a class="btn-flat accent-bg accent-left" style="text-transform: capitalize;" onclick="AutofillDefinitions()">Autofill Definitions</a>
+                            <div class="input-field inline">
+                                <input id="DefinitionsTopicr" type="text">
+                                <label for="DefinitionsTopicr">Topic</label>
+                            </div>
+                        </div>
                         
                     </div>
                     
@@ -143,14 +149,14 @@
                     
                     <div class="col s2 input-field">
 
-                        <input placeholder="Word" id="Word0" type="text" oninput="NewRow()">
+                        <input id="Word0" type="text" oninput="NewRow()">
                         <label for="Word0">Word</label>
 
                     </div>
                     
                     <div class="col s10 input-field">
 
-                        <textarea class="materialize-textarea" placeholder="Definition" id="Definition0" type="text"></textarea>
+                        <textarea class="materialize-textarea" id="Definition0" type="text"></textarea>
                         <label for="Definition0">Definition</label>
 
                     </div>
@@ -191,7 +197,7 @@
         
         </div>
         
-        <iframe id="TopicTemplate" src="topictemplate.txt" onload="LoadFile();" style="display: none;"></iframe>
+        <iframe id="TopicTemplate" src="topictemplate.txt" onload="LoadFileTopic();" style="display: none;"></iframe>
         <iframe id="DefinitionsTemplate" src="definitionstemplate.txt" onload="LoadFileDef();" style="display: none;"></iframe>
         
         <!--JavaScript at end of body for optimized loading-->

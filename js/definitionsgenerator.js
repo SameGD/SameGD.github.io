@@ -11,6 +11,10 @@ String.prototype.replaceAll = function(str1, str2, ignore)
     return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g,"\\$&"),(ignore?"gi":"g")),(typeof(str2)=="string")?str2.replace(/\$/g,"$$$$"):str2);
 } 
 
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 var RowCount = 0;
 
 function NewRow() {
@@ -19,7 +23,7 @@ function NewRow() {
     
     RowCount += 1;
     
-    document.getElementById("DefinitionsRow").insertAdjacentHTML("beforeend", `<div class="col s2 input-field"><input placeholder="Word" id="Word${RowCount}" type="text" oninput="NewRow()"><label for="Word${RowCount}">Word</label></div><div class="col s10 input-field"><textarea class="materialize-textarea" placeholder="Definition" id="Definition${RowCount}" type="text"></textarea><label for="Definition${RowCount}">Definition</label></div>`);
+    document.getElementById("DefinitionsRow").insertAdjacentHTML("beforeend", `<div class="col s2 input-field"><input id="Word${RowCount}" type="text" oninput="NewRow()"><label for="Word${RowCount}">Word</label></div><div class="col s10 input-field"><textarea class="materialize-textarea" id="Definition${RowCount}" type="text"></textarea><label for="Definition${RowCount}">Definition</label></div>`);
     
     M.updateTextFields();
     
@@ -65,23 +69,22 @@ function AutofillDefinitions() {
 
     }
     
-    M.updateTextFields();
-    
 }
 
 async function GetDefinition(Pair) {
     
     //Uses the Datamuse api to get the definition of the current word
     
-    fetch(`https://api.datamuse.com/words?sp=${Pair[0].replaceAll(" ","+")}&md=d&max=2`).then(response => {
+    fetch(`https://api.datamuse.com/words?sp=${Pair[0].replaceAll(" ","+")}&topics=${document.getElementById("DefinitionsTopicr").value}&md=d&max=2`).then(response => {
 
         return response.json();
 
     }).then(data => {
         // Work with JSON data here
 
-        Pair[1].value = (data["0"].defs["0"].replace("n	", "").replace("adj	", "") + ".");
+        Pair[1].value = (data["0"].defs["0"].replace("n	", "").replace("adj	", "").replace("v	", "") + ".").capitalize();
         M.textareaAutoResize(Pair[1]);
+        M.updateTextFields();
 
     }).catch(err => {
 
