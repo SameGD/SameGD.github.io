@@ -115,20 +115,17 @@ a:hover {
     
     color: grey;
     
-    
 }
 
 .breadcrumb {
     
     color: grey;
-    
-    
+     
 }
 
 .breadcrumb:last-child {
     
     color: grey;
-    
     
 }
 
@@ -143,6 +140,13 @@ a:hover {
     display: none !important;
   }
 }
+
+.notesindex-box div {
+    
+    height: 10vh;
+    
+}
+
 
 /* Subject Index */
 
@@ -175,6 +179,24 @@ a:hover {
     transition: all 0.4s linear;
    -webkit-transition: all 0.4s linear;
    -moz-transition: all 0.4s linear;
+    
+}
+
+.IndexCollapsible .collapsible-header {
+    
+    font-weight:700;
+    
+}
+
+
+.IndexCollapsible .collapsible-header {
+    
+    border-bottom-width: 0;
+}
+
+.IndexCollapsible .active .collapsible-header{
+    
+    border-bottom-width: 3px;
     
 }
 
