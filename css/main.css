@@ -6,6 +6,14 @@
   }
 }
 
+.break {
+  border-bottom: 2px solid #eee;
+  height: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  
+}
+
 /* Unique Color Defaults */
 
 .colorthis {
@@ -33,6 +41,10 @@
   background-color: #205BA6;
 }
 
+.border-colorthis {
+  border-color: #205BA6;
+}
+
 /* Index Pages */
 
 .indexheader {
@@ -41,4 +53,8 @@
 
 .hobbyheader {
   background-image: url("/img/iconbg.png");
+}
+
+.musicheader {
+  background-image: url("/img/musicbg.png");
 }

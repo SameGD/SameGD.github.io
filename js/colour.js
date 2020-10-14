@@ -13,7 +13,8 @@ var css = `.colorthis { background-color: ${colorman} !important; }
 .bg-colorthis { background-color: ${colorman + '1A'} !important; }
 .txt-colorthis { color: ${colorman} !important; }
 .bg-hover-colorthis:hover .bg-colorthis { background-color: ${colorman} !important; }
-.bg-hover-colorthis:hover { background-color: ${colorman + '1A'} !important; }`;
+.bg-hover-colorthis:hover { background-color: ${colorman + '1A'} !important; }
+.border-colorthis { border-color: ${colorman} !important; }`;
 
 var style = document.createElement('style');
 

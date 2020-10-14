@@ -1,0 +1,530 @@
+<p>=General hobbies=</p>
+<p>-Indoors-</p>
+<p></p>
+<p>3D printing</p>
+<p>Acrobatics</p>
+<p>Acting</p>
+<p>Amateur radio</p>
+<p>Animation</p>
+<p>Aquascaping</p>
+<p>Astrology</p>
+<p>Baking</p>
+<p>Baton twirling</p>
+<p>Blogging</p>
+<p>Board/tabletop games</p>
+<p>Book discussion club</p>
+<p>Book restoration</p>
+<p>Bowling</p>
+<p>Brazilian jiu-jitsu</p>
+<p>Breadmaking</p>
+<p>Building</p>
+<p>Bullet journaling</p>
+<p>Cabaret</p>
+<p>Calligraphy</p>
+<p>Candle making</p>
+<p>Candy making</p>
+<p>Car fixing & building</p>
+<p>Card games</p>
+<p>Cardistry</p>
+<p>Cheesemaking</p>
+<p>Cleaning</p>
+<p>Clothesmaking</p>
+<p>Coffee roasting</p>
+<p>Collecting</p>
+<p>Coloring</p>
+<p>Computer programming</p>
+<p>Confectionery</p>
+<p>Cooking</p>
+<p>Cosplaying</p>
+<p>Couponing</p>
+<p>Craft</p>
+<p>Creative writing</p>
+<p>Crocheting</p>
+<p>Cross-stitch</p>
+<p>Crossword puzzles</p>
+<p>Cryptography</p>
+<p>Cue sports</p>
+<p>Dance</p>
+<p>Digital art</p>
+<p>Distro Hopping</p>
+<p>DJing</p>
+<p>Do it yourself</p>
+<p>Drama</p>
+<p>Drawing</p>
+<p>Drink mixing</p>
+<p>Drinking</p>
+<p>Electronic games</p>
+<p>Electronics</p>
+<p>Embroidery</p>
+<p>Experimenting</p>
+<p>Fantasy sport</p>
+<p>Fashion</p>
+<p>Fashion design</p>
+<p>Fishkeeping</p>
+<p>Filmmaking</p>
+<p>Flower arranging</p>
+<p>Fly tying</p>
+<p>Foreign language learning</p>
+<p>Furniture building</p>
+<p>Gaming</p>
+<p>Genealogy</p>
+<p>Gingerbread house making</p>
+<p>Glassblowing</p>
+<p>Graphic design</p>
+<p>Gunsmithing</p>
+<p>Gymnastics</p>
+<p>Hacking</p>
+<p>Herp keeping</p>
+<p>Home improvement</p>
+<p>Homebrewing</p>
+<p>Houseplant care</p>
+<p>Hula hooping</p>
+<p>Humor</p>
+<p>Hydroponics</p>
+<p>Ice skating</p>
+<p>Jewelry making</p>
+<p>Jigsaw puzzles</p>
+<p>Journaling</p>
+<p>Juggling</p>
+<p>Karaoke</p>
+<p>Karate</p>
+<p>Kendama</p>
+<p>Knife making</p>
+<p>Knitting</p>
+<p>Knot tying</p>
+<p>Kombucha brewing</p>
+<p>Lace making</p>
+<p>Lapidary</p>
+<p>Leather crafting</p>
+<p>Lego building</p>
+<p>Music|Listening to music</p>
+<p>Podcasts|Listening to podcasts</p>
+<p>Lock picking</p>
+<p>Machining</p>
+<p>Macrame</p>
+<p>Magic</p>
+<p>Makeup</p>
+<p>Mazes (indoor/outdoor)</p>
+<p>Metalworking</p>
+<p>Model building</p>
+<p>Model engineering</p>
+<p>Nail art</p>
+<p>Needlepoint</p>
+<p>Origami</p>
+<p>Painting</p>
+<p>Palmistry</p>
+<p>Pet adoption & fostering</p>
+<p>Philately</p>
+<p>Photography</p>
+<p>Pilates</p>
+<p>Playing musical instruments</p>
+<p>Poi (performance art)|Poi</p>
+<p>Pole Dancing</p>
+<p>Pottery</p>
+<p>Powerlifting</p>
+<p>Practical jokes</p>
+<p>Pressed flower craft</p>
+<p>Puzzle</p>
+<p>Quilling</p>
+<p>Quilting</p>
+<p>Quizzes</p>
+<p>Radio-controlled model</p>
+<p>Rail transport modeling</p>
+<p>Rapping</p>
+<p>Reading</p>
+<p>Refinishing</p>
+<p>Reiki</p>
+<p>Robot combat</p>
+<p>Rubik's Cube</p>
+<p>Scrapbooking</p>
+<p>SCUBA Diving</p>
+<p>Sculpting</p>
+<p>Sewing</p>
+<p>Shoemaking</p>
+<p>Singing</p>
+<p>Sketching</p>
+<p>Skipping rope</p>
+<p>Slot car</p>
+<p>Soapmaking</p>
+<p>Social media</p>
+<p>Spreadsheets</p>
+<p>Stand-up comedy</p>
+<p>Stamp collecting</p>
+<p>Table tennis</p>
+<p>Tarot</p>
+<p>Taxidermy</p>
+<p>Thrifting</p>
+<p>Video editing</p>
+<p>Video game developing</p>
+<p>Video gaming</p>
+<p>Videography</p>
+<p>Virtual reality</p>
+<p>Watching movies</p>
+<p>Watching television</p>
+<p>Waxing</p>
+<p>Weaving</p>
+<p>Webtoon</p>
+<p>Weight training</p>
+<p>Welding</p>
+<p>Whittling</p>
+<p>Wikipedia editing</p>
+<p>Winemaking</p>
+<p>Wood carving</p>
+<p>Woodworking</p>
+<p>Word searches</p>
+<p>Worldbuilding</p>
+<p>Writing</p>
+<p>Yo-yoing</p>
+<p>Yoga</p>
+<p>Zumba</p>
+<p></p>
+<p>-Outdoors-</p>
+<p></p>
+<p>Air sports</p>
+<p>Airsoft</p>
+<p>Amateur geology</p>
+<p>Amusement park visiting</p>
+<p>Archery</p>
+<p>Astronomy</p>
+<p>Backpacking</p>
+<p>Badminton</p>
+<p>BASE jumping</p>
+<p>Baseball</p>
+<p>Basketball</p>
+<p>Beekeeping</p>
+<p>Birdwatching</p>
+<p>Blacksmithing</p>
+<p>BMX</p>
+<p>Board sports</p>
+<p>Bodybuilding</p>
+<p>Bonsai</p>
+<p>Butterfly watching</p>
+<p>Bus riding</p>
+<p>Camping</p>
+<p>Canoeing</p>
+<p>Canyoning</p>
+<p>Car riding</p>
+<p>Caving</p>
+<p>Composting</p>
+<p>Cycling</p>
+<p>Dowsing</p>
+<p>Driving</p>
+<p>Farming</p>
+<p>Fishing</p>
+<p>Flag football</p>
+<p>Flower growing</p>
+<p>Flying</p>
+<p>Flying disc</p>
+<p>Foraging</p>
+<p>Fossicking</p>
+<p>Freestyle football</p>
+<p>Gardening</p>
+<p>Geocaching</p>
+<p>Ghost hunting</p>
+<p>Gold prospecting</p>
+<p>Graffiti</p>
+<p>Handball</p>
+<p>Herbalism</p>
+<p>Herping</p>
+<p>High-power rocketry</p>
+<p>Hiking</p>
+<p>Hobby horse|Hobby horsing</p>
+<p>Hobby tunneling</p>
+<p>Hooping</p>
+<p>Horseback riding</p>
+<p>Hunting</p>
+<p>Inline skating</p>
+<p>Jogging</p>
+<p>Jumping rope</p>
+<p>Kayaking</p>
+<p>Kite flying</p>
+<p>Kitesurfing</p>
+<p>Lacrosse</p>
+<p>LARPing</p>
+<p>Letterboxing</p>
+<p>Longboarding</p>
+<p>Martial arts</p>
+<p>Metal detecting</p>
+<p>Meteorology</p>
+<p>Motor sports</p>
+<p>Mountain biking</p>
+<p>Mountaineering</p>
+<p>Museum visiting</p>
+<p>Mushroom hunting</p>
+<p>Netball</p>
+<p>Nordic skating</p>
+<p>Orienteering</p>
+<p>Paintball</p>
+<p>Parkour</p>
+<p>Photography</p>
+<p>Podcast hosting</p>
+<p>Polo</p>
+<p>Public transport riding</p>
+<p>Rafting</p>
+<p>Railway journeys</p>
+<p>Rappelling</p>
+<p>Road biking</p>
+<p>Rock climbing</p>
+<p>Roller skating</p>
+<p>Rugby</p>
+<p>Running</p>
+<p>Radio-controlled model</p>
+<p>Sailing</p>
+<p>Sand art</p>
+<p>Scouting</p>
+<p>Scuba diving</p>
+<p>Sculling</p>
+<p>Shooting</p>
+<p>Shopping</p>
+<p>Shuffleboard</p>
+<p>Skateboarding</p>
+<p>Skiing</p>
+<p>Skimboarding</p>
+<p>Skydiving</p>
+<p>Slacklining</p>
+<p>Snowboarding</p>
+<p>Snowmobiling</p>
+<p>Snowshoeing</p>
+<p>Soccer</p>
+<p>Stone skipping</p>
+<p>Sun bathing</p>
+<p>Surfing</p>
+<p>Survivalism</p>
+<p>Swimming</p>
+<p>Taekwondo</p>
+<p>Tai chi</p>
+<p>Tennis</p>
+<p>Topiary</p>
+<p>Tourism</p>
+<p>Thru-hiking</p>
+<p>Trade fair visiting</p>
+<p>Travel</p>
+<p>Urban exploration</p>
+<p>Vacation</p>
+<p>Vegetable farming</p>
+<p>Videography</p>
+<p>Vehicle restoration</p>
+<p>Walking</p>
+<p>Water sports</p>
+<p></p>
+<p>=Educational Hobbies=</p>
+<p></p>
+<p>Astronomy</p>
+<p>Biology</p>
+<p>Chemistry</p>
+<p>Electrochemistry</p>
+<p>Geography</p>
+<p>History</p>
+<p>Mathematics</p>
+<p>Psychology</p>
+<p>Physics</p>
+<p>Railway studies</p>
+<p>Science and technology studies</p>
+<p>Social studies</p>
+<p>Sports science</p>
+<p></p>
+<p>=Collection Hobbies=</p>
+<p>-Indoors-</p>
+<p></p>
+<p>Action figure</p>
+<p>Antiquing</p>
+<p>Ant-keeping</p>
+<p>Art collecting</p>
+<p>Book collecting</p>
+<p>Button collecting</p>
+<p>Cartophily</p>
+<p>Coin collecting</p>
+<p>Comic book collecting</p>
+<p>Deltiology</p>
+<p>Die-cast toy</p>
+<p>Digital hoarding</p>
+<p>Dolls</p>
+<p>Element collecting</p>
+<p>Ephemera collecting</p>
+<p>Fusilately</p>
+<p>Knife collecting</p>
+<p>Lotology</p>
+<p>Movie and movie memorabilia collecting</p>
+<p>Fingerprint collecting</p>
+<p>Perfume</p>
+<p>Phillumeny</p>
+<p>Pin (lapel)</p>
+<p>Radio-controlled model</p>
+<p>Rail transport modelling</p>
+<p>Record collecting</p>
+<p>Rock tumbling</p>
+<p>Scutelliphily</p>
+<p>Shoes</p>
+<p>Slot car</p>
+<p>Sports memorabilia</p>
+<p>Stamp collecting</p>
+<p>Stuffed toy collecting</p>
+<p>Tea bag collecting</p>
+<p>Ticket collecting</p>
+<p>Toys</p>
+<p>Transit map collecting</p>
+<p>Video game collecting</p>
+<p>Vintage cars</p>
+<p>Vintage clothing</p>
+<p>Vinyl Records</p>
+<p></p>
+<p>-Outdoors-</p>
+<p></p>
+<p>Antiquities</p>
+<p>Auto audiophilia</p>
+<p>Flower collecting and pressing</p>
+<p>Fossil hunting</p>
+<p>Insect collecting</p>
+<p>Magnet fishing</p>
+<p>Metal detecting</p>
+<p>Mineral collecting</p>
+<p>Rock balancing</p>
+<p>Sea glass collecting</p>
+<p>Seashell collecting</p>
+<p>Stone collecting</p>
+<p></p>
+<p>=Competitive Hobbies=</p>
+<p>-Indoors-</p>
+<p></p>
+<p>Animal fancy</p>
+<p>Axe throwing</p>
+<p>Backgammon</p>
+<p>Badminton</p>
+<p>Baton twirling</p>
+<p>Beauty pageant</p>
+<p>Billiards</p>
+<p>Bowling</p>
+<p>Boxing</p>
+<p>Bridge</p>
+<p>Checkers (draughts)</p>
+<p>Cheerleading</p>
+<p>Chess</p>
+<p>Color guard</p>
+<p>Cribbage</p>
+<p>Curling</p>
+<p>Dancing</p>
+<p>Darts</p>
+<p>Debate</p>
+<p>Dominoes</p>
+<p>Eating</p>
+<p>Esports</p>
+<p>Fencing</p>
+<p>Go</p>
+<p>Gymnastics</p>
+<p>Ice hockey</p>
+<p>Ice skating</p>
+<p>Judo</p>
+<p>Jujitsu</p>
+<p>Kabaddi</p>
+<p>Knowledge/ word games</p>
+<p>Laser tag</p>
+<p>Longboarding</p>
+<p>Mahjong</p>
+<p>Marbles</p>
+<p>Martial arts</p>
+<p>Model racing</p>
+<p>Model United Nations</p>
+<p>Poker</p>
+<p>Pole Dancing</p>
+<p>Pool</p>
+<p>Role-playing games</p>
+<p>Shogi</p>
+<p>Slot car racing</p>
+<p>Speedcubing</p>
+<p>Sport stacking</p>
+<p>Table football</p>
+<p>Table tennis</p>
+<p>Volleyball</p>
+<p>Weightlifting</p>
+<p>Wrestling</p>
+<p></p>
+<p>-Outdoors-</p>
+<p></p>
+<p>Airsoft</p>
+<p>Archery</p>
+<p>Association football</p>
+<p>Australian rules football</p>
+<p>Auto racing</p>
+<p>Baseball</p>
+<p>Beach volleyball</p>
+<p>Breakdancing</p>
+<p>Climbing</p>
+<p>Cricket</p>
+<p>Croquet</p>
+<p>Cycling</p>
+<p>Disc golf</p>
+<p>Dog sport</p>
+<p>Equestrianism</p>
+<p>Exhibition drill</p>
+<p>Field hockey</p>
+<p>Figure skating</p>
+<p>Fishing</p>
+<p>Footbag</p>
+<p>Frisbee</p>
+<p>Golf</p>
+<p>Handball</p>
+<p>Horseback riding</p>
+<p>Horseshoes</p>
+<p>Iceboat racing</p>
+<p>Jukskei</p>
+<p>Kart racing</p>
+<p>Knife throwing</p>
+<p>Lacrosse</p>
+<p>Longboarding</p>
+<p>Long-distance running</p>
+<p>Marching band</p>
+<p>Model aircraft</p>
+<p>Orienteering</p>
+<p>Pickleball</p>
+<p>Powerboat racing</p>
+<p>Quidditch</p>
+<p>Race walking</p>
+<p>Racquetball</p>
+<p>Radio-controlled car racing</p>
+<p>Roller derby</p>
+<p>Rugby league football</p>
+<p>Sculling</p>
+<p>Shooting sport</p>
+<p>Skateboarding</p>
+<p>Skiing</p>
+<p>Sled dog racing</p>
+<p>Softball</p>
+<p>Speed skating</p>
+<p>Squash</p>
+<p>Surfing</p>
+<p>Swimming</p>
+<p>Table tennis</p>
+<p>Tennis</p>
+<p>Tennis polo</p>
+<p>Tether car</p>
+<p>Tour skating</p>
+<p>Tourism</p>
+<p>Trapshooting</p>
+<p>Triathlon</p>
+<p>Ultimate frisbee</p>
+<p>Volleyball</p>
+<p>Water polo</p>
+<p></p>
+<p>=Observation Hobbies=</p>
+<p>-Indoors-</p>
+<p></p>
+<p>Fishkeeping</p>
+<p>Learning</p>
+<p>Meditation</p>
+<p>Microscopy</p>
+<p>Reading</p>
+<p>Research</p>
+<p>Shortwave listening</p>
+<p>Audiophile</p>
+<p>Aircraft spotting</p>
+<p>Amateur astronomy</p>
+<p>Birdwatching</p>
+<p>Bus spotting</p>
+<p>Geocaching</p>
+<p>Gongoozling</p>
+<p>Herping</p>
+<p>Hiking</p>
+<p>Meteorology</p>
+<p>Photography</p>
+<p>Trainspotting</p>
+<p>Whale watching</p>
