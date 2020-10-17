@@ -29,7 +29,7 @@
 }
 
 .bg-hover-colorthis {
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .bg-hover-colorthis:hover {
@@ -37,7 +37,7 @@
 }
 
 .bg-hover-colorthis:hover .bg-colorthis {
-  transition: 0.5s;
+  transition: 0.3s;
   background-color: #205BA6;
 }
 
@@ -57,4 +57,66 @@
 
 .musicheader {
   background-image: url("/img/musicbg.png");
+}
+
+/* Hobby */
+
+.hobbylegend {
+  pointer-events: none;
+}
+
+.hobbygrid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.hobbyitem {
+  flex-grow: 1;
+  width: 150px;
+  max-width: 150px;
+  height: 60px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: inset -0.125px 0 0.25em rgba(10, 10, 10, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  color: #363636;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.hobbyitem:hover {
+  background-color: #e6e6e6 !important;
+}
+
+/* Pseudo-elements are fucking cursed */
+
+.hobbyitem::after {
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  content: " ";
+  border-radius: 4px;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border: 1px solid #363636;
+  margin: -10px; /* This should offset the padding */
+}
+
+.hobbyitem.finished {
+  border-right: 5px solid #64ca57;
+  background-color: #64ca570A;
+}
+
+.hobbyitem.in-progress {
+  border-right: 5px solid #fed185;
+  background-color: #fed1850A;
+}
+
+.hobbyitem.unstarted {
+  border-right: 5px solid #cc0f4c;
+  background-color: #cc0f4c0A;
+  pointer-events: none;
+  cursor: default;
 }
