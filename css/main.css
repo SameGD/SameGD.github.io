@@ -20,6 +20,11 @@
   margin-top: 15px;
   
 }
+
+.navbar-brand {
+  width: 100%;
+}
+
 .navbar-item.darkmode {
   margin-left: auto;
 }
