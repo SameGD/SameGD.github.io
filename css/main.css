@@ -1,3 +1,10 @@
+/* Unique Color - CSS Variables */
+
+:root {
+  --primary: #205BA6;
+  --primary-light: #205BA61A;
+}
+
 /* Basic Defaults */
 
 @media screen and (min-width: 960px) {
@@ -13,36 +20,39 @@
   margin-top: 15px;
   
 }
+.navbar-item.darkmode {
+  margin-left: auto;
+}
 
 /* Unique Color Defaults */
 
 .colorthis {
-  background-color: #205BA6;
+  background-color: var(--primary);
 }
 
 .bg-colorthis {
-  background-color: #205BA61A;
+  background-color: var(--primary-light);
 }
 
 .txt-colorthis {
-  color: #205BA6;
+  color: var(--primary);
 }
 
 .bg-hover-colorthis {
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .bg-hover-colorthis:hover {
-  background-color: #205BA61A;
+  background-color: var(--primary-light);
 }
 
-.bg-hover-colorthis:hover .bg-colorthis {
-  transition: 0.3s;
-  background-color: #205BA6;
-}
+/* .bg-hover-colorthis:hover .has-background-primary-light {
+  transition: 1s;
+  background-color: var(--primary) !important;
+} */
 
 .border-colorthis {
-  border-color: #205BA6;
+  border-color: var(--primary);
 }
 
 /* Index Pages */
@@ -82,7 +92,7 @@
   border-radius: 4px;
   display: flex;
   align-items: center;
-  color: #363636;
+  color: var(--dark);
   overflow: hidden;
   transition: 0.2s;
 }
@@ -100,7 +110,7 @@
   position: absolute;
   width: inherit;
   height: inherit;
-  border: 1px solid #363636;
+  border: 1px solid black;
   margin: -10px; /* This should offset the padding */
 }
 

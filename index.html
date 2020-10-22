@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/bulma.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="shortcut icon" href="/img/favicon.ico">
     <title>Graphics Demo</title>
@@ -11,20 +11,11 @@
 
   <body>
     
-    <!-- <nav class="navbar colorthis" id="navbar">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <p class="title is-4 has-text-white">Graphics Demo</p>
-        </a>
-      </div>
-      <div class="navbar-menu"></div>
-    </nav> -->
-    
-    <section class="hero is-medium bg-colorthis indexheader">
+    <section class="hero is-medium has-background-primary-light indexheader">
       <div class="hero-body">
         <div class="container">
           <div class="card has-text-centered">
-            <div class="card-header colorthis p-3"></div>
+            <div class="card-header has-background-primary p-3"></div>
             <div class="card-content">
               <h1 class="title is-2 has-text-weight-bold">Graphics Demo</h1>
               <h2 class="subtitle">The official birthplace of Pestilence and Famine</h2>
@@ -35,11 +26,17 @@
     </section>
 
     <section class="section">
+      
+      <label class="checkbox darkmode pb-5">
+          <input type="checkbox">
+          Dark Mode
+      </label>
+      
       <div class="container">
         
         <a href="">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header bg-colorthis">
+          <div class="card mb-4 bg-hover-has-background-primary">
+            <header class="card-header has-background-primary-light">
               <p class="card-header-title">Blog</p>
             </header>
             <div class="card-content">
@@ -49,8 +46,8 @@
         </a>
         
         <a href="/hobbies">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header bg-colorthis">
+          <div class="card mb-4 bg-hover-has-background-primary">
+            <header class="card-header has-background-primary-light">
               <p class="card-header-title">The Hobby Hobby </p>
             </header>
             <div class="card-content">
@@ -60,8 +57,8 @@
         </a>
 
         <a href="/neurotransmitters">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header bg-colorthis">
+          <div class="card mb-4 bg-hover-has-background-primary">
+            <header class="card-header has-background-primary-light">
               <p class="card-header-title">The Neurotransmitter Project</p>
             </header>
             <div class="card-content">
@@ -71,8 +68,8 @@
         </a>
 
         <a href="/mentalillness">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header bg-colorthis">
+          <div class="card mb-4 bg-hover-has-background-primary">
+            <header class="card-header has-background-primary-light">
               <p class="card-header-title">Mental Illness</p>
             </header>
             <div class="card-content">
@@ -82,8 +79,8 @@
         </a>
 
         <a href="/music">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header bg-colorthis">
+          <div class="card mb-4 bg-hover-has-background-primary">
+            <header class="card-header has-background-primary-light">
               <p class="card-header-title">Music</p>
             </header>
             <div class="card-content">
@@ -93,8 +90,8 @@
         </a>
         
         <a href="">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header bg-colorthis">
+          <div class="card mb-4 bg-hover-has-background-primary">
+            <header class="card-header has-background-primary-light">
               <p class="card-header-title">Template Generators</p>
             </header>
             <div class="card-content">
@@ -106,6 +103,7 @@
       </div>
     </section>
 
+    <script type="text/javascript" src="/js/darkmode.js"></script>
     <script type="text/javascript" src="/js/colour.js"></script>
   
   </body>

@@ -9,19 +9,5 @@ function getRandomColor() {
 
 var colorman = getRandomColor();
 
-var css = `.colorthis { background-color: ${colorman} !important; }
-.bg-colorthis { background-color: ${colorman + '1A'} !important; }
-.txt-colorthis { color: ${colorman} !important; }
-.bg-hover-colorthis:hover .bg-colorthis { background-color: ${colorman} !important; }
-.bg-hover-colorthis:hover { background-color: ${colorman + '1A'} !important; }
-.border-colorthis { border-color: ${colorman} !important; }`;
-
-var style = document.createElement('style');
-
-if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-} else {
-    style.appendChild(document.createTextNode(css));
-}
-
-document.getElementsByTagName('head')[0].appendChild(style);
+document.documentElement.style.setProperty("--primary", colorman);
+document.documentElement.style.setProperty("--primary-light", colorman + "1A");
