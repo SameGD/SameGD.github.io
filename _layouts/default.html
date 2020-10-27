@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    
+    {% include header.html %}
+    
+    <title>
+      Graphics Demo {% unless page.title == "Graphics Demo" %} | {{ page.title }} {% endunless %}
+    </title>
+    
+  </head>
+  <body>
+    
+    {{ content }}
+    
+  </body>
+</html>

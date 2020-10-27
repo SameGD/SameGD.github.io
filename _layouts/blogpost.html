@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include header.html %}
+    <title>Graphics Demo | Blog</title>
+  </head>
+
+  <body>
+
+    {% include navbar.html subpage="page.title" %}
+
+    <section class="section">
+      <div class="container">
+        <div class="card">
+            <div class="card-header has-background-primary p-3"></div>
+            <div class="card-content">
+
+              <p class="title is-3 has-text-weight-bold">{{ page.title }}</p>
+              <p class="subtitle is-6">{{ page.date | date_to_string}}</p>
+
+              {% unless page.previous.url == "/blog/" %}
+              <a class="button bg-hover-colorthis" href="{{ page.previous.url }}">Previous</a>
+              {% endunless %}
+              {% unless page.next.url == nill %}
+              <a class="button bg-hover-colorthis" href="{{ page.next.url }}">Next</a>
+              {% endunless %}
+              <div class="break"></div>
+              {{ content }}
+            </div>
+          </div>
+      </div>
+    </section>
+
+  </body>
+</html>

@@ -1,0 +1,1034 @@
+hobbylists:
+  - title: General Hobbies
+    subtitle: Indoors
+    hobbies:
+      - name: 3D printing
+        status: unstarted
+      - name: Acrobatics
+        status: unstarted
+      - name: Acting
+        status: unstarted
+      - name: Amateur radio
+        status: unstarted
+      - name: Animation
+        status: unstarted
+      - name: Aquascaping
+        status: unstarted
+      - name: Astrology
+        status: unstarted
+      - name: Baking
+        status: unstarted
+      - name: Baton twirling
+        status: unstarted
+      - name: Blogging
+        status: unstarted
+      - name: Board/tabletop games
+        status: unstarted
+      - name: Book discussion club
+        status: unstarted
+      - name: Book restoration
+        status: unstarted
+      - name: Bowling
+        status: unstarted
+      - name: Brazilian jiu-jitsu
+        status: unstarted
+      - name: Breadmaking
+        status: unstarted
+      - name: Building
+        status: unstarted
+      - name: Bullet journaling
+        status: unstarted
+      - name: Cabaret
+        status: unstarted
+      - name: Calligraphy
+        status: unstarted
+      - name: Candle making
+        status: unstarted
+      - name: Candy making
+        status: unstarted
+      - name: Car fixing & building
+        status: unstarted
+      - name: Card games
+        status: unstarted
+      - name: Cardistry
+        status: unstarted
+      - name: Cheesemaking
+        status: unstarted
+      - name: Cleaning
+        status: unstarted
+      - name: Clothesmaking
+        status: unstarted
+      - name: Coffee roasting
+        status: unstarted
+      - name: Collecting
+        status: unstarted
+      - name: Coloring
+        status: unstarted
+      - name: Computer programming
+        status: unstarted
+      - name: Confectionery
+        status: unstarted
+      - name: Cooking
+        status: unstarted
+      - name: Cosplaying
+        status: unstarted
+      - name: Couponing
+        status: unstarted
+      - name: Craft
+        status: unstarted
+      - name: Creative writing
+        status: unstarted
+      - name: Crocheting
+        status: unstarted
+      - name: Cross-stitch
+        status: unstarted
+      - name: Crossword puzzles
+        status: unstarted
+      - name: Cryptography
+        status: unstarted
+      - name: Cue sports
+        status: unstarted
+      - name: Dance
+        status: unstarted
+      - name: Digital art
+        status: unstarted
+      - name: Distro Hopping
+        status: unstarted
+      - name: DJing
+        status: unstarted
+      - name: Do it yourself
+        status: unstarted
+      - name: Drama
+        status: unstarted
+      - name: Drawing
+        status: unstarted
+      - name: Drink mixing
+        status: unstarted
+      - name: Drinking
+        status: unstarted
+      - name: Electronic games
+        status: unstarted
+      - name: Electronics
+        status: unstarted
+      - name: Embroidery
+        status: unstarted
+      - name: Experimenting
+        status: unstarted
+      - name: Fantasy sport
+        status: unstarted
+      - name: Fashion
+        status: unstarted
+      - name: Fashion design
+        status: unstarted
+      - name: Fishkeeping
+        status: unstarted
+      - name: Filmmaking
+        status: unstarted
+      - name: Flower arranging
+        status: unstarted
+      - name: Fly tying
+        status: unstarted
+      - name: Foreign language learning
+        status: unstarted
+      - name: Furniture building
+        status: unstarted
+      - name: Gaming
+        status: unstarted
+      - name: Genealogy
+        status: unstarted
+      - name: Gingerbread house making
+        status: unstarted
+      - name: Glassblowing
+        status: unstarted
+      - name: Graphic design
+        status: unstarted
+      - name: Gunsmithing
+        status: unstarted
+      - name: Gymnastics
+        status: unstarted
+      - name: Hacking
+        status: unstarted
+      - name: Herp keeping
+        status: unstarted
+      - name: Home improvement
+        status: unstarted
+      - name: Homebrewing
+        status: unstarted
+      - name: Houseplant care
+        status: unstarted
+      - name: Hula hooping
+        status: unstarted
+      - name: Humor
+        status: unstarted
+      - name: Hydroponics
+        status: unstarted
+      - name: Ice skating
+        status: unstarted
+      - name: Jewelry making
+        status: unstarted
+      - name: Jigsaw puzzles
+        status: unstarted
+      - name: Journaling
+        status: unstarted
+      - name: Juggling
+        status: unstarted
+      - name: Karaoke
+        status: unstarted
+      - name: Karate
+        status: unstarted
+      - name: Kendama
+        status: unstarted
+      - name: Knife making
+        status: unstarted
+      - name: Knitting
+        status: unstarted
+      - name: Knot tying
+        status: unstarted
+      - name: Kombucha brewing
+        status: unstarted
+      - name: Lace making
+        status: unstarted
+      - name: Lapidary
+        status: unstarted
+      - name: Leather crafting
+        status: unstarted
+      - name: Lego building
+        status: unstarted
+      - name: Music|Listening to music
+        status: unstarted
+      - name: Podcasts|Listening to podcasts
+        status: unstarted
+      - name: Lock picking
+        status: unstarted
+      - name: Machining
+        status: unstarted
+      - name: Macrame
+        status: unstarted
+      - name: Magic
+        status: unstarted
+      - name: Makeup
+        status: unstarted
+      - name: Mazes (indoor/outdoor)
+        status: unstarted
+      - name: Metalworking
+        status: unstarted
+      - name: Model building
+        status: unstarted
+      - name: Model engineering
+        status: unstarted
+      - name: Nail art
+        status: unstarted
+      - name: Needlepoint
+        status: unstarted
+      - name: Origami
+        status: unstarted
+      - name: Painting
+        status: unstarted
+      - name: Palmistry
+        status: unstarted
+      - name: Pet adoption & fostering
+        status: unstarted
+      - name: Philately
+        status: unstarted
+      - name: Photography
+        status: unstarted
+      - name: Pilates
+        status: unstarted
+      - name: Playing musical instruments
+        status: unstarted
+      - name: Poi (performance art)|Poi
+        status: unstarted
+      - name: Pole Dancing
+        status: unstarted
+      - name: Pottery
+        status: unstarted
+      - name: Powerlifting
+        status: unstarted
+      - name: Practical jokes
+        status: unstarted
+      - name: Pressed flower craft
+        status: unstarted
+      - name: Puzzle
+        status: unstarted
+      - name: Quilling
+        status: unstarted
+      - name: Quilting
+        status: unstarted
+      - name: Quizzes
+        status: unstarted
+      - name: Radio-controlled model
+        status: unstarted
+      - name: Rail transport modeling
+        status: unstarted
+      - name: Rapping
+        status: unstarted
+      - name: Reading
+        status: unstarted
+      - name: Refinishing
+        status: unstarted
+      - name: Reiki
+        status: unstarted
+      - name: Robot combat
+        status: unstarted
+      - name: Rubik's Cube
+        status: unstarted
+      - name: Scrapbooking
+        status: unstarted
+      - name: SCUBA Diving
+        status: unstarted
+      - name: Sculpting
+        status: unstarted
+      - name: Sewing
+        status: unstarted
+      - name: Shoemaking
+        status: unstarted
+      - name: Singing
+        status: unstarted
+      - name: Sketching
+        status: unstarted
+      - name: Skipping rope
+        status: unstarted
+      - name: Slot car
+        status: unstarted
+      - name: Soapmaking
+        status: unstarted
+      - name: Social media
+        status: unstarted
+      - name: Spreadsheets
+        status: unstarted
+      - name: Stand-up comedy
+        status: unstarted
+      - name: Stamp collecting
+        status: unstarted
+      - name: Table tennis
+        status: unstarted
+      - name: Tarot
+        status: unstarted
+      - name: Taxidermy
+        status: unstarted
+      - name: Thrifting
+        status: unstarted
+      - name: Video editing
+        status: unstarted
+      - name: Video game developing
+        status: unstarted
+      - name: Video gaming
+        status: unstarted
+      - name: Videography
+        status: unstarted
+      - name: Virtual reality
+        status: unstarted
+      - name: Watching movies
+        status: unstarted
+      - name: Watching television
+        status: unstarted
+      - name: Waxing
+        status: unstarted
+      - name: Weaving
+        status: unstarted
+      - name: Webtoon
+        status: unstarted
+      - name: Weight training
+        status: unstarted
+      - name: Welding
+        status: unstarted
+      - name: Whittling
+        status: unstarted
+      - name: Wikipedia editing
+        status: unstarted
+      - name: Winemaking
+        status: unstarted
+      - name: Wood carving
+        status: unstarted
+      - name: Woodworking
+        status: unstarted
+      - name: Word searches
+        status: unstarted
+      - name: Worldbuilding
+        status: unstarted
+      - name: Writing
+        status: unstarted
+      - name: Yo-yoing
+        status: unstarted
+      - name: Yoga
+        status: unstarted
+      - name: Zumba
+        status: unstarted
+  - title: General Hobbies
+    subtitle: Outdoors
+    hobbies:
+      - name: Air sports
+        status: unstarted
+      - name: Airsoft
+        status: unstarted
+      - name: Amateur geology
+        status: unstarted
+      - name: Amusement park visiting
+        status: unstarted
+      - name: Archery
+        status: unstarted
+      - name: Astronomy
+        status: unstarted
+      - name: Backpacking
+        status: unstarted
+      - name: Badminton
+        status: unstarted
+      - name: BASE jumping
+        status: unstarted
+      - name: Baseball
+        status: unstarted
+      - name: Basketball
+        status: unstarted
+      - name: Beekeeping
+        status: unstarted
+      - name: Birdwatching
+        status: unstarted
+      - name: Blacksmithing
+        status: unstarted
+      - name: BMX
+        status: unstarted
+      - name: Board sports
+        status: unstarted
+      - name: Bodybuilding
+        status: unstarted
+      - name: Bonsai
+        status: unstarted
+      - name: Butterfly watching
+        status: unstarted
+      - name: Bus riding
+        status: unstarted
+      - name: Camping
+        status: unstarted
+      - name: Canoeing
+        status: unstarted
+      - name: Canyoning
+        status: unstarted
+      - name: Car riding
+        status: unstarted
+      - name: Caving
+        status: unstarted
+      - name: Composting
+        status: unstarted
+      - name: Cycling
+        status: unstarted
+      - name: Dowsing
+        status: unstarted
+      - name: Driving
+        status: unstarted
+      - name: Farming
+        status: unstarted
+      - name: Fishing
+        status: unstarted
+      - name: Flag football
+        status: unstarted
+      - name: Flower growing
+        status: unstarted
+      - name: Flying
+        status: unstarted
+      - name: Flying disc
+        status: unstarted
+      - name: Foraging
+        status: unstarted
+      - name: Fossicking
+        status: unstarted
+      - name: Freestyle football
+        status: unstarted
+      - name: Gardening
+        status: unstarted
+      - name: Geocaching
+        status: unstarted
+      - name: Ghost hunting
+        status: unstarted
+      - name: Gold prospecting
+        status: unstarted
+      - name: Graffiti
+        status: unstarted
+      - name: Handball
+        status: unstarted
+      - name: Herbalism
+        status: unstarted
+      - name: Herping
+        status: unstarted
+      - name: High-power rocketry
+        status: unstarted
+      - name: Hiking
+        status: unstarted
+      - name: name horse|name horsing
+        status: unstarted
+      - name: name tunneling
+        status: unstarted
+      - name: Hooping
+        status: unstarted
+      - name: Horseback riding
+        status: unstarted
+      - name: Hunting
+        status: unstarted
+      - name: Inline skating
+        status: unstarted
+      - name: Jogging
+        status: unstarted
+      - name: Jumping rope
+        status: unstarted
+      - name: Kayaking
+        status: unstarted
+      - name: Kite flying
+        status: unstarted
+      - name: Kitesurfing
+        status: unstarted
+      - name: Lacrosse
+        status: unstarted
+      - name: LARPing
+        status: unstarted
+      - name: Letterboxing
+        status: unstarted
+      - name: Longboarding
+        status: unstarted
+      - name: Martial arts
+        status: unstarted
+      - name: Metal detecting
+        status: unstarted
+      - name: Meteorology
+        status: unstarted
+      - name: Motor sports
+        status: unstarted
+      - name: Mountain biking
+        status: unstarted
+      - name: Mountaineering
+        status: unstarted
+      - name: Museum visiting
+        status: unstarted
+      - name: Mushroom hunting
+        status: unstarted
+      - name: Netball
+        status: unstarted
+      - name: Nordic skating
+        status: unstarted
+      - name: Orienteering
+        status: unstarted
+      - name: Paintball
+        status: unstarted
+      - name: Parkour
+        status: unstarted
+      - name: Photography
+        status: unstarted
+      - name: Podcast hosting
+        status: unstarted
+      - name: Polo
+        status: unstarted
+      - name: Public transport riding
+        status: unstarted
+      - name: Rafting
+        status: unstarted
+      - name: Railway journeys
+        status: unstarted
+      - name: Rappelling
+        status: unstarted
+      - name: Road biking
+        status: unstarted
+      - name: Rock climbing
+        status: unstarted
+      - name: Roller skating
+        status: unstarted
+      - name: Rugby
+        status: unstarted
+      - name: Running
+        status: unstarted
+      - name: Radio-controlled model
+        status: unstarted
+      - name: Sailing
+        status: unstarted
+      - name: Sand art
+        status: unstarted
+      - name: Scouting
+        status: unstarted
+      - name: Scuba diving
+        status: unstarted
+      - name: Sculling
+        status: unstarted
+      - name: Shooting
+        status: unstarted
+      - name: Shopping
+        status: unstarted
+      - name: Shuffleboard
+        status: unstarted
+      - name: Skateboarding
+        status: unstarted
+      - name: Skiing
+        status: unstarted
+      - name: Skimboarding
+        status: unstarted
+      - name: Skydiving
+        status: unstarted
+      - name: Slacklining
+        status: unstarted
+      - name: Snowboarding
+        status: unstarted
+      - name: Snowmobiling
+        status: unstarted
+      - name: Snowshoeing
+        status: unstarted
+      - name: Soccer
+        status: unstarted
+      - name: Stone skipping
+        status: unstarted
+      - name: Sun bathing
+        status: unstarted
+      - name: Surfing
+        status: unstarted
+      - name: Survivalism
+        status: unstarted
+      - name: Swimming
+        status: unstarted
+      - name: Taekwondo
+        status: unstarted
+      - name: Tai chi
+        status: unstarted
+      - name: Tennis
+        status: unstarted
+      - name: Topiary
+        status: unstarted
+      - name: Tourism
+        status: unstarted
+      - name: Thru-hiking
+        status: unstarted
+      - name: Trade fair visiting
+        status: unstarted
+      - name: Travel
+        status: unstarted
+      - name: Urban exploration
+        status: unstarted
+      - name: Vacation
+        status: unstarted
+      - name: Vegetable farming
+        status: unstarted
+      - name: Videography
+        status: unstarted
+      - name: Vehicle restoration
+        status: unstarted
+      - name: Walking
+        status: unstarted
+      - name: Water sports
+        status: unstarted
+  - title: Educational Hobbies
+    subtitle: bazinga
+    hobbies:
+      - name: Astronomy
+        status: unstarted
+      - name: Biology
+        status: unstarted
+      - name: Chemistry
+        status: unstarted
+      - name: Electrochemistry
+        status: unstarted
+      - name: Geography
+        status: unstarted
+      - name: History
+        status: unstarted
+      - name: Mathematics
+        status: unstarted
+      - name: Psychology
+        status: unstarted
+      - name: Physics
+        status: unstarted
+      - name: Railway studies
+        status: unstarted
+      - name: Science and technology studies
+        status: unstarted
+      - name: Social studies
+        status: unstarted
+      - name: Sports science
+        status: unstarted
+  - title: Collection Hobbies
+    subtitle: Indoors
+    hobbies:
+      - name: Action figure
+        status: unstarted
+      - name: Antiquing
+        status: unstarted
+      - name: Ant-keeping
+        status: unstarted
+      - name: Art collecting
+        status: unstarted
+      - name: Book collecting
+        status: unstarted
+      - name: Button collecting
+        status: unstarted
+      - name: Cartophily
+        status: unstarted
+      - name: Coin collecting
+        status: unstarted
+      - name: Comic book collecting
+        status: unstarted
+      - name: Deltiology
+        status: unstarted
+      - name: Die-cast toy
+        status: unstarted
+      - name: Digital hoarding
+        status: unstarted
+      - name: Dolls
+        status: unstarted
+      - name: Element collecting
+        status: unstarted
+      - name: Ephemera collecting
+        status: unstarted
+      - name: Fusilately
+        status: unstarted
+      - name: Knife collecting
+        status: unstarted
+      - name: Lotology
+        status: unstarted
+      - name: Movie and movie memorabilia collecting
+        status: unstarted
+      - name: Fingerprint collecting
+        status: unstarted
+      - name: Perfume
+        status: unstarted
+      - name: Phillumeny
+        status: unstarted
+      - name: Pin (lapel)
+        status: unstarted
+      - name: Radio-controlled model
+        status: unstarted
+      - name: Rail transport modelling
+        status: unstarted
+      - name: Record collecting
+        status: unstarted
+      - name: Rock tumbling
+        status: unstarted
+      - name: Scutelliphily
+        status: unstarted
+      - name: Shoes
+        status: unstarted
+      - name: Slot car
+        status: unstarted
+      - name: Sports memorabilia
+        status: unstarted
+      - name: Stamp collecting
+        status: unstarted
+      - name: Stuffed toy collecting
+        status: unstarted
+      - name: Tea bag collecting
+        status: unstarted
+      - name: Ticket collecting
+        status: unstarted
+      - name: Toys
+        status: unstarted
+      - name: Transit map collecting
+        status: unstarted
+      - name: Video game collecting
+        status: unstarted
+      - name: Vintage cars
+        status: unstarted
+      - name: Vintage clothing
+        status: unstarted
+      - name: Vinyl Records
+        status: unstarted
+  - title: Collection Hobbies
+    subtitle: Outdoors
+    hobbies:
+      - name: Antiquities
+        status: unstarted
+      - name: Auto audiophilia
+        status: unstarted
+      - name: Flower collecting and pressing
+        status: unstarted
+      - name: Fossil hunting
+        status: unstarted
+      - name: Insect collecting
+        status: unstarted
+      - name: Magnet fishing
+        status: unstarted
+      - name: Metal detecting
+        status: unstarted
+      - name: Mineral collecting
+        status: unstarted
+      - name: Rock balancing
+        status: unstarted
+      - name: Sea glass collecting
+        status: unstarted
+      - name: Seashell collecting
+        status: unstarted
+      - name: Stone collecting
+        status: unstarted
+  - title: Competitive Hobbies
+    subtitle: Indoors
+    hobbies:
+      - name: Animal fancy
+        status: unstarted
+      - name: Axe throwing
+        status: unstarted
+      - name: Backgammon
+        status: unstarted
+      - name: Badminton
+        status: unstarted
+      - name: Baton twirling
+        status: unstarted
+      - name: Beauty pageant
+        status: unstarted
+      - name: Billiards
+        status: unstarted
+      - name: Bowling
+        status: unstarted
+      - name: Boxing
+        status: unstarted
+      - name: Bridge
+        status: unstarted
+      - name: Checkers (draughts)
+        status: unstarted
+      - name: Cheerleading
+        status: unstarted
+      - name: Chess
+        status: unstarted
+      - name: Color guard
+        status: unstarted
+      - name: Cribbage
+        status: unstarted
+      - name: Curling
+        status: unstarted
+      - name: Dancing
+        status: unstarted
+      - name: Darts
+        status: unstarted
+      - name: Debate
+        status: unstarted
+      - name: Dominoes
+        status: unstarted
+      - name: Eating
+        status: unstarted
+      - name: Esports
+        status: unstarted
+      - name: Fencing
+        status: unstarted
+      - name: Go
+        status: unstarted
+      - name: Gymnastics
+        status: unstarted
+      - name: Ice hockey
+        status: unstarted
+      - name: Ice skating
+        status: unstarted
+      - name: Judo
+        status: unstarted
+      - name: Jujitsu
+        status: unstarted
+      - name: Kabaddi
+        status: unstarted
+      - name: Knowledge/ word games
+        status: unstarted
+      - name: Laser tag
+        status: unstarted
+      - name: Longboarding
+        status: unstarted
+      - name: Mahjong
+        status: unstarted
+      - name: Marbles
+        status: unstarted
+      - name: Martial arts
+        status: unstarted
+      - name: Model racing
+        status: unstarted
+      - name: Model United Nations
+        status: unstarted
+      - name: Poker
+        status: unstarted
+      - name: Pole Dancing
+        status: unstarted
+      - name: Pool
+        status: unstarted
+      - name: Role-playing games
+        status: unstarted
+      - name: Shogi
+        status: unstarted
+      - name: Slot car racing
+        status: unstarted
+      - name: Speedcubing
+        status: unstarted
+      - name: Sport stacking
+        status: unstarted
+      - name: Table football
+        status: unstarted
+      - name: Table tennis
+        status: unstarted
+      - name: Volleyball
+        status: unstarted
+      - name: Weightlifting
+        status: unstarted
+      - name: Wrestling
+        status: unstarted
+  - title: Competitive Hobbies
+    subtitle: Outdoors
+    hobbies:
+      - name: Airsoft
+        status: unstarted
+      - name: Archery
+        status: unstarted
+      - name: Association football
+        status: unstarted
+      - name: Australian rules football
+        status: unstarted
+      - name: Auto racing
+        status: unstarted
+      - name: Baseball
+        status: unstarted
+      - name: Beach volleyball
+        status: unstarted
+      - name: Breakdancing
+        status: unstarted
+      - name: Climbing
+        status: unstarted
+      - name: Cricket
+        status: unstarted
+      - name: Croquet
+        status: unstarted
+      - name: Cycling
+        status: unstarted
+      - name: Disc golf
+        status: unstarted
+      - name: Dog sport
+        status: unstarted
+      - name: Equestrianism
+        status: unstarted
+      - name: Exhibition drill
+        status: unstarted
+      - name: Field hockey
+        status: unstarted
+      - name: Figure skating
+        status: unstarted
+      - name: Fishing
+        status: unstarted
+      - name: Footbag
+        status: unstarted
+      - name: Frisbee
+        status: unstarted
+      - name: Golf
+        status: unstarted
+      - name: Handball
+        status: unstarted
+      - name: Horseback riding
+        status: unstarted
+      - name: Horseshoes
+        status: unstarted
+      - name: Iceboat racing
+        status: unstarted
+      - name: Jukskei
+        status: unstarted
+      - name: Kart racing
+        status: unstarted
+      - name: Knife throwing
+        status: unstarted
+      - name: Lacrosse
+        status: unstarted
+      - name: Longboarding
+        status: unstarted
+      - name: Long-distance running
+        status: unstarted
+      - name: Marching band
+        status: unstarted
+      - name: Model aircraft
+        status: unstarted
+      - name: Orienteering
+        status: unstarted
+      - name: Pickleball
+        status: unstarted
+      - name: Powerboat racing
+        status: unstarted
+      - name: Quidditch
+        status: unstarted
+      - name: Race walking
+        status: unstarted
+      - name: Racquetball
+        status: unstarted
+      - name: Radio-controlled car racing
+        status: unstarted
+      - name: Roller derby
+        status: unstarted
+      - name: Rugby league football
+        status: unstarted
+      - name: Sculling
+        status: unstarted
+      - name: Shooting sport
+        status: unstarted
+      - name: Skateboarding
+        status: unstarted
+      - name: Skiing
+        status: unstarted
+      - name: Sled dog racing
+        status: unstarted
+      - name: Softball
+        status: unstarted
+      - name: Speed skating
+        status: unstarted
+      - name: Squash
+        status: unstarted
+      - name: Surfing
+        status: unstarted
+      - name: Swimming
+        status: unstarted
+      - name: Table tennis
+        status: unstarted
+      - name: Tennis
+        status: unstarted
+      - name: Tennis polo
+        status: unstarted
+      - name: Tether car
+        status: unstarted
+      - name: Tour skating
+        status: unstarted
+      - name: Tourism
+        status: unstarted
+      - name: Trapshooting
+        status: unstarted
+      - name: Triathlon
+        status: unstarted
+      - name: Ultimate frisbee
+        status: unstarted
+      - name: Volleyball
+        status: unstarted
+      - name: Water polo
+        status: unstarted
+  - title: Observation Hobbies
+    subtitle: Indoors
+    hobbies:
+      - name: Audiophile
+        status: unstarted
+      - name: Fishkeeping
+        status: unstarted
+      - name: Learning
+        status: unstarted
+      - name: Meditation
+        status: unstarted
+      - name: Microscopy
+        status: unstarted
+      - name: Reading
+        status: unstarted
+      - name: Research
+        status: unstarted
+      - name: Shortwave listening
+        status: unstarted
+  - title: Observation Hobbies
+    subtitle: Outdoors
+    hobbies:
+      - name: Aircraft spotting
+        status: unstarted
+      - name: Amateur astronomy
+        status: unstarted
+      - name: Birdwatching
+        status: unstarted
+      - name: Bus spotting
+        status: unstarted
+      - name: Geocaching
+        status: unstarted
+      - name: Gongoozling
+        status: unstarted
+      - name: Herping
+        status: unstarted
+      - name: Hiking
+        status: unstarted
+      - name: Meteorology
+        status: unstarted
+      - name: Photography
+        status: unstarted
+      - name: Trainspotting
+        status: unstarted
+      - name: Whale watching
+        status: unstarted

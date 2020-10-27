@@ -1,0 +1,145 @@
+/* Unique Color - CSS Variables */
+
+:root {
+  --primary: #205BA6;
+  --primary-light: #205BA61A;
+}
+
+/* Basic Defaults */
+
+@media screen and (min-width: 960px) {
+  .container.is-smaller {
+    max-width: 896px;
+  }
+}
+
+.break {
+  border-bottom: 2px solid #eee;
+  height: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  
+}
+
+.always-text-white {
+  color: white !important;
+}
+
+.is-borderless {
+  border: none !important;
+}
+
+.navbar-brand {
+  width: 100%;
+}
+
+.navbar-item.darkmode {
+  margin-left: auto;
+}
+
+/* Unique Color Defaults */
+
+.colorthis {
+  background-color: var(--primary);
+}
+
+.bg-colorthis {
+  background-color: var(--primary-light);
+}
+
+.txt-colorthis {
+  color: var(--primary);
+}
+
+.bg-hover-colorthis {
+  transition: 0.4s;
+}
+
+.bg-hover-colorthis:hover {
+  background-color: var(--primary-light);
+}
+
+/* .bg-hover-colorthis:hover .has-background-primary-light {
+  transition: 1s;
+  background-color: var(--primary) !important;
+} */
+
+.border-colorthis {
+  border-color: var(--primary);
+}
+
+/* Index Pages */
+
+.indexheader {
+  background-image: url("/assets/images/sketchbg.png");
+}
+
+.hobbyheader {
+  background-image: url("/assets/images/iconbg.png");
+}
+
+.musicheader {
+  background-image: url("/assets/images/musicbg.png");
+}
+
+/* Hobby */
+
+.hobbylegend {
+  pointer-events: none;
+}
+
+.hobbygrid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.hobbyitem {
+  flex-grow: 1;
+  width: 150px;
+  max-width: 150px;
+  height: 60px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: inset -0.125px 0 0.25em rgba(10, 10, 10, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  color: var(--dark);
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.hobbyitem:hover {
+  background-color: #e6e6e61A !important;
+}
+
+/* Pseudo-elements are fucking cursed */
+
+.hobbyitem::after {
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  content: " ";
+  border-radius: 4px;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border: 1px solid black;
+  margin: -10px; /* This should offset the padding */
+}
+
+.hobbyitem.finished {
+  border-right: 5px solid #64ca57;
+  background-color: #64ca570A;
+}
+
+.hobbyitem.in-progress {
+  border-right: 5px solid #fed185;
+  background-color: #fed1850A;
+}
+
+.hobbyitem.unstarted {
+  border-right: 5px solid #cc0f4c;
+  background-color: #cc0f4c0A;
+  pointer-events: none;
+  cursor: default;
+}

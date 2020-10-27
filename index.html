@@ -1,109 +1,31 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/bulma.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="shortcut icon" href="/img/favicon.ico">
-    <title>Graphics Demo</title>
-  </head>
+---
+layout: default
+title: Graphics Demo
+fulltitle: Graphics Demo
+subtitle: The official birthplace of Pestilence and Famine
+---
 
-  <body>
-    
-    <section class="hero is-medium has-background-primary-light indexheader">
-      <div class="hero-body">
-        <div class="container">
-          <div class="card has-text-centered">
-            <div class="card-header has-background-primary p-3"></div>
-            <div class="card-content">
-              <h1 class="title is-2 has-text-weight-bold">Graphics Demo</h1>
-              <h2 class="subtitle">The official birthplace of Pestilence and Famine</h2>
-            </div>
-          </div>
-        </div>
-      </div>  
-    </section>
+{% include heroBanner.html header="indexheader" %}
 
-    <section class="section">
-      <div class="container">
-        
-        <label class="checkbox darkmode pb-6">
-          <input type="checkbox">
-          Dark Mode
-        </label>
-        
-        <a href="">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header has-background-primary-light">
-              <p class="card-header-title">Blog</p>
-            </header>
-            <div class="card-content">
-              <p>A place to put all my various musings / my elbaorate plan to kill Weezer.</p>
-            </div>
-          </div>
-        </a>
-        
-        <a href="/hobbies">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header has-background-primary-light">
-              <p class="card-header-title">The Hobby Hobby </p>
-            </header>
-            <div class="card-content">
-              <p>I have decided that my hobby will be trying <i>every</i> hobby. Here's where I'm going document this insane effort.</p>
-            </div>
-          </div>
-        </a>
+<section class="section">
+  <div class="container">
 
-        <a href="/neurotransmitters">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header has-background-primary-light">
-              <p class="card-header-title">The Neurotransmitter Project</p>
-            </header>
-            <div class="card-content">
-              <p>Fucking neurotransmitters, how do they work? No seriously help, there's more than 200 of them.</p>
-            </div>
-          </div>
-        </a>
+    <label class="checkbox darkmode pb-6">
+      <input type="checkbox">
+      Dark Mode
+    </label>
 
-        <a href="/mentalillness">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header has-background-primary-light">
-              <p class="card-header-title">Mental Illness</p>
-            </header>
-            <div class="card-content">
-              <p>Yo those mental illnesses be straight illin' <span style="font-size: 8px">Sorry</span>. I guess I should do some research into them or something.</p>
-            </div>
-          </div>
-        </a>
+    {% include linkCard.html url="/blog" title="Blog" description="A place to put all my various musings / my elbaorate plan to kill Weezer." %}
 
-        <a href="/music">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header has-background-primary-light">
-              <p class="card-header-title">Music</p>
-            </header>
-            <div class="card-content">
-              <p>A place to document my extensive 1tb collection of the same mp3 copy of Wonderwall. Also some other songs might have slipped in there.</p>
-            </div>
-          </div>
-        </a>
-        
-        <a href="">
-          <div class="card mb-4 bg-hover-colorthis">
-            <header class="card-header has-background-primary-light">
-              <p class="card-header-title">Template Generators</p>
-            </header>
-            <div class="card-content">
-              <p>Effort?! What for??</p>
-            </div>
-          </div>
-        </a>
-          
-      </div>
-    </section>
+    {% include linkCard.html url="/hobby" title="The Hobby Hobby" description="I have decided that my hobby will be trying <i>every</i> hobby. Here's where I'm going document this insane effort." %}
 
-    <script type="text/javascript" src="/js/darkmode.js"></script>
-    <script type="text/javascript" src="/js/colour.js"></script>
+    {% include linkCard.html url="/neurotransmitters" title="The Neurotransmitter Project" description="Fucking neurotransmitters, how do they work? No seriously help, there's more than 200 of them." %}
+
+    {% include linkCard.html url="/mentalillness" title="Mental Illness" description="Yo those mental illnesses be straight illin' <span style='font-size: 8px'>Sorry</span>. I guess I should do some research into them or something." %}
+
+    {% include linkCard.html url="/music" title="Music" description="A place to document my extensive 1tb collection of the same mp3 copy of Wonderwall. Also some other songs might have slipped in there." %}
+
+  </div>
+</section>
+
   
-  </body>
-</html>

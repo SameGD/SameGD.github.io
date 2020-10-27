@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /blog/
+index: true
+title: Blog
+fulltitle: Blog
+subtitle: My random thoughts on things, avoid at all costs.
+---
+
+{% include navbar.html %}
+
+{% include heroBanner.html header="" %}
+
+<section class="section">
+  <div class="container">
+    <div class="box content">
+      <p class="title is-4">Posts</p>
+      <div class="break"></div>
+      <ul>
+        {% for blogpost in site.blog reversed %}
+        {% unless blogpost.title == "Blog" %}
+          <li>{{ blogpost.date | date_to_string}} - <a href="{{ blogpost.url }}">{{ blogpost.title }}</a></li>
+        {% endunless %}
+        {% endfor %}
+      </ul>
+    
+    </div> 
+  </div>
+</section>

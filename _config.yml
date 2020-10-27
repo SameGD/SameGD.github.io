@@ -1,0 +1,16 @@
+collections:
+  blog:
+    output: true
+    permalink: /:collection/:name
+  hobby:
+    output: true
+    permalink: /:collection/:name
+  mentalillness:
+    output: true
+    permalink: /:collection/:name
+  music:
+    output: true
+    permalink: /:collection/:name
+  neurotransmitters:
+    output: true
+    permalink: /:collection/:name

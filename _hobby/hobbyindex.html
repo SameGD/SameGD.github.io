@@ -1,0 +1,53 @@
+---
+layout: default
+permalink: /hobby/
+index: true
+title: Hobby Hobby
+fulltitle: The Hobby Hobby
+subtitle: Whoa they made ADHD into a hobby???
+---
+
+{% include navbar.html %}
+
+{% include heroBanner.html header="hobbyheader" %}
+
+<section class="section">
+  <div class="container">
+
+    <article class="message">
+      <div class="message-body has-background-primary-light border-colorthis">
+        <p class="title is-5">Rationale:</p>
+        <p>I realised the other day that I have pretty much no hobbies, apart from passively consuming media content and going on long walks. So, I figured that I should probably pick up some more involved hobbies, to build character and all that. Unfortunately, there's like a bazillion different hobbies to pick from, and my brain categorically refuses to make any sort of decsion. So, to spite my brain (or am I enabling it?), I've decided I'm going to make an honest attempt at every trying every hobby on Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_hobbies">List of Hobbies</a>, and document my attempts here so I have a greater chance of actually doing this.</p>
+      </div>  
+    </article>
+
+    <article class="message">
+      <div class="message-body">
+        <p class="title is-5">Rules:</p>
+        <p>I should probably define some rules for what constitutes an attempt, but I can't think of any right now, so that's for future me to figure out. In general, I want to try to do a unique project with each of the hobbies, rather than just attempting them once, snapping a few photos, and calling it a day. I also might avoid some of the hobbies that might actually be dangerous (like BASE Jumping), or somehow re-interpret them so they're not dangerous.</p>
+      </div>  
+    </article>
+
+    <article class="message is-danger">
+      <div class="message-body">
+        <p>- This list still needs to be properly formatted (i.e. Remove spelling errors and left over junk from the Wikipedia page).</p>
+        <p>- I should probably make this page work when javascript is disabled (right now everything defaults to hidden without javascript).</p>
+      </div>  
+    </article>
+
+  </div>
+</section>
+
+<div class="break"></div>
+
+<div class="tags is-centered hobbylegend">
+  <span class="hobbyitem unstarted">Not Started</span>
+  <span class="hobbyitem in-progress">In Progress</span>
+  <span class="hobbyitem finished">Finished</span>
+</div>
+
+<div class="break"></div>
+
+{% include hobbyList.html %}
+
+<script type="text/javascript" src="/assets/js/collapse.js"></script>
