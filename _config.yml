@@ -14,3 +14,35 @@ collections:
   neurotransmitters:
     output: true
     permalink: /:collection/:name
+    
+defaults:
+  -
+    scope:
+      type: "blog"
+    values:
+      layout: "blogpost"
+      collectiontitle: "Blog"
+  -
+    scope:
+      type: "hobby"
+    values:
+      layout: "hobby"
+      collectiontitle: "Hobby Hobby"
+  -
+    scope:
+      type: "mentalillness"
+    values:
+      layout: "default"
+      collectiontitle: "Mental Illness"
+  -
+    scope:
+      type: "music"
+    values:
+      layout: "default"
+      collectiontitle: "Music"
+  -
+    scope:
+      type: "neurotransmitters"
+    values:
+      layout: "default"
+      collectiontitle: "Neurotransmitters"

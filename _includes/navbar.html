@@ -5,9 +5,21 @@
     <nav class="breadcrumb is-medium has-bullet-separator mb-0" aria-label="breadcrumbs">
       <ul class="navbar-item">
         <li><a class="title is-4 always-text-white" href="/index.html">Graphics Demo</a></li>
-        <li {% if page.index == true %}class="is-active"{% endif %}><a class="subtitle is-5 always-text-white" href="/{{ page.collection }}/">{{ page.collection | capitalize }}</a></li>
+        
+        {% if page.collectiontitle %}
+        
+        <li {% if page.index == true %}class="is-active"{% endif %}><a class="subtitle is-5 always-text-white" href="/{{ page.collection }}/">{{ page.collectiontitle }}</a></li>
+        
+        {% else %}
+        
+        <li class="is-active"><a class="subtitle is-5 always-text-white" href="#">{{ page.title}}</a></li>
+        
+        {% endif %}
+        
         {% unless page.index == true %}
+        
         <li class="is-active"><a class="subtitle is-5 always-text-white">{{ page.title }}</a></li>
+        
         {% endunless %}
       </ul>
     </nav>

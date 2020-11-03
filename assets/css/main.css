@@ -1,24 +1,33 @@
-/* Unique Color - CSS Variables */
+/************** 
+Fonts
+***************/
+@font-face {
+  font-family: "Heebo";
+  src: url("/assets/font/Heebo.ttf") format("truetype");
+  font-style: normal;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+/************** 
+CSS Variables
+***************/
 
 :root {
   --primary: #205BA6;
   --primary-light: #205BA61A;
 }
 
-/* Basic Defaults */
+/************** 
+Helper Variables
+***************/
 
 @media screen and (min-width: 960px) {
   .container.is-smaller {
     max-width: 896px;
   }
-}
-
-.break {
-  border-bottom: 2px solid #eee;
-  height: 5px;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  
 }
 
 .always-text-white {
@@ -29,6 +38,23 @@
   border: none !important;
 }
 
+/************** 
+Page Elements
+***************/
+
+.break {
+  border-bottom: 2px solid #eee;
+  height: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  
+}
+
+/************** 
+Navbar Shit
+***************/
+
+
 .navbar-brand {
   width: 100%;
 }
@@ -37,7 +63,9 @@
   margin-left: auto;
 }
 
-/* Unique Color Defaults */
+/************** 
+Unique Color Defaults (Somewhat Deprecated)
+***************/
 
 .colorthis {
   background-color: var(--primary);
@@ -68,7 +96,13 @@
   border-color: var(--primary);
 }
 
-/* Index Pages */
+/************** 
+Index Page Headers
+***************/
+
+.blogheader {
+  background-image: url("/assets/images/writetest2.png");
+}
 
 .indexheader {
   background-image: url("/assets/images/sketchbg.png");
@@ -78,11 +112,78 @@
   background-image: url("/assets/images/iconbg.png");
 }
 
+.mentalheader {
+  background-image: url("/assets/images/brainbg.png");
+}
+
 .musicheader {
   background-image: url("/assets/images/musicbg.png");
 }
 
-/* Hobby */
+.neurotransmitterheader {
+  background-image: url("/assets/images/neuronbg4.png");
+}
+
+/************** 
+Blog
+***************/
+
+.blog-container {
+  background-color: var(--dm-white);
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  color: var(--default-text);
+  max-width: 100%;
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.blog-top {
+  align-items: stretch;
+  display: flex;
+  padding: 0.75rem;
+  background-color: var(--primary);
+  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+  margin-bottom: 1rem;
+}
+
+.blog-head {
+  margin: 0 1rem;
+  padding: 0.4rem;
+  border-bottom: 2px solid #eee;
+}
+
+.blog-navigation {
+  padding: 1rem 0;
+}
+
+.blog-content {
+  padding: 1.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .blog.section {
+    padding: 0;
+  }
+  .blog-container {
+    box-shadow: none;
+  }
+  .blog-top {
+    visibility: collapse;
+  }
+  .blog-title {
+    border-left: 4px solid var(--primary);
+    padding-left: 6px;
+    margin-left: -6px;
+  }
+}
+
+
+/************** 
+Hobby Hobby Index
+***************/
+
 
 .hobbylegend {
   pointer-events: none;
@@ -108,6 +209,7 @@
   color: var(--dark);
   overflow: hidden;
   transition: 0.2s;
+  text-transform: capitalize;
 }
 
 .hobbyitem:hover {
@@ -142,4 +244,18 @@
   background-color: #cc0f4c0A;
   pointer-events: none;
   cursor: default;
+}
+
+/************** 
+Hobby Page
+***************/
+
+@media screen and (max-width: 768px) {
+  .hobby-page .section {
+    padding: 1rem;
+  }
+  .hobby-page .hero-body {
+    padding: 1rem;
+  }
+  
 }
