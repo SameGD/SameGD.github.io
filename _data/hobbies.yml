@@ -295,7 +295,7 @@ hobbylists:
       - name: Spreadsheets
         status: unstarted
       - name: Stand-up Comedy
-        status: unstarted
+        status: in-progress
       - name: Stamp Collecting
         status: unstarted
       - name: Table Tennis
