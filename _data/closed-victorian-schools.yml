@@ -1,0 +1,519 @@
+- name: Altona East Primary School
+  fate: Demolished
+  visitable: No
+- name: Altona Gate Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Ardeer High School
+  fate: Closed
+  visitable: Maybe
+- name: Athlone Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Ballendella Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Barongarook Primary School
+  fate: Closed
+  visitable: Yes
+- name: Bell Park Technical School
+  fate: Demolished / Sold
+  visitable: No
+- name: Bellfield Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Bena Primary School
+  fate: Closed / Sold
+  visitable: Maybe
+- name: Benalla West Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Benambra Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Bendigo East Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Bendigo North Primary School
+  fate: Demolished
+  visitable: No
+- name: Bessiebelle Primary School
+  fate: Closed / Sold
+  visitable: Maybe
+- name: Boorhaman Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Boort Primary School
+  fate: Demolished
+  visitable: No
+- name: Boronia Technical School
+  fate: Demolished
+  visitable: No
+- name: Brandon Park Technical School (Wheelers Hill)
+  fate: Sold
+  visitable: No
+- name: Braybrook Primary School
+  fate: Arson
+  visitable: No
+- name: Brim Primary School
+  fate: Closed / Partially Cleared
+  visitable: Maybe
+- name: Buffalo Primary School
+  fate: Sold
+  visitable: No
+- name: Bullengarook Primary School
+  fate: Closed
+  visitable: No
+- name: Burbank Primary School (Reservoir)
+  fate: Demolished
+  visitable: No
+- name: Calder Rise Primary School (Keilor)
+  fate: Demolished
+  visitable: No
+- name: Campmeadows Primary School (Broadmeadows)
+  fate: Cleared
+  visitable: No
+- name: Caramut Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Carrajung South Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Castlemaine Technical School
+  fate: Closed
+  visitable: Probably
+- name: Clarkefield Primary School
+  fate: Closed
+  visitable: Yes
+- name: Clayton Primary School
+  fate: Closed / Sold / Arson
+  visitable: No
+- name: Clayton West Primary School
+  fate: Closed / Sold
+  visitable: No
+- name: Cloverlea Primary School
+  fate: Sold
+  visitable: Probably
+- name: Colac High School
+  fate: Partially Cleared / Given to Community
+  visitable: Maybe
+- name: Commercial Road Primary School (Morwell)
+  fate: Merged / Sold
+  visitable: No
+- name: Coomoora High School (Springvale South)
+  fate: Closed
+  visitable: Maybe
+- name: Corio North High School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Corio South Primary School
+  fate: Arson / Demolished
+  visitable: No
+- name: Cressy Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Crinigan Road Primary School (Morwell)
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Croydon North Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Croydon South Primary School
+  fate: Demolished
+  visitable: No
+- name: Culgoa Primary School
+  fate: Dismantled
+  visitable: No
+- name: Dallas Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Dallas North Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Dawes Road Primary School (Kyabram)
+  fate: Demolished
+  visitable: No
+- name: Dean Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Doveton Technical School
+  fate: Sold
+  visitable: No
+- name: Doveton North Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Drummartin Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Echuca High School
+  fate: Closed
+  visitable: Maybe
+- name: Echuca South Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Echuca West Primary School
+  fate: Arson?
+  visitable: No
+- name: Endeavour Hills Secondary College
+  fate: Cleared
+  visitable: Maybe
+- name: Erinbank High School
+  fate: Sold
+  visitable: Maybe
+- name: Eumemmerring Primary School
+  fate: Sold
+  visitable: No
+- name: Ferntree Gully High School
+  fate: Sold / Acquired
+  visitable: No
+- name: Ferntree Gully Primary School
+  fate: Sold
+  visitable: No
+- name: Flora Hill Primary School
+  fate: Demolished
+  visitable: No
+- name: Geelong East Technical School
+  fate: Sold / Acquired
+  visitable: No
+- name: Geelong West Technical School
+  fate: Sold / Acquired
+  visitable: No
+- name: Gellibrand Primary School
+  fate: Demolished
+  visitable: No
+- name: Gerangamete Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Glen Devon Primary School (Werribee)
+  fate: Arson / Demolished
+  visitable: No
+- name: Glengala Park Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Glenorchy Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Glenroy Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Glenroy North Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Glenthompson Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Golden Square High School
+  fate: Demolished
+  visitable: No
+- name: Golden Square Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Goongerah Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Goorambat Primary School
+  fate: Closed / Sold
+  visitable: Probably Not
+- name: Greenslopes Primary School (Dandenong North)
+  fate: Demolished
+  visitable: No
+- name: Guildford Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Harrow Primary School
+  fate: Closed / Sold
+  visitable: Maybe
+- name: Heidelberg High School
+  fate: Demolished
+  visitable: No
+- name: Heidelberg West Primary School
+  fate: Sold
+  visitable: No
+- name: Highlands Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Hill End Primary School
+  fate: Community Use
+  visitable: Kind Of
+- name: Hopetoun Primary School
+  fate: Declared Surplus
+  visitable: Maybe
+- name: Irrewillipe East Primary School
+  fate: Closed
+  visitable: Probably Not
+- name: Jacana Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Katamatite East Primary School
+  fate: Demolished
+  visitable: No
+- name: Kawarren Primary School
+  fate: Community Use
+  visitable: Kind Of
+- name: Kealba High School
+  fate: Arson / Demolished
+  visitable: No
+- name: Keilor Park Primary School
+  fate: Demolished
+  visitable: No
+- name: Kent Road Primary School (Hamilton)
+  fate: Demolished
+  visitable: No
+- name: Keysborough Park Primary School
+  fate: Cleared (Rabbit Infestation)
+  visitable: No
+- name: Kingston Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Lakeside High School (Reservoir)
+  fate: Cleared
+  visitable: No
+- name: Lalbert Primary School
+  fate: Closed
+  visitable: Probably Not
+- name: Lalor Park Primary School
+  fate: Cleared
+  visitable: No
+- name: Laverton Primary School
+  fate: Cleared
+  visitable: No
+- name: Laverton Plains Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Learmonth Primary School
+  fate: Sold
+  visitable: No
+- name: Lexton Primary School
+  fate: Sold
+  visitable: Probably Not
+- name: Mandurang South Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Manningham Primary School (Templestowe Lower)
+  fate: Sold / Acquired
+  visitable: No
+- name: Maralinga Primary School (Keysborough)
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Markwood Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Maroondah High School (Croydon)
+  fate: Acquired
+  visitable: No
+- name: Maryborough East Primary School
+  fate: Community Use
+  visitable: No
+- name: Maryborough High School
+  fate: Community Use
+  visitable: Kind Of
+- name: Maryborough Primary School
+  fate: Sold
+  visitable: Kind Of
+- name: Maryborough Technical School
+  fate: Sold
+  visitable: Kind Of
+- name: Meadow Fair North Primary School (Broadmeadows)
+  fate: Sold / Acquired
+  visitable: No
+- name: Meerlieu Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Merbein Primary School
+  fate: Cleared
+  visitable: Probably Not
+- name: Merbein South Primary School
+  fate: Cleared
+  visitable: Probably Not
+- name: Merbein West Primary School
+  fate: Cleared
+  visitable: Probably Not
+- name: Milleara Primary School (Avondale Heights)
+  fate: Demolished
+  visitable: No
+- name: Monash High School (Clayton)
+  fate: Demolished
+  visitable: No
+- name: Monash Primary School (Clayton)
+  fate: Demolished
+  visitable: No
+- name: Mooroolbark Primary School
+  fate: Demolished
+  visitable: No
+- name: Mooroolbark Technical School
+  fate: Acquired
+  visitable: No
+- name: Moreland City College (Coburg)
+  fate: Sold / Acquired
+  visitable: No
+- name: Mount Moriac Primary School
+  fate: Cleared / Sold
+  visitable: No
+- name: Mudgegonga Primary School
+  fate: Sold
+  visitable: No
+- name: Murtoa Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Narre Warren Station Primary School
+  fate: Sold
+  visitable: No
+- name: Netherby Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Norlane High School
+  fate: Arson / Demolished
+  visitable: No
+- name: Nunawading Primary School
+  fate: Arson / Demolished
+  visitable: Kind Of
+- name: Oakwood Park Primary School (Noble Park)
+  fate: Sold / Acquired
+  visitable: No
+- name: Ouyen Primary School
+  fate: Cleared
+  visitable: Probably Not
+- name: Parkwood High School (Ringwood North)
+  fate: Sold / Acquired
+  visitable: Probably Not
+- name: Patchewollock Group School
+  fate: Sold
+  visitable: Kind Of
+- name: Pembroke High School (Kilsyth)
+  fate: Demolished
+  visitable: No
+- name: Piangil Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Pines Forest Primary School (Frankston North)
+  fate: Cleared / Sold
+  visitable: No
+- name: Preston East Primary School
+  fate: Sold / Acquired
+  visitable: No
+- name: Preston Girls High School
+  fate: Sold / Acquired
+  visitable: No
+- name: Quambatook Group School
+  fate: Closed / Surplus
+  visitable: Maybe
+- name: Rainbow Primary School
+  fate: Community Use
+  visitable: Kind Of
+- name: Rosewall Primary School (Corio)
+  fate: Cleared
+  visitable: No
+- name: Ruffy Primary School
+  fate: Community Use
+  visitable: No
+- name: Ruthven Primary School (Reservoir)
+  fate: Cleared
+  visitable: No
+- name: St Albans Technical School
+  fate: Sold / Acquired
+  visitable: No
+- name: Seymour East Primary School
+  fate: Demolished
+  visitable: No
+- name: Shady Creek Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Smeaton Primary School
+  fate: Sold
+  visitable: No
+- name: Southvale Primary School (Noble Park)
+  fate: Demolished
+  visitable: No
+- name: Springvale High School
+  fate: Sold / Acquired
+  visitable: No
+- name: Stanley Primary School
+  fate: Community Use
+  visitable: Kind Of
+- name: Sunnycliffs Primary School
+  fate: Closed / Surplus
+  visitable: Maybe
+- name: Sunshine Technical School
+  fate: Closed
+  visitable: Maybe
+- name: Sunvale Primary School (Sunshine)
+  fate: Sold
+  visitable: No
+- name: Swan Hill Technical School
+  fate: Demolished
+  visitable: No
+- name: Swan Marsh Primary School
+  fate: Closed / Preparing for Sale
+  visitable: Maybe
+- name: Tallangatta Valley Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Tatong Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Tatura East Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Thornton Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Tobruk Street Primary School (Morwell)
+  fate: Cleared / Sold
+  visitable: No
+- name: Tubbut Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Upfield High School
+  fate: Sold / Acquired
+  visitable: No
+- name: Upfield Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Wando Vale Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Wangaratta Technical School
+  fate: Sold
+  visitable: Probably Not
+- name: Wareek Primary School
+  fate: Sold
+  visitable: No
+- name: Warrenbayne Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Watchem Primary School
+  fate: Sold
+  visitable: Maybe
+- name: Welton Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Westmeadows Heights Primary School
+  fate: Cleared
+  visitable: No
+- name: Windermere Primary School
+  fate: Preparing for Sale
+  visitable: Maybe
+- name: Wonthaggi Technical School
+  fate: Closed
+  visitable: Maybe
+- name: Woodglen Primary School
+  fate: Closed
+  visitable: No
+- name: Yan Yean Primary School
+  fate: Mostly Demolished
+  visitable: Kind Of
+- name: Yapeen Primary School
+  fate: Community Use
+  visitable: No
+- name: Yarrawonga Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Yellingbo Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Youanmite Primary School
+  fate: Closed
+  visitable: Maybe
+- name: Yuille Primary School (Ballarat)
+  fate: Sold / Acquired
+  visitable: No

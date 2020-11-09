@@ -1,6 +1,5 @@
 ---
 title: Geocaching
-fulltitle: Geocaching
 subtitle: Possibly one of the sketchiest hobbies you can do that's completely legal
 ---
 

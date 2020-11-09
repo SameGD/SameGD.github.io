@@ -4,7 +4,7 @@
   <div class="navbar-brand">
     <nav class="breadcrumb is-medium has-bullet-separator mb-0" aria-label="breadcrumbs">
       <ul class="navbar-item">
-        <li><a class="title is-4 always-text-white" href="/index.html">Graphics Demo</a></li>
+        <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
         
         {% if page.collectiontitle %}
         
@@ -16,7 +16,7 @@
         
         {% endif %}
         
-        {% unless page.index == true %}
+        {% unless include.index == true %}
         
         <li class="is-active"><a class="subtitle is-5 always-text-white">{{ page.title }}</a></li>
         

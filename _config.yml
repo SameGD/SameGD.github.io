@@ -2,10 +2,11 @@ collections:
   blog:
     output: true
     permalink: /:collection/:name
+    sort_by: date
   hobby:
     output: true
     permalink: /:collection/:name
-  mentalillness:
+  mental-illness:
     output: true
     permalink: /:collection/:name
   music:
@@ -30,7 +31,7 @@ defaults:
       collectiontitle: "Hobby Hobby"
   -
     scope:
-      type: "mentalillness"
+      type: "mental-illness"
     values:
       layout: "default"
       collectiontitle: "Mental Illness"

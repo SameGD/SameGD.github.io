@@ -1,6 +1,5 @@
 ---
 title: Shortwave Listening
-fulltitle: Shortwave Listening
 subtitle: It's wave vibing time yo
 ---
 
