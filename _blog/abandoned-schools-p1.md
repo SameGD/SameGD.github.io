@@ -16,32 +16,34 @@ So first we actually need to figure out which schools were abandoned, and where 
 
 Next, we have to figure out which of them are still standing. For this, I’ll be using the [21st Century List of Schools](http://learningfromthepast.com.au/lost-schools-21st-century/), since I feel like there’s a greater chance of them still existing in 2020. That being said, I might go through the 1990 List at some other point. So, here’s the results of my brief skimming of the list:
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Fate</th>
-      <th>Still Standing?</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for school in site.data.closed-victorian-schools %}
-    {% if school.visitable == false or school.visitable == "Probably Not" %}
-      <tr class="has-background-danger-light">
-    {% elsif school.visitable == "Maybe" or school.visitable == "Probably" or school.visitable == "Kind Of" %}
-      <tr class="has-background-warning-light">
-    {% elsif school.visitable == true %}
-      <tr class="has-background-success-light">
-    {% else %}
+<div class="table-container">
+  <table class="table">
+    <thead>
       <tr>
-    {% endif %}
-        <td>{{ school.name}}</td>
-        <td>{{ school.fate }}</td>
-        <td>{{ school.visitable | replace: false, 'No' | replace: true, 'Yes'}}</td>
+        <th>Name</th>
+        <th>Fate</th>
+        <th>Still Standing?</th>
       </tr>
-    {% endfor %}
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      {% for school in site.data.closed-victorian-schools %}
+      {% if school.visitable == false or school.visitable == "Probably Not" %}
+        <tr class="has-background-danger-light">
+      {% elsif school.visitable == "Maybe" or school.visitable == "Probably" or school.visitable == "Kind Of" %}
+        <tr class="has-background-warning-light">
+      {% elsif school.visitable == true %}
+        <tr class="has-background-success-light">
+      {% else %}
+        <tr>
+      {% endif %}
+          <td>{{ school.name}}</td>
+          <td>{{ school.fate }}</td>
+          <td>{{ school.visitable | replace: false, 'No' | replace: true, 'Yes'}}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
 
 Looking at the results, out of the 173 schools on the list, 98 are probably gone, 73 are maybes, and 2 are yes’s. That being said, I was definitely overgenerous with giving out maybes, so the final total is likely much lower. A surprising amount of these schools probably would still be standing if people hadn’t decided to commit arson, which a) really sucks, and b) means that the original article was actually correct. I can’t believe that I lived to see the day where The Age posted factual information. I’m actually starting to have a sneaking suspicion that the 1990 list might end up having more sites still standing, just because older sites would be more of a hassle to demolish (asbestos).
 

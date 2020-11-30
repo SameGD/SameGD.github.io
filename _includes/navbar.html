@@ -1,33 +1,37 @@
-<!-- Navbar -->
+<nav class="nb has-background-primary">
   
-<nav class="navbar has-background-primary">
-  <div class="navbar-brand">
-    <nav class="breadcrumb is-medium has-bullet-separator mb-0" aria-label="breadcrumbs">
-      <ul class="navbar-item">
+  <div class="nb-content">
+    
+    <div class="nb-item nb-breadcrumbs">
+      <ul>
         <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
-        
+
         {% if page.collectiontitle %}
-        
-        <li {% if page.index == true %}class="is-active"{% endif %}><a class="subtitle is-5 always-text-white" href="/{{ page.collection }}/">{{ page.collectiontitle }}</a></li>
-        
+
+        <li {% if page.index == true %}class="is-active"{% endif %}><a class="subtitle is-5" href="/{{ page.collection }}/">{{ page.collectiontitle }}</a></li>
+
         {% else %}
-        
-        <li class="is-active"><a class="subtitle is-5 always-text-white" href="#">{{ page.title}}</a></li>
-        
+
+        <li class="is-active"><a class="subtitle is-5" href="#">{{ page.title}}</a></li>
+
         {% endif %}
         
         {% unless include.index == true %}
         
-        <li class="is-active"><a class="subtitle is-5 always-text-white">{{ page.title }}</a></li>
+        <li class="is-active"><a class="subtitle is-5">{{ page.title }}</a></li>
         
         {% endunless %}
+        
       </ul>
-    </nav>
-    <div class="navbar-item darkmode">
-      <label class="checkbox always-text-white">
-        <input type="checkbox">
-        Dark Mode
-      </label>
     </div>
+    
+    <div class="nb-item darkmode">
+      
+      <input id="darkmode" type="checkbox">
+      <label for="darkmode" title="Toggle Dark Mode"></label>
+      
+    </div>
+    
   </div>
+  
 </nav>

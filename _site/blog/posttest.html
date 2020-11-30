@@ -13,34 +13,38 @@
 
   <body>
 
-    <!-- Navbar -->
+    <nav class="nb has-background-primary">
   
-<nav class="navbar has-background-primary">
-  <div class="navbar-brand">
-    <nav class="breadcrumb is-medium has-bullet-separator mb-0" aria-label="breadcrumbs">
-      <ul class="navbar-item">
+  <div class="nb-content">
+    
+    <div class="nb-item nb-breadcrumbs">
+      <ul>
         <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
+
+        
+
+        <li ><a class="subtitle is-5" href="/blog/">Blog</a></li>
+
         
         
         
-        <li ><a class="subtitle is-5 always-text-white" href="/blog/">Blog</a></li>
         
+        <li class="is-active"><a class="subtitle is-5">Test</a></li>
         
-        
-        
-        
-        <li class="is-active"><a class="subtitle is-5 always-text-white">Test</a></li>
         
         
       </ul>
-    </nav>
-    <div class="navbar-item darkmode">
-      <label class="checkbox always-text-white">
-        <input type="checkbox">
-        Dark Mode
-      </label>
     </div>
+    
+    <div class="nb-item darkmode">
+      
+      <input id="darkmode" type="checkbox">
+      <label for="darkmode" title="Toggle Dark Mode"></label>
+      
+    </div>
+    
   </div>
+  
 </nav>
 
     <section class="blog section">
@@ -56,8 +60,8 @@
             </div>
 
             <div class="blog-navigation">
-              <a class="button bg-hover-colorthis"   disabled >Previous</a>
-              <a class="button bg-hover-colorthis"  href="/blog/pleasegenerate" >Next</a>
+              <a class="button bg-hover-colorthis"  disabled >Previous</a>
+              <a class="button bg-hover-colorthis"  href="/blog/pleasegenerate"  >Next</a>
             </div>
 
           </div>

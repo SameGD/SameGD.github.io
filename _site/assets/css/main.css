@@ -1,6 +1,7 @@
 /************** 
 Fonts
 ***************/
+/*
 @font-face {
   font-family: "Heebo";
   src: url("/assets/font/Heebo.ttf") format("truetype");
@@ -11,14 +12,18 @@ body {
   font-family: "Heebo", sans-serif;
 }
 
+*/
+
 /************** 
 CSS Variables
 ***************/
 
+/*
 :root {
   --primary: #205BA6;
   --primary-light: #205BA61A;
 }
+*/
 
 /************** 
 Helper Variables
@@ -38,9 +43,26 @@ Helper Variables
   border: none !important;
 }
 
+.has-border-left {
+  border-left: solid 4px;
+}
+
+.button.has-background-primary-light{
+  transition: 0.3s;
+}
+
+.button.has-background-primary-light:hover {
+  background-color: var(--primary-light-select) !important;
+  color: var(--primary) !important;
+}
+
 /************** 
 Page Elements
 ***************/
+
+a {
+  transition: 0.3s;
+}
 
 .break {
   border-bottom: 2px solid #eee;
@@ -54,13 +76,127 @@ Page Elements
 Navbar Shit
 ***************/
 
+.navbar-brand a {
+  transition: 0.3s;
+}
+
+.navbar-brand a:hover {
+  color: lightgrey !important;
+}
 
 .navbar-brand {
   width: 100%;
 }
 
+.navbread {
+  overflow-x: hidden;
+}
+
 .navbar-item.darkmode {
   margin-left: auto;
+}
+
+/************** 
+Dark Mode Button
+***************/
+
+.darkmode input[type=checkbox] { 
+  display: none;
+}
+
+.darkmode input[type=checkbox] + label { 
+  transition: 0.3s;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-size: contain;
+  opacity: 50%;
+}
+.darkmode input[type=checkbox] + label:hover { 
+  opacity: 100%;
+}
+
+.darkmode input[type=checkbox] + label { 
+  background-image: url(/assets/images/sun.png);
+}
+
+.darkmode input[type=checkbox]:checked + label { 
+  background-image: url(/assets/images/moon.png);
+}
+
+/************** 
+Navbar New
+***************/
+
+nav.nb {
+  min-height: 3.25rem;
+  z-index: 30;
+  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+  position: relative;
+}
+
+nav.nb.has-background-primary a {
+  transition: 0.25s;
+  color: white !important;
+}
+
+nav.nb.has-background-primary a:hover {
+  color: var(--grey-light) !important;
+}
+
+.nb-content {
+  height: auto;
+  min-height: 3.25rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.75rem;
+}
+
+.nb-breadcrumbs ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.nb-breadcrumbs li {
+  padding: 0.1rem 0.50rem 0 0;
+}
+
+.nb-breadcrumbs li:last-of-type {
+  padding-right: 0;
+}
+
+.nb-breadcrumbs li:not(:last-of-type)::after {
+  color: var(--grey-light);
+  content: "\02022";
+  font-size: 1.25rem;
+  padding-left: 0.50rem;
+}
+
+/*
+.nb-breadcrumbs li:nth-child(1)::after {
+  content: "\0002f";
+}
+*/
+
+.nb-breadcrumbs li.is-active a {
+  cursor: default;
+  pointer-events: none;
+}
+
+.nb-item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.3rem 0;
+}
+
+.nb-item.darkmode {
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
 /************** 
@@ -177,6 +313,9 @@ Blog
     padding-left: 6px;
     margin-left: -6px;
   }
+  .blog-content .table {
+    padding: -1.5rem 1.5rem;
+  }
 }
 
 
@@ -197,6 +336,7 @@ Hobby Hobby Index
 
 .hobbyitem {
   flex-grow: 1;
+  flex-shrink: 1;
   width: 150px;
   max-width: 150px;
   height: 60px;
@@ -250,6 +390,7 @@ Hobby Hobby Index
 Hobby Page
 ***************/
 
+/*
 @media screen and (max-width: 768px) {
   .hobby-page .section {
     padding: 1rem;
@@ -258,4 +399,4 @@ Hobby Page
     padding: 1rem;
   }
   
-}
+}*/

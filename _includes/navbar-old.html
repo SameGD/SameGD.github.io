@@ -1,0 +1,31 @@
+<!-- Navbar -->
+  
+<nav class="navbar has-background-primary is-clearfix">
+  <div class="navbar-brand">
+    <nav class="breadcrumb is-medium mb-0 navbread" aria-label="breadcrumbs">
+      <ul class="navbar-item">
+        <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
+        
+        {% if page.collectiontitle %}
+        
+        <li {% if page.index == true %}class="is-active"{% endif %}><a class="subtitle is-5 always-text-white" href="/{{ page.collection }}/">{{ page.collectiontitle }}</a></li>
+        
+        {% else %}
+        
+        <li class="is-active"><a class="subtitle is-5 always-text-white" href="#">{{ page.title}}</a></li>
+        
+        {% endif %}
+        
+        {% unless include.index == true %}
+        
+<!--        <li class="is-active"><a class="subtitle is-5 always-text-white">{{ page.title }}</a></li>-->
+        
+        {% endunless %}
+      </ul>
+    </nav>
+    <div class="navbar-item darkmode">
+      <input id="darkmode" type="checkbox">
+      <label for="darkmode" title="Toggle Dark Mode"></label>
+    </div>
+  </div>
+</nav>

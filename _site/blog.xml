@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/blog.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-30T15:23:48+11:00</updated><id>http://localhost:4000/blog.xml</id><title type="html">Graphics Demo | Blog</title><subtitle>Where sin meets even more sin</subtitle><author><name>Sam Wade</name></author><entry><title type="html">Abandoned Victorian Schools (Part 1)</title><link href="http://localhost:4000/blog/abandoned-schools-p1" rel="alternate" type="text/html" title="Abandoned Victorian Schools (Part 1)" /><published>2020-11-09T20:41:00+11:00</published><updated>2020-11-09T20:41:00+11:00</updated><id>http://localhost:4000/blog/abandoned-schools-p1</id><content type="html" xml:base="http://localhost:4000/blog/abandoned-schools-p1">&lt;p&gt;While surfing the internet, I found &lt;a href=&quot;https://www.theage.com.au/national/victoria/vandalism-and-drug-use-hit-derelict-school-sites-across-victoria-20140405-365pn.html&quot;&gt;this&lt;/a&gt; article from The Age in 2014, which talks about the rise of vandalism in derelict school sites across Victoria. While this is otherwise just a typical “societal decay” scare piece, it had a quote which I found interesting:&lt;/p&gt;
+
+&lt;p&gt;“A department spokesman gave no detail about when the schools would be sold. The department holds 178 vacated schools.”&lt;/p&gt;
+
+&lt;p&gt;Hmmm, so essentially what they’re saying is that there could be as many as 178 abandoned schools in Victoria just waiting to be explored? I think this warrants some further investigation.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This article is 6 years old as of the time I’m writing this post, so the actual number is probably considerably less than that now, considering the Department of Education was actively trying to sell them when the article was written, and many of them likely were demolished to facilitate this. Moreso, the vandalism described in the article actually is kind of a problem because if there’s one truth in this world, it’s that given enough time &lt;a href=&quot;https://www.theage.com.au/national/victoria/fire-at-old-clayton-primary-school-building-deemed-suspicious-20170114-gtrhwq.html&quot;&gt;all vandalism will eventually turn to arson&lt;/a&gt;. Even so, with 178 possible sites, surely some of them have survived in their former glory?&lt;/p&gt;
+
+&lt;p&gt;So first we actually need to figure out which schools were abandoned, and where they are. Luckily for me, someone already did the work! Using this incredible site, &lt;a href=&quot;http://learningfromthepast.com.au&quot;&gt;Learning From the Past&lt;/a&gt;, we can see a list of all the lost schools from both the 1990’s and the 21&lt;sup&gt;st&lt;/sup&gt; Century. They’ve done a really incredible job in finding all these schools and giving a short history for all them, so I really recommend you check the website out yourself&lt;/p&gt;
+
+&lt;p&gt;Next, we have to figure out which of them are still standing. For this, I’ll be using the &lt;a href=&quot;http://learningfromthepast.com.au/lost-schools-21st-century/&quot;&gt;21st Century List of Schools&lt;/a&gt;, since I feel like there’s a greater chance of them still existing in 2020. That being said, I might go through the 1990 List at some other point. So, here’s the results of my brief skimming of the list:&lt;/p&gt;
+
+&lt;div class=&quot;table-container&quot;&gt;
+  &lt;table class=&quot;table&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Fate&lt;/th&gt;
+        &lt;th&gt;Still Standing?&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Altona East Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Altona Gate Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Ardeer High School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Athlone Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Ballendella Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-success-light&quot;&gt;
+      
+          &lt;td&gt;Barongarook Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Bell Park Technical School&lt;/td&gt;
+          &lt;td&gt;Demolished / Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Bellfield Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Bena Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Benalla West Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Benambra Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Bendigo East Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Bendigo North Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Bessiebelle Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Boorhaman Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Boort Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Boronia Technical School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Brandon Park Technical School (Wheelers Hill)&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Braybrook Primary School&lt;/td&gt;
+          &lt;td&gt;Arson&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Brim Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Partially Cleared&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Buffalo Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Bullengarook Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Burbank Primary School (Reservoir)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Calder Rise Primary School (Keilor)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Campmeadows Primary School (Broadmeadows)&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Caramut Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Carrajung South Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Castlemaine Technical School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Probably&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-success-light&quot;&gt;
+      
+          &lt;td&gt;Clarkefield Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Clayton Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Sold / Arson&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Clayton West Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Cloverlea Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Probably&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Colac High School&lt;/td&gt;
+          &lt;td&gt;Partially Cleared / Given to Community&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Commercial Road Primary School (Morwell)&lt;/td&gt;
+          &lt;td&gt;Merged / Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Coomoora High School (Springvale South)&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Corio North High School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Corio South Primary School&lt;/td&gt;
+          &lt;td&gt;Arson / Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Cressy Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Crinigan Road Primary School (Morwell)&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Croydon North Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Croydon South Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Culgoa Primary School&lt;/td&gt;
+          &lt;td&gt;Dismantled&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Dallas Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Dallas North Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Dawes Road Primary School (Kyabram)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Dean Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Doveton Technical School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Doveton North Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Drummartin Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Echuca High School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Echuca South Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Echuca West Primary School&lt;/td&gt;
+          &lt;td&gt;Arson?&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Endeavour Hills Secondary College&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Erinbank High School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Eumemmerring Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Ferntree Gully High School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Ferntree Gully Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Flora Hill Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Geelong East Technical School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Geelong West Technical School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Gellibrand Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Gerangamete Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Glen Devon Primary School (Werribee)&lt;/td&gt;
+          &lt;td&gt;Arson / Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Glengala Park Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Glenorchy Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Glenroy Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Glenroy North Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Glenthompson Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Golden Square High School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Golden Square Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Goongerah Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Goorambat Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Sold&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Greenslopes Primary School (Dandenong North)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Guildford Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Harrow Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Heidelberg High School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Heidelberg West Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Highlands Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Hill End Primary School&lt;/td&gt;
+          &lt;td&gt;Community Use&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Hopetoun Primary School&lt;/td&gt;
+          &lt;td&gt;Declared Surplus&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Irrewillipe East Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Jacana Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Katamatite East Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Kawarren Primary School&lt;/td&gt;
+          &lt;td&gt;Community Use&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Kealba High School&lt;/td&gt;
+          &lt;td&gt;Arson / Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Keilor Park Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Kent Road Primary School (Hamilton)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Keysborough Park Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared (Rabbit Infestation)&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Kingston Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Lakeside High School (Reservoir)&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Lalbert Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Lalor Park Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Laverton Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Laverton Plains Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Learmonth Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Lexton Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Mandurang South Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Manningham Primary School (Templestowe Lower)&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Maralinga Primary School (Keysborough)&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Markwood Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Maroondah High School (Croydon)&lt;/td&gt;
+          &lt;td&gt;Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Maryborough East Primary School&lt;/td&gt;
+          &lt;td&gt;Community Use&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Maryborough High School&lt;/td&gt;
+          &lt;td&gt;Community Use&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Maryborough Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Maryborough Technical School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Meadow Fair North Primary School (Broadmeadows)&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Meerlieu Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Merbein Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Merbein South Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Merbein West Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Milleara Primary School (Avondale Heights)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Monash High School (Clayton)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Monash Primary School (Clayton)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Mooroolbark Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Mooroolbark Technical School&lt;/td&gt;
+          &lt;td&gt;Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Moreland City College (Coburg)&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Mount Moriac Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared / Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Mudgegonga Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Murtoa Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Narre Warren Station Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Netherby Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Norlane High School&lt;/td&gt;
+          &lt;td&gt;Arson / Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Nunawading Primary School&lt;/td&gt;
+          &lt;td&gt;Arson / Demolished&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Oakwood Park Primary School (Noble Park)&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Ouyen Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Parkwood High School (Ringwood North)&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Patchewollock Group School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Pembroke High School (Kilsyth)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Piangil Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Pines Forest Primary School (Frankston North)&lt;/td&gt;
+          &lt;td&gt;Cleared / Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Preston East Primary School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Preston Girls High School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Quambatook Group School&lt;/td&gt;
+          &lt;td&gt;Closed / Surplus&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Rainbow Primary School&lt;/td&gt;
+          &lt;td&gt;Community Use&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Rosewall Primary School (Corio)&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Ruffy Primary School&lt;/td&gt;
+          &lt;td&gt;Community Use&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Ruthven Primary School (Reservoir)&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;St Albans Technical School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Seymour East Primary School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Shady Creek Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Smeaton Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Southvale Primary School (Noble Park)&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Springvale High School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Stanley Primary School&lt;/td&gt;
+          &lt;td&gt;Community Use&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Sunnycliffs Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Surplus&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Sunshine Technical School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Sunvale Primary School (Sunshine)&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Swan Hill Technical School&lt;/td&gt;
+          &lt;td&gt;Demolished&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Swan Marsh Primary School&lt;/td&gt;
+          &lt;td&gt;Closed / Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Tallangatta Valley Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Tatong Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Tatura East Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Thornton Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Tobruk Street Primary School (Morwell)&lt;/td&gt;
+          &lt;td&gt;Cleared / Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Tubbut Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Upfield High School&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Upfield Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Wando Vale Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Wangaratta Technical School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Probably Not&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Wareek Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Warrenbayne Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Watchem Primary School&lt;/td&gt;
+          &lt;td&gt;Sold&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Welton Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Westmeadows Heights Primary School&lt;/td&gt;
+          &lt;td&gt;Cleared&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Windermere Primary School&lt;/td&gt;
+          &lt;td&gt;Preparing for Sale&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Wonthaggi Technical School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Woodglen Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Yan Yean Primary School&lt;/td&gt;
+          &lt;td&gt;Mostly Demolished&lt;/td&gt;
+          &lt;td&gt;Kind Of&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Yapeen Primary School&lt;/td&gt;
+          &lt;td&gt;Community Use&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Yarrawonga Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Yellingbo Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-warning-light&quot;&gt;
+      
+          &lt;td&gt;Youanmite Primary School&lt;/td&gt;
+          &lt;td&gt;Closed&lt;/td&gt;
+          &lt;td&gt;Maybe&lt;/td&gt;
+        &lt;/tr&gt;
+      
+      
+        &lt;tr class=&quot;has-background-danger-light&quot;&gt;
+      
+          &lt;td&gt;Yuille Primary School (Ballarat)&lt;/td&gt;
+          &lt;td&gt;Sold / Acquired&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+        &lt;/tr&gt;
+      
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Looking at the results, out of the 173 schools on the list, 98 are probably gone, 73 are maybes, and 2 are yes’s. That being said, I was definitely overgenerous with giving out maybes, so the final total is likely much lower. A surprising amount of these schools probably would still be standing if people hadn’t decided to commit arson, which a) really sucks, and b) means that the original article was actually correct. I can’t believe that I lived to see the day where The Age posted factual information. I’m actually starting to have a sneaking suspicion that the 1990 list might end up having more sites still standing, just because older sites would be more of a hassle to demolish (asbestos).&lt;/p&gt;
+
+&lt;p&gt;I was originally going to investigate the maybes in this post but they turned out to be really tedious to find, so I’ll post a part 2 soon that covers them. To cap off this post, I’ll talk about the two definite yes’s in the table, Barongarook Primary School and Clarkefield Primary School.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Barongarook Primary School&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;According to this &lt;a href=&quot;https://colacherald.com.au/2018/07/former-school-lies-abandoned/&quot;&gt;free excerpt of an article from a local newspaper&lt;/a&gt;, Barongarook Primary School is both still standing, and unused. Looking at it’s address ( 275 Barongarook Rd, Barongarook) on Maps corroborates this article,  and looking at street view we can see that it’s in fairly good condition. Unfortunately though, it looks kinda small, so it might not be that interesting to see in person.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/abandoned-schools/barongarook.jpg&quot; alt=&quot;Barongarook Primary School&quot; title=&quot;Barongarook Primary School&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clarkefield Primary School&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Clarkefield Primary School is also in pretty decent condition, looking at its address (1202 Lancefield Rd, Clarkefield) on Maps. Again, it looks fairly small, but there’s really no way of telling from the streetview photo. Unfortunately though, this might not be standing for much longer. According to &lt;a href=&quot;https://sunburymacedonranges.starweekly.com.au/news/development-fears-for-former-school-site/&quot;&gt;this&lt;/a&gt; article I found, “demolition” fences were put around the school earlier this year, which probably isn’t a good sign considering the department of education’s love of selling property.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/abandoned-schools/clarkefield.jpg&quot; alt=&quot;Clarkefield Primary School&quot; title=&quot;Clarkefield Primary School&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;It’s pretty interesting seeing all these Victorian schools that have shut down, especially since you never hear about these sort of things in the news. The ironic part of this is that since most of these schools were shut down because of low attendance numbers, they’ll probably have to be replaced as Victoria’s population grows. Seems kind of short sighted, but hey, that’s the Australian Government for you.&lt;/p&gt;
+
+&lt;p&gt;Anyways, tune in next time for my investigations into the maybe pile! Mystery, intrigue, excitement, lack of proofreading, part 2 of abandoned victorian schools will have it all! Assuming of course, that I don’t lose interest and work on something else.&lt;/p&gt;</content><author><name>Sam Wade</name></author><summary type="html">While surfing the internet, I found this article from The Age in 2014, which talks about the rise of vandalism in derelict school sites across Victoria. While this is otherwise just a typical “societal decay” scare piece, it had a quote which I found interesting:</summary></entry><entry><title type="html">Water Fight!</title><link href="http://localhost:4000/blog/water-fight" rel="alternate" type="text/html" title="Water Fight!" /><published>2020-11-04T13:12:00+11:00</published><updated>2020-11-04T13:12:00+11:00</updated><id>http://localhost:4000/blog/water-fight</id><content type="html" xml:base="http://localhost:4000/blog/water-fight">&lt;p&gt;With lockdown finally coming to a close, and the horrors of zoom university almost in the past, I’ve been trying to think of some fun activities to do over summer. Now, while I already have a bunch of ideas of varying quality and feasibility, the one I want to focus on in this post is an idea for a systemised Water Balloon fight. That’s right, it’s time for some more Primary School Sam wish fulfillment!&lt;/p&gt;
+
+&lt;p&gt;Now, back in my day &lt;em&gt;(*shakes cane angrily at the sky*)&lt;/em&gt;, water balloon fights were fairly unfeasible. See, the problem was that while you could easily go and buy some water balloons with your friends, you had to fill them all one by one, which took FOREVER. Not only that, but you had to physically tie them up, which was fairly difficult if you wanted any decent amount of water inside your balloon, and more often than not they’d end up bursting in your hands. So after like an hour of filling up and tying water balloons you were finally ready for action, filled with the sort of pent-up energy that can only come from an hour of waiting. You eagerly reach for your balloons, ready to get wet and have fun with your friends, when you have a shocking realisation: &lt;em&gt;despite all that set-up time, you only have about 10 balloons each&lt;/em&gt;. Let me tell you, 10 water balloons is &lt;em&gt;not&lt;/em&gt; an adequate amount of ammunition for a fight, let alone the war you were envisioning during the set-up phase. Assuming you only throw a balloon a minute, that’s still only 10 minutes of actual fighting; and realistically you’ll need to throw them far faster to have any fun. And at the end of all that, the reward for all that effort and time ended up being “oh we’re slightly wet”. There were no winners in the water balloon fights of old, only losers.&lt;/p&gt;
+
+&lt;p&gt;Luckily though, we live in the future now! And let me tell you, water balloon technology has come a long way. Nowadays for the measly sum of $10, you can get a pack of &lt;strong&gt;100 water balloons&lt;/strong&gt; that fill up all at once AND self seal! And with this technological innovation, as well as a set of rules to determine a victor, a proper &lt;strong&gt;fun&lt;/strong&gt; water balloon fight just might be possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/water-balloons.jpg&quot; alt=&quot;Modern Water Balloons&quot; title=&quot;Modern Water Balloons&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;em&gt;How is this not talked about more, we literally solved the water balloon problem in our lifetimes!&lt;/em&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;The Plan&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now this is just a rough outline of how I think it would work, but I’m definitely up for suggestions or refinements to the rules if, uh, anyone actually ends up reading this blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Materials:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Essential&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3 or more players
+    &lt;ul&gt;
+      &lt;li&gt;It’s not really a proper fight if there’s only 2 people, let’s be honest.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A pack of 100 Self-Sealing Water Balloons, per player.
+    &lt;ul&gt;
+      &lt;li&gt;And possibly an extra pack in case things go wrong.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;One implement per person.
+    &lt;ul&gt;
+      &lt;li&gt;More on this later.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Some way to measure water.
+    &lt;ul&gt;
+      &lt;li&gt;Eg. Measuring jug, or bucket and a scale if you want to be extra precise.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Optional&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 or more Sponges per player.
+    &lt;ul&gt;
+      &lt;li&gt;Depending on how you want to do scoring.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Some form of water resistant tape
+    &lt;ul&gt;
+      &lt;li&gt;For the sponges.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Goggles?&lt;/li&gt;
+  &lt;li&gt;A Trophy / Medal / Oil.
+    &lt;ul&gt;
+      &lt;li&gt;Every war needs it’s prize.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Gameplay:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The objective of the game is simple: &lt;span style=&quot;text-decoration:underline;&quot;&gt;Be the least wet player after an hour of warfare&lt;/span&gt;. Of course it’s difficult to measure wetness, especially when the sun is being lame and evaporating water. There’s really no way around this without some sort of contraption that could block out the sun, so this will have to be part of the game’s strategy (i.e. water bombs are more effective as time goes on).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/sun-blocker.gif&quot; alt=&quot;Sun Blocker&quot; title=&quot;Mr. Burns was trying to warn us!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;em&gt;If only someone could do this in real life.&lt;/em&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite this complication, &lt;span style=&quot;text-decoration:underline;&quot;&gt;Wetness will be measured by wringing out players’ clothes at the end of the hour, and measuring the amount of water their clothes absorb&lt;/span&gt;. Of course this has a few problems, in that it assumes that everyone is wearing an equivalent amount of clothing (otherwise the optimal play is to get completely naked and wait out the hour), and that everyone is willing to take off their clothes to measure the water (this can be done in a bathroom of course, but that makes it easier to cheat).&lt;/p&gt;
+
+&lt;p&gt;Thus, an alternate rule-set would be the use of absorbent objects such as sponges, which would be taped onto several points on the body. This would get around these issues, as well as making the game harder (since you have to aim), but it does increase the cost and ease of access of the game. A happy medium could be the use of one or two sponges on the head or chest in addition to measuring clothing wetness, where the sponges would act as bonus points to increase the difficulty of the game.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Everyone will get 100 self-sealing water balloons each&lt;/span&gt;, which can either be filled before the game or during the game, depending on the player’s preference. &lt;span style=&quot;text-decoration:underline;&quot;&gt;Each player will also be allowed to bring one implement of choice to use during the game&lt;/span&gt;. This implement can be any &lt;em&gt;reasonable,&lt;/em&gt; non-powered object, where reasonableness is determined by a majority vote from the other players. Ostensibly, this implement will be some form of transportation to help carry the water balloons (e.g. Bucket, trolley, etc.), since carrying 100 water balloons by hand is stupidly difficult; but a player could choose to forgo the transportation of their balloons for the use of something like a blunt dart to pop other peoples balloons, or even a water gun (although how many times it could be filled up would have to be decided before play).&lt;/p&gt;
+
+&lt;p&gt;Depending on how many players you have, you could also have teams, or alliances, to spice the game up. Teams would be established before the game, and would be immutable (i.e. no changing teams). The final score for teams would be a culmination of both their water totals. However, another form of play could be alliances, which are distinct from teams in that they’re not formal, and not immutable. Alliances would work by players choosing to team up, either in a Survivor-esqe plotting session that occurs just before the game starts, or naturally during the gameplay. Unlike teams, a member of an alliance can choose whether or not to have their final water total be counted as a team, or as an individual, adding the ability for a player to backstab and plot their way to victory. While alliances would add an interesting psychological aspect to the game, they also could backfire and cause arguments and hurt feelings, so be careful before deciding to allow them.&lt;/p&gt;
+
+&lt;p&gt;The field of play for this game could be anywhere, with each location coming with its own pro’s and con’s. For example, while someone’s backyard would allow for more privacy for the game, it would also restrict the space dramatically. However, while something like a park would allow for a much larger field of play, you’d have to be mindful of the other people using the park, and you’d run the risk of civilian fire.&lt;/p&gt;
+
+&lt;p&gt;So yeah, I think these rules could be used for a super fun water fight, but this is kind of the top of my head so there might be problems I haven’t noticed. I also haven’t proofread this whatsoever, so hopefully it’s intelligible. But anyway, game on!&lt;/p&gt;</content><author><name>Sam Wade</name></author><summary type="html">With lockdown finally coming to a close, and the horrors of zoom university almost in the past, I’ve been trying to think of some fun activities to do over summer. Now, while I already have a bunch of ideas of varying quality and feasibility, the one I want to focus on in this post is an idea for a systemised Water Balloon fight. That’s right, it’s time for some more Primary School Sam wish fulfillment!</summary></entry><entry><title type="html">Blog Test 4</title><link href="http://localhost:4000/blog/pleasegenerate" rel="alternate" type="text/html" title="Blog Test 4" /><published>2020-11-03T12:41:00+11:00</published><updated>2020-11-03T12:41:00+11:00</updated><id>http://localhost:4000/blog/pleasegenerate</id><content type="html" xml:base="http://localhost:4000/blog/pleasegenerate">&lt;p class=&quot;title&quot;&gt;Blog Test 4&lt;/p&gt;
+
+&lt;p class=&quot;subtitle&quot;&gt;Revenge of the blog test&lt;/p&gt;
+
+&lt;p&gt;This is a test to see if I can use google docs to write the content for my websites, since that will be way easier than doing it inside brackets. &lt;strong&gt;This should be bold.&lt;/strong&gt; &lt;em&gt;This should be in italics.&lt;/em&gt; &lt;sup&gt;This should be superscript.&lt;/sup&gt; &lt;sub&gt;This should be subscript. &lt;/sub&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This should be dot point 1&lt;/li&gt;
+  &lt;li&gt;This should be dot point 2&lt;/li&gt;
+  &lt;li&gt;This should be dot point 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;del&gt;This should be strikethroughed. &lt;span style=&quot;text-decoration:underline;&quot;&gt;This should be underlined and strikethroughed.&lt;/span&gt;&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;This should be underlined&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This should be numbered 1&lt;/li&gt;
+  &lt;li&gt;This should be numbered 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Well dope, looks like I’m using docs to write the site content! Oh god this is the first post on this blog that actually has any sort of content. Is this a sign of things to come?&lt;/p&gt;</content><author><name>Sam Wade</name></author><summary type="html">Blog Test 4</summary></entry><entry><title type="html">Test</title><link href="http://localhost:4000/blog/posttest" rel="alternate" type="text/html" title="Test" /><published>2020-10-27T18:30:00+11:00</published><updated>2020-10-27T18:30:00+11:00</updated><id>http://localhost:4000/blog/posttest</id><content type="html" xml:base="http://localhost:4000/blog/posttest">&lt;p&gt;I have discovered a truly remarkable proof that proves corn isn't real, which this margin is too small to contain.&lt;/p&gt;</content><author><name>Sam Wade</name></author><summary type="html">I have discovered a truly remarkable proof that proves corn isn't real, which this margin is too small to contain.</summary></entry><entry><title type="html">Blog</title><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" title="Blog" /><published>2020-09-30T19:41:00+10:00</published><updated>2020-09-30T19:41:00+10:00</updated><id>http://localhost:4000/index</id><content type="html" xml:base="http://localhost:4000/blog/">&lt;nav class=&quot;nb has-background-primary&quot;&gt;
+  
+  &lt;div class=&quot;nb-content&quot;&gt;
+    
+    &lt;div class=&quot;nb-item nb-breadcrumbs&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a class=&quot;title is-4 always-text-white&quot; href=&quot;/&quot;&gt;Graphics Demo&lt;/a&gt;&lt;/li&gt;
+
+        
+
+        &lt;li &gt;&lt;a class=&quot;subtitle is-5&quot; href=&quot;/blog/&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+
+        
+        
+        
+        
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;nb-item darkmode&quot;&gt;
+      
+      &lt;input id=&quot;darkmode&quot; type=&quot;checkbox&quot;&gt;
+      &lt;label for=&quot;darkmode&quot; title=&quot;Toggle Dark Mode&quot;&gt;&lt;/label&gt;
+      
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+  
+&lt;/nav&gt;
+
+&lt;section class=&quot;hero  is-medium  has-background-primary-light blogheader&quot;&gt;
+  &lt;div class=&quot;hero-body&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;card has-text-centered&quot;&gt;
+        &lt;div class=&quot;card-header has-background-primary p-3&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;card-content&quot;&gt;
+          &lt;h1 class=&quot;title is-2 has-text-weight-bold&quot;&gt;
+            
+              Blog
+            
+          &lt;/h1&gt;
+          &lt;h2 class=&quot;subtitle&quot;&gt;My random thoughts on things, avoid at all costs.&lt;/h2&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;  
+&lt;/section&gt;
+
+&lt;section class=&quot;section&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+
+      &lt;div class=&quot;box has-background-primary-light has-border-left border-colorthis&quot;&gt;
+        &lt;a class=&quot;has-text-primary&quot; href=&quot;/blog.xml&quot;&gt;&lt;p&gt;RSS Feed is available here.&lt;/p&gt;&lt;/a&gt;
+      &lt;/div&gt;  
+
+    
+    &lt;div class=&quot;box content&quot;&gt;
+      &lt;p class=&quot;title is-4&quot;&gt;Posts&lt;/p&gt;
+      &lt;div class=&quot;break&quot;&gt;&lt;/div&gt;
+      &lt;ul&gt;
+        
+        
+          &lt;li&gt;09 Nov 2020 - &lt;a href=&quot;/blog/abandoned-schools-p1&quot;&gt;Abandoned Victorian Schools (Part 1)&lt;/a&gt;&lt;/li&gt;
+        
+        
+        
+          &lt;li&gt;04 Nov 2020 - &lt;a href=&quot;/blog/water-fight&quot;&gt;Water Fight!&lt;/a&gt;&lt;/li&gt;
+        
+        
+        
+          &lt;li&gt;03 Nov 2020 - &lt;a href=&quot;/blog/pleasegenerate&quot;&gt;Blog Test 4&lt;/a&gt;&lt;/li&gt;
+        
+        
+        
+          &lt;li&gt;27 Oct 2020 - &lt;a href=&quot;/blog/posttest&quot;&gt;Test&lt;/a&gt;&lt;/li&gt;
+        
+        
+        
+        
+      &lt;/ul&gt;
+    
+    &lt;/div&gt; 
+  &lt;/div&gt;
+&lt;/section&gt;</content><author><name>Sam Wade</name></author><summary type="html">Graphics Demo Blog</summary></entry></feed>

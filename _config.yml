@@ -1,3 +1,15 @@
+plugins:
+  - jekyll-feed
+
+feed:
+  collections:
+    blog:
+      path: "/blog.xml"
+
+title: Graphics Demo
+description: Where sin meets even more sin
+author: Sam Wade
+
 collections:
   blog:
     output: true

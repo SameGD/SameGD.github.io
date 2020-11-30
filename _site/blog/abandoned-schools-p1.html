@@ -13,34 +13,38 @@
 
   <body>
 
-    <!-- Navbar -->
+    <nav class="nb has-background-primary">
   
-<nav class="navbar has-background-primary">
-  <div class="navbar-brand">
-    <nav class="breadcrumb is-medium has-bullet-separator mb-0" aria-label="breadcrumbs">
-      <ul class="navbar-item">
+  <div class="nb-content">
+    
+    <div class="nb-item nb-breadcrumbs">
+      <ul>
         <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
+
+        
+
+        <li ><a class="subtitle is-5" href="/blog/">Blog</a></li>
+
         
         
         
-        <li ><a class="subtitle is-5 always-text-white" href="/blog/">Blog</a></li>
         
+        <li class="is-active"><a class="subtitle is-5">Abandoned Victorian Schools (Part 1)</a></li>
         
-        
-        
-        
-        <li class="is-active"><a class="subtitle is-5 always-text-white">Abandoned Victorian Schools (Part 1)</a></li>
         
         
       </ul>
-    </nav>
-    <div class="navbar-item darkmode">
-      <label class="checkbox always-text-white">
-        <input type="checkbox">
-        Dark Mode
-      </label>
     </div>
+    
+    <div class="nb-item darkmode">
+      
+      <input id="darkmode" type="checkbox">
+      <label for="darkmode" title="Toggle Dark Mode"></label>
+      
+    </div>
+    
   </div>
+  
 </nav>
 
     <section class="blog section">
@@ -56,8 +60,8 @@
             </div>
 
             <div class="blog-navigation">
-              <a class="button bg-hover-colorthis"  href="/blog/water-fight"  >Previous</a>
-              <a class="button bg-hover-colorthis"  disabled >Next</a>
+              <a class="button bg-hover-colorthis"  href="/blog/water-fight" >Previous</a>
+              <a class="button bg-hover-colorthis"   disabled >Next</a>
             </div>
 
           </div>
@@ -78,1402 +82,1404 @@
 
 <p>Next, we have to figure out which of them are still standing. For this, I’ll be using the <a href="http://learningfromthepast.com.au/lost-schools-21st-century/">21st Century List of Schools</a>, since I feel like there’s a greater chance of them still existing in 2020. That being said, I might go through the 1990 List at some other point. So, here’s the results of my brief skimming of the list:</p>
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Fate</th>
-      <th>Still Standing?</th>
-    </tr>
-  </thead>
-  <tbody>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Altona East Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Altona Gate Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Ardeer High School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Athlone Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Ballendella Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-success-light">
-    
-        <td>Barongarook Primary School</td>
-        <td>Closed</td>
-        <td>Yes</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Bell Park Technical School</td>
-        <td>Demolished / Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Bellfield Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Bena Primary School</td>
-        <td>Closed / Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Benalla West Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Benambra Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Bendigo East Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Bendigo North Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Bessiebelle Primary School</td>
-        <td>Closed / Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Boorhaman Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Boort Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Boronia Technical School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Brandon Park Technical School (Wheelers Hill)</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Braybrook Primary School</td>
-        <td>Arson</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Brim Primary School</td>
-        <td>Closed / Partially Cleared</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Buffalo Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Bullengarook Primary School</td>
-        <td>Closed</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Burbank Primary School (Reservoir)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Calder Rise Primary School (Keilor)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Campmeadows Primary School (Broadmeadows)</td>
-        <td>Cleared</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Caramut Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Carrajung South Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Castlemaine Technical School</td>
-        <td>Closed</td>
-        <td>Probably</td>
-      </tr>
-    
-    
-      <tr class="has-background-success-light">
-    
-        <td>Clarkefield Primary School</td>
-        <td>Closed</td>
-        <td>Yes</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Clayton Primary School</td>
-        <td>Closed / Sold / Arson</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Clayton West Primary School</td>
-        <td>Closed / Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Cloverlea Primary School</td>
-        <td>Sold</td>
-        <td>Probably</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Colac High School</td>
-        <td>Partially Cleared / Given to Community</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Commercial Road Primary School (Morwell)</td>
-        <td>Merged / Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Coomoora High School (Springvale South)</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Corio North High School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Corio South Primary School</td>
-        <td>Arson / Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Cressy Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Crinigan Road Primary School (Morwell)</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Croydon North Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Croydon South Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Culgoa Primary School</td>
-        <td>Dismantled</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Dallas Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Dallas North Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Dawes Road Primary School (Kyabram)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Dean Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Doveton Technical School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Doveton North Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Drummartin Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Echuca High School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Echuca South Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Echuca West Primary School</td>
-        <td>Arson?</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Endeavour Hills Secondary College</td>
-        <td>Cleared</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Erinbank High School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Eumemmerring Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Ferntree Gully High School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Ferntree Gully Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Flora Hill Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Geelong East Technical School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Geelong West Technical School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Gellibrand Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Gerangamete Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Glen Devon Primary School (Werribee)</td>
-        <td>Arson / Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Glengala Park Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Glenorchy Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Glenroy Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Glenroy North Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Glenthompson Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Golden Square High School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Golden Square Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Goongerah Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Goorambat Primary School</td>
-        <td>Closed / Sold</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Greenslopes Primary School (Dandenong North)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Guildford Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Harrow Primary School</td>
-        <td>Closed / Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Heidelberg High School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Heidelberg West Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Highlands Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Hill End Primary School</td>
-        <td>Community Use</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Hopetoun Primary School</td>
-        <td>Declared Surplus</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Irrewillipe East Primary School</td>
-        <td>Closed</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Jacana Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Katamatite East Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Kawarren Primary School</td>
-        <td>Community Use</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Kealba High School</td>
-        <td>Arson / Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Keilor Park Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Kent Road Primary School (Hamilton)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Keysborough Park Primary School</td>
-        <td>Cleared (Rabbit Infestation)</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Kingston Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Lakeside High School (Reservoir)</td>
-        <td>Cleared</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Lalbert Primary School</td>
-        <td>Closed</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Lalor Park Primary School</td>
-        <td>Cleared</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Laverton Primary School</td>
-        <td>Cleared</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Laverton Plains Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Learmonth Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Lexton Primary School</td>
-        <td>Sold</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Mandurang South Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Manningham Primary School (Templestowe Lower)</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Maralinga Primary School (Keysborough)</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Markwood Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Maroondah High School (Croydon)</td>
-        <td>Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Maryborough East Primary School</td>
-        <td>Community Use</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Maryborough High School</td>
-        <td>Community Use</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Maryborough Primary School</td>
-        <td>Sold</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Maryborough Technical School</td>
-        <td>Sold</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Meadow Fair North Primary School (Broadmeadows)</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Meerlieu Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Merbein Primary School</td>
-        <td>Cleared</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Merbein South Primary School</td>
-        <td>Cleared</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Merbein West Primary School</td>
-        <td>Cleared</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Milleara Primary School (Avondale Heights)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Monash High School (Clayton)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Monash Primary School (Clayton)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Mooroolbark Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Mooroolbark Technical School</td>
-        <td>Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Moreland City College (Coburg)</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Mount Moriac Primary School</td>
-        <td>Cleared / Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Mudgegonga Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Murtoa Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Narre Warren Station Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Netherby Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Norlane High School</td>
-        <td>Arson / Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Nunawading Primary School</td>
-        <td>Arson / Demolished</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Oakwood Park Primary School (Noble Park)</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Ouyen Primary School</td>
-        <td>Cleared</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Parkwood High School (Ringwood North)</td>
-        <td>Sold / Acquired</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Patchewollock Group School</td>
-        <td>Sold</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Pembroke High School (Kilsyth)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Piangil Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Pines Forest Primary School (Frankston North)</td>
-        <td>Cleared / Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Preston East Primary School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Preston Girls High School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Quambatook Group School</td>
-        <td>Closed / Surplus</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Rainbow Primary School</td>
-        <td>Community Use</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Rosewall Primary School (Corio)</td>
-        <td>Cleared</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Ruffy Primary School</td>
-        <td>Community Use</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Ruthven Primary School (Reservoir)</td>
-        <td>Cleared</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>St Albans Technical School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Seymour East Primary School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Shady Creek Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Smeaton Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Southvale Primary School (Noble Park)</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Springvale High School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Stanley Primary School</td>
-        <td>Community Use</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Sunnycliffs Primary School</td>
-        <td>Closed / Surplus</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Sunshine Technical School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Sunvale Primary School (Sunshine)</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Swan Hill Technical School</td>
-        <td>Demolished</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Swan Marsh Primary School</td>
-        <td>Closed / Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Tallangatta Valley Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Tatong Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Tatura East Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Thornton Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Tobruk Street Primary School (Morwell)</td>
-        <td>Cleared / Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Tubbut Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Upfield High School</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Upfield Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Wando Vale Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Wangaratta Technical School</td>
-        <td>Sold</td>
-        <td>Probably Not</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Wareek Primary School</td>
-        <td>Sold</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Warrenbayne Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Watchem Primary School</td>
-        <td>Sold</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Welton Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Westmeadows Heights Primary School</td>
-        <td>Cleared</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Windermere Primary School</td>
-        <td>Preparing for Sale</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Wonthaggi Technical School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Woodglen Primary School</td>
-        <td>Closed</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Yan Yean Primary School</td>
-        <td>Mostly Demolished</td>
-        <td>Kind Of</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Yapeen Primary School</td>
-        <td>Community Use</td>
-        <td>No</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Yarrawonga Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Yellingbo Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-warning-light">
-    
-        <td>Youanmite Primary School</td>
-        <td>Closed</td>
-        <td>Maybe</td>
-      </tr>
-    
-    
-      <tr class="has-background-danger-light">
-    
-        <td>Yuille Primary School (Ballarat)</td>
-        <td>Sold / Acquired</td>
-        <td>No</td>
-      </tr>
-    
-  </tbody>
-</table>
+<div class="table-container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Fate</th>
+        <th>Still Standing?</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Altona East Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Altona Gate Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Ardeer High School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Athlone Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Ballendella Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-success-light">
+      
+          <td>Barongarook Primary School</td>
+          <td>Closed</td>
+          <td>Yes</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Bell Park Technical School</td>
+          <td>Demolished / Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Bellfield Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Bena Primary School</td>
+          <td>Closed / Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Benalla West Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Benambra Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Bendigo East Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Bendigo North Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Bessiebelle Primary School</td>
+          <td>Closed / Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Boorhaman Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Boort Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Boronia Technical School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Brandon Park Technical School (Wheelers Hill)</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Braybrook Primary School</td>
+          <td>Arson</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Brim Primary School</td>
+          <td>Closed / Partially Cleared</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Buffalo Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Bullengarook Primary School</td>
+          <td>Closed</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Burbank Primary School (Reservoir)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Calder Rise Primary School (Keilor)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Campmeadows Primary School (Broadmeadows)</td>
+          <td>Cleared</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Caramut Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Carrajung South Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Castlemaine Technical School</td>
+          <td>Closed</td>
+          <td>Probably</td>
+        </tr>
+      
+      
+        <tr class="has-background-success-light">
+      
+          <td>Clarkefield Primary School</td>
+          <td>Closed</td>
+          <td>Yes</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Clayton Primary School</td>
+          <td>Closed / Sold / Arson</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Clayton West Primary School</td>
+          <td>Closed / Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Cloverlea Primary School</td>
+          <td>Sold</td>
+          <td>Probably</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Colac High School</td>
+          <td>Partially Cleared / Given to Community</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Commercial Road Primary School (Morwell)</td>
+          <td>Merged / Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Coomoora High School (Springvale South)</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Corio North High School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Corio South Primary School</td>
+          <td>Arson / Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Cressy Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Crinigan Road Primary School (Morwell)</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Croydon North Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Croydon South Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Culgoa Primary School</td>
+          <td>Dismantled</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Dallas Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Dallas North Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Dawes Road Primary School (Kyabram)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Dean Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Doveton Technical School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Doveton North Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Drummartin Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Echuca High School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Echuca South Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Echuca West Primary School</td>
+          <td>Arson?</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Endeavour Hills Secondary College</td>
+          <td>Cleared</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Erinbank High School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Eumemmerring Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Ferntree Gully High School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Ferntree Gully Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Flora Hill Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Geelong East Technical School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Geelong West Technical School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Gellibrand Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Gerangamete Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Glen Devon Primary School (Werribee)</td>
+          <td>Arson / Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Glengala Park Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Glenorchy Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Glenroy Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Glenroy North Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Glenthompson Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Golden Square High School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Golden Square Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Goongerah Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Goorambat Primary School</td>
+          <td>Closed / Sold</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Greenslopes Primary School (Dandenong North)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Guildford Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Harrow Primary School</td>
+          <td>Closed / Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Heidelberg High School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Heidelberg West Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Highlands Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Hill End Primary School</td>
+          <td>Community Use</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Hopetoun Primary School</td>
+          <td>Declared Surplus</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Irrewillipe East Primary School</td>
+          <td>Closed</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Jacana Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Katamatite East Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Kawarren Primary School</td>
+          <td>Community Use</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Kealba High School</td>
+          <td>Arson / Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Keilor Park Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Kent Road Primary School (Hamilton)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Keysborough Park Primary School</td>
+          <td>Cleared (Rabbit Infestation)</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Kingston Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Lakeside High School (Reservoir)</td>
+          <td>Cleared</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Lalbert Primary School</td>
+          <td>Closed</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Lalor Park Primary School</td>
+          <td>Cleared</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Laverton Primary School</td>
+          <td>Cleared</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Laverton Plains Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Learmonth Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Lexton Primary School</td>
+          <td>Sold</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Mandurang South Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Manningham Primary School (Templestowe Lower)</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Maralinga Primary School (Keysborough)</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Markwood Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Maroondah High School (Croydon)</td>
+          <td>Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Maryborough East Primary School</td>
+          <td>Community Use</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Maryborough High School</td>
+          <td>Community Use</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Maryborough Primary School</td>
+          <td>Sold</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Maryborough Technical School</td>
+          <td>Sold</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Meadow Fair North Primary School (Broadmeadows)</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Meerlieu Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Merbein Primary School</td>
+          <td>Cleared</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Merbein South Primary School</td>
+          <td>Cleared</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Merbein West Primary School</td>
+          <td>Cleared</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Milleara Primary School (Avondale Heights)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Monash High School (Clayton)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Monash Primary School (Clayton)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Mooroolbark Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Mooroolbark Technical School</td>
+          <td>Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Moreland City College (Coburg)</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Mount Moriac Primary School</td>
+          <td>Cleared / Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Mudgegonga Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Murtoa Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Narre Warren Station Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Netherby Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Norlane High School</td>
+          <td>Arson / Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Nunawading Primary School</td>
+          <td>Arson / Demolished</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Oakwood Park Primary School (Noble Park)</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Ouyen Primary School</td>
+          <td>Cleared</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Parkwood High School (Ringwood North)</td>
+          <td>Sold / Acquired</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Patchewollock Group School</td>
+          <td>Sold</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Pembroke High School (Kilsyth)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Piangil Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Pines Forest Primary School (Frankston North)</td>
+          <td>Cleared / Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Preston East Primary School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Preston Girls High School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Quambatook Group School</td>
+          <td>Closed / Surplus</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Rainbow Primary School</td>
+          <td>Community Use</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Rosewall Primary School (Corio)</td>
+          <td>Cleared</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Ruffy Primary School</td>
+          <td>Community Use</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Ruthven Primary School (Reservoir)</td>
+          <td>Cleared</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>St Albans Technical School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Seymour East Primary School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Shady Creek Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Smeaton Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Southvale Primary School (Noble Park)</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Springvale High School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Stanley Primary School</td>
+          <td>Community Use</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Sunnycliffs Primary School</td>
+          <td>Closed / Surplus</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Sunshine Technical School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Sunvale Primary School (Sunshine)</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Swan Hill Technical School</td>
+          <td>Demolished</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Swan Marsh Primary School</td>
+          <td>Closed / Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Tallangatta Valley Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Tatong Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Tatura East Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Thornton Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Tobruk Street Primary School (Morwell)</td>
+          <td>Cleared / Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Tubbut Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Upfield High School</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Upfield Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Wando Vale Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Wangaratta Technical School</td>
+          <td>Sold</td>
+          <td>Probably Not</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Wareek Primary School</td>
+          <td>Sold</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Warrenbayne Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Watchem Primary School</td>
+          <td>Sold</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Welton Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Westmeadows Heights Primary School</td>
+          <td>Cleared</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Windermere Primary School</td>
+          <td>Preparing for Sale</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Wonthaggi Technical School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Woodglen Primary School</td>
+          <td>Closed</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Yan Yean Primary School</td>
+          <td>Mostly Demolished</td>
+          <td>Kind Of</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Yapeen Primary School</td>
+          <td>Community Use</td>
+          <td>No</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Yarrawonga Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Yellingbo Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-warning-light">
+      
+          <td>Youanmite Primary School</td>
+          <td>Closed</td>
+          <td>Maybe</td>
+        </tr>
+      
+      
+        <tr class="has-background-danger-light">
+      
+          <td>Yuille Primary School (Ballarat)</td>
+          <td>Sold / Acquired</td>
+          <td>No</td>
+        </tr>
+      
+    </tbody>
+  </table>
+</div>
 
 <p>Looking at the results, out of the 173 schools on the list, 98 are probably gone, 73 are maybes, and 2 are yes’s. That being said, I was definitely overgenerous with giving out maybes, so the final total is likely much lower. A surprising amount of these schools probably would still be standing if people hadn’t decided to commit arson, which a) really sucks, and b) means that the original article was actually correct. I can’t believe that I lived to see the day where The Age posted factual information. I’m actually starting to have a sneaking suspicion that the 1990 list might end up having more sites still standing, just because older sites would be more of a hassle to demolish (asbestos).</p>
 

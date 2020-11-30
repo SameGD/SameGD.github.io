@@ -5,15 +5,18 @@ title: Graphics Demo
 subtitle: The official birthplace of Pestilence and Famine
 ---
 
+<div class="is-overlay">
+  <label class="darkmode">
+    <input type="checkbox" id="darkmode">
+    <label class="is-pulled-right" for="darkmode" title="Toggle Dark Mode"></label>
+  </label>
+</div>
+
+
 {% include hero-banner.html header="indexheader" %}
 
 <section class="section">
   <div class="container">
-
-    <label class="checkbox darkmode pb-6">
-      <input type="checkbox">
-      Dark Mode
-    </label>
 
     {% include link-card.html url="/blog" title="Blog" description="A place to put all my various musings / my elaborate plan to kill Weezer." %}
 

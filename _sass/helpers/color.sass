@@ -1,0 +1,40 @@
+@function varcolor($color-name)
+  @return var(--#{$color-name})
+
+@each $name, $pair in $colors
+  $color: nth($pair, 1)
+  .has-text-#{$name}
+    color: varcolor($name) !important
+  a.has-text-#{$name}
+    &:hover,
+    &:focus
+      color: varcolor(#{$name}-select) !important
+  .has-background-#{$name}
+    background-color: varcolor($name) !important
+  @if length($pair) >= 4
+    $color-light: nth($pair, 3)
+    $color-dark: nth($pair, 4)
+    // Light
+    .has-text-#{$name}-light
+      color: varcolor(#{$name}-light) !important
+    a.has-text-#{$name}-light
+      &:hover,
+      &:focus
+        color: varcolor(#{$name}-light-select) !important
+    .has-background-#{$name}-light
+      background-color: varcolor(#{$name}-light) !important
+    // Dark
+    .has-text-#{$name}-dark
+      color: varcolor(#{$name}-dark) !important
+    a.has-text-#{$name}-dark
+      &:hover,
+      &:focus
+        color: varcolor(#{$name}-dark-select) !important
+    .has-background-#{$name}-dark
+      background-color: varcolor(#{$name}-dark) !important
+
+@each $name, $shade in $shades
+  .has-text-#{$name}
+    color: varcolor(#{$name}) !important
+  .has-background-#{$name}
+    background-color: varcolor(#{$name}) !important

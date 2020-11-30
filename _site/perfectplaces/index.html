@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="/assets/css/bulma.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+<script type="text/javascript" src="/assets/js/darkmode.js"></script>
+<script type="text/javascript" src="/assets/js/colour.js"></script>
+    
+    <title>
+      Graphics Demo  | Perfect Places 
+    </title>
+    
+  </head>
+  <body>
+    
+    <nav class="nb has-background-primary">
+  
+  <div class="nb-content">
+    
+    <div class="nb-item nb-breadcrumbs">
+      <ul>
+        <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
+
+        
+
+        <li class="is-active"><a class="subtitle is-5" href="#">Perfect Places</a></li>
+
+        
+        
+        
+        
+      </ul>
+    </div>
+    
+    <div class="nb-item darkmode">
+      
+      <input id="darkmode" type="checkbox">
+      <label for="darkmode" title="Toggle Dark Mode"></label>
+      
+    </div>
+    
+  </div>
+  
+</nav>
+
+<section class="hero  has-background-primary-light ">
+  <div class="hero-body">
+    <div class="container">
+      <div class="card has-text-centered">
+        <div class="card-header has-background-primary p-3"></div>
+        <div class="card-content">
+          <h1 class="title is-2 has-text-weight-bold">
+            
+              Perfect Places
+            
+          </h1>
+          <h2 class="subtitle">Please don't sue me Lorde</h2>
+        </div>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <article class="message">
+      <div class="message-body bg-colorthis border-colorthis content">
+        <p class="title is-5">Project Essential To-Do's:</p>
+        
+        <ul>
+          <li>Write project description.</li>
+          <li>Get User Location</li>
+          <li>Use <a href="https://developers.google.com/places/web-service/search">Maps API</a> to search for places near user location.</li>
+          <li>Or <a href="https://www.sygic.com/blog/2018/sygic-places-as-an-alternative-to-the-google-places-api">this</a> might be a possible alternative?</li>
+          <li>Allow user to specify radius for search (But default to something like 5km).</li>
+          <li>Randomly select one of the search results and display information about it.</li>
+          <li>Allow user to select / remove certain types of places from being selected (eg. restaurants, cafe's, etc).</li>
+        </ul>
+        
+      </div>  
+    </article>
+    
+    <article class="message">
+      <div class="message-body bg-colorthis border-colorthis content">
+        <p class="title is-5">This won't work right now, I'm not going to include my API key in the online version until everything works correctly.</p>
+      </div>  
+    </article>
+
+  </div>
+</section>
+
+<section class="section">
+  
+  <div class="container">
+    
+    <article class="panel is-primary" id="settings">
+      <p class="panel-heading">
+        Options
+      </p>
+      <label class="panel-block">
+        <input id="open" type="checkbox">
+          Open Now
+      </label>
+      <div class="panel-block">
+        <p class="control">
+          Search Radius (in Meters) (Please keep this as low as possible)
+          <input id="radius" class="input" type="number" placeholder="1000" value="10000" max="50000">
+        </p>
+      </div>
+      <div class="panel-block">
+        <p class="control">
+          Keyword
+          <input id="keyword" class="input" type="text" placeholder="Keyword" value="Interesting">
+        </p>
+      </div>
+      <div class="panel-block">
+        <button class="button is-primary has-text-centered is-fullwidth" onClick="getLocation();">Do The Mario</button>
+      </div>
+    </article>
+
+    <section class="section has-text-centered mt-0 pt-0 is-hidden" id="placeCard">
+
+      <div class="card">
+
+        <div class="card-header has-background-primary p-3"></div>
+
+        <div id="map" style="height: 30vh;"></div>
+
+        <div class="card-content">
+          <p class="title is-4" id="placeName"></p>
+          <p id="placeLocation"></p>
+        </div>
+
+        <footer class="card-footer">
+          <button class="button card-footer-item" onClick="previousItem();">Previous</button>
+          <button class="button card-footer-item" onClick="nextItem();">Next</button>
+        </footer>
+
+      </div>
+      
+      <button class="button is-primary has-text-centered is-fullwidth" id="more">Do Next</button>
+
+    </section>
+
+    <div id="results"></div>
+
+  </div>
+  
+</section>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=&libraries=places"></script>
+    
+<script type="text/javascript" src="/assets/js/perfectplaces.js"></script>
+
+
+    
+  </body>
+</html>

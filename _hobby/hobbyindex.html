@@ -46,7 +46,7 @@ subtitle: Whoa they made ADHD into a hobby???
 <section class="section">
   <div class="container hobbycontainer">
 
-    <div class="card has-text-centered">
+    <div class="card has-text-centered is-radiusless">
         <div class="card-header has-background-primary p-3"></div>
         <div class="card-content">
           <p class="title is-3 has-text-weight-bold">In Progress</p>
@@ -55,7 +55,7 @@ subtitle: Whoa they made ADHD into a hobby???
 
     <button class="button is-radiusless is-borderless has-background-primary-light is-fullwidth" onClick="toggleDiv(this)">Expand</button>
 
-    <div class="box hobbygrid mt-4 is-hidden">
+    <div class="box hobbygrid mt-4 is-hidden pl-0 pr-0">
       {% for hobbylist in site.data.hobbies.hobbylists %}
         {% for hobby in hobbylist.hobbies %}
           {% if hobby.status == "in-progress" %}
@@ -74,7 +74,7 @@ subtitle: Whoa they made ADHD into a hobby???
 <section class="section">
   <div class="container hobbycontainer">
 
-    <div class="card has-text-centered">
+    <div class="card has-text-centered is-radiusless">
         <div class="card-header has-background-primary p-3"></div>
         <div class="card-content">
           <p class="title is-3 has-text-weight-bold">{{ hobbylist.title }}</p>
@@ -85,7 +85,7 @@ subtitle: Whoa they made ADHD into a hobby???
 
     <button class="button is-radiusless is-borderless has-background-primary-light is-fullwidth" onClick="toggleDiv(this)">Expand</button>
 
-    <div class="box hobbygrid mt-4 is-hidden">
+    <div class="box hobbygrid mt-4 is-hidden pl-0 pr-0">
       {% for hobby in hobbylist.hobbies %}
         <a class="hobbyitem {{ hobby.status }}" href="{{ hobby.name | slugify }}">{{ hobby.name }}</a>
       {% endfor %}
