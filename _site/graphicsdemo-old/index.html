@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="/assets/css/bulma.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+<script type="text/javascript" src="/assets/js/darkmode.js"></script>
+<script type="text/javascript" src="/assets/js/colour.js"></script>
+    
+    <title>
+      Graphics Demo  | Original Graphics Demo 
+    </title>
+    
+  </head>
+  <body>
+    
+    
+<nav class="nb has-background-primary">
+
+  <div class="nb-content">
+    
+    <div class="nb-item nb-breadcrumbs">
+      <ul>
+        <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
+
+        
+
+        <li class="is-active"><a class="subtitle is-5" href="#">Original Graphics Demo</a></li>
+
+        
+        
+        
+        
+      </ul>
+    </div>
+    
+    <div class="nb-item darkmode">
+      
+      <input id="darkmode" type="checkbox">
+      <label for="darkmode" title="Toggle Dark Mode"></label>
+      
+    </div>
+    
+  </div>
+  
+</nav>
+
+<!-- I've made a few modifications to the original code, mostly in making the canvas and options fit on the secreen properly. However, the code that draws the graphics is unchanged, and there in it's horrifying glory. -->
+
+<style>
+  
+  .options {
+    height: 10%;
+  }
+  
+  .options .input {
+    padding-right: 2rem;
+  }
+</style>
+
+<section class="section px-5 pb-1">
+
+    <div class="" id="CanvasContainer">
+        <canvas id="canvas" onmousemove="getPositions();" width="611" height="502">This product uses canvas and needs JavaScript and your browser doesn't support it, upgrade to something useful, you monkey</canvas>
+    </div>
+
+    <div class="options field has-text-centered">
+      <div class="control">
+      
+      <label class="checkbox">
+        Square Loop
+        <input type="checkbox" id="squareloop"> | 
+      </label>
+      
+      <label class="checkbox">
+        Circle Loop
+        <input type="checkbox" id="circleloop"> | 
+      </label>
+      
+      <label class="checkbox">
+        Lines Loop
+        <input type="checkbox" id="lineloop"> | 
+      </label>
+      
+      <label class="checkbox">
+        Follow Mouse Loop
+        <input type="checkbox" id="followmouse"> | 
+      </label>
+      
+      <label class="checkbox">
+        Image Loop
+        <input type="checkbox" id="imageloop"> | 
+      </label>
+      
+      <label class="checkbox">
+        Image Loop Image
+        <input type="file" id="input">
+      </label>
+      
+      </div>
+        
+    </div>
+
+</section>
+
+<script>
+  var intervalID = window.setInterval(drawStuff, 1);
+  var X = Math.floor(Math.random() * (2000 - 0 + 1)) + 0;
+  var Y = Math.floor(Math.random() * (1000 - 0 + 1)) + 0;
+  var width = Math.floor(Math.random() * (50 - 1 + 1)) + 1;
+  var height = Math.floor(Math.random() * (50 - 1 + 1)) + 1;
+  var MouseX;
+  var MouseY;
+  
+  //Gets Random Color (This wasn't in the original)
+  function randomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+  
+  //Gets Mouse Positions
+  function getPositions(ev) {
+      if (ev == null) { ev = window.event }
+          MouseX = ev.offsetX;
+          MouseY = ev.offsetY;
+      };
+
+  var canvas = document.getElementById("canvas")
+  var cx = canvas.getContext("2d");
+
+  window.addEventListener('resize', resizeCanvas, false);
+
+  function resizeCanvas() {
+
+          canvas.width = document.getElementById('CanvasContainer').clientWidth;
+          canvas.height = window.innerHeight - (window.innerHeight * 0.2);
+
+          drawStuff();
+      }
+
+  resizeCanvas();
+
+  function drawStuff() {
+
+
+      var squareloop = document.getElementById('squareloop');
+
+      if (squareloop.checked) {
+
+          for (i = 0; i < 51; i++) {
+
+              X = Math.floor(Math.random() * (2000 - 0 + 1)) + 0;
+              Y = Math.floor(Math.random() * (1000 - 0 + 1)) + 0;
+              width = Math.floor(Math.random() * (50 - 1 + 1)) + 1;
+              height = Math.floor(Math.random() * (50 - 1 + 1)) + 1;
+              cx.strokeStyle = randomColor();
+              cx.strokeRect(X, Y, width, height);
+
+              };
+
+          };
+
+      var circleloop = document.getElementById('circleloop');
+
+      if (circleloop.checked) {
+
+          for (i = 0; i < 51; i++) {
+
+              X = Math.floor(Math.random() * (2000 - 0 + 1)) + 0;
+              Y = Math.floor(Math.random() * (1000 - 0 + 1)) + 0;
+              radius = Math.floor(Math.random() * (50 - 1 + 1)) + 1;
+
+              cx.beginPath();
+              cx.strokeStyle = randomColor();
+              cx.arc(X, Y, radius, 0, Math.PI*2, true); 
+              cx.stroke();
+
+              };
+
+       };
+
+       var imageloop = document.getElementById('imageloop');
+
+       if (imageloop.checked) {
+
+          var img = new Image();
+          var f = document.getElementById('input').files[0];
+          var url = window.URL || window.webkitURL;
+          var src = url.createObjectURL(f);
+          img.src = src;
+
+          img.onload = function () {
+
+              for (i = 0; i < 51; i++) {
+
+
+                  X = Math.floor(Math.random() * (2000 - 0 + 1)) + 0;
+                  Y = Math.floor(Math.random() * (1000 - 0 + 1)) + 0;
+                  width = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
+                  height = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
+
+                  cx.drawImage(img,X,Y,width,height);
+
+                  };
+
+              };
+
+        };
+
+         var followmouseloop = document.getElementById('followmouse');
+
+         if (followmouseloop.checked) {
+
+              for (i = 0; i < 51; i++) {
+
+
+                  X = Math.floor(Math.random() * (2000 - 0 + 1)) + 0;
+                  Y = Math.floor(Math.random() * (1000 - 0 + 1)) + 0;
+
+                  cx.beginPath();
+                  cx.strokeStyle = randomColor();
+                  cx.moveTo(MouseX,MouseY);
+                  cx.lineTo(X,Y);
+                  cx.stroke();
+
+                  };
+
+              };
+
+         var lineloop = document.getElementById('lineloop');
+
+         if (lineloop.checked) {
+
+              for (i = 0; i < 51; i++) {
+
+
+                  X = Math.floor(Math.random() * (2000 - 0 + 1)) + 0;
+                  Y = Math.floor(Math.random() * (1000 - 0 + 1)) + 0;
+
+
+                  cx.beginPath();
+                  cx.strokeStyle = randomColor();
+                  cx.moveTo(X,Y);
+
+                  X = Math.floor(Math.random() * (2000 - 0 + 1)) + 0;
+                  Y = Math.floor(Math.random() * (1000 - 0 + 1)) + 0;
+
+                  cx.lineTo(X,Y);
+                  cx.stroke();
+
+              };
+
+         };  
+  };
+</script>
+    
+  </body>
+</html>

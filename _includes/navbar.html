@@ -1,5 +1,8 @@
+{% if include.color %}
+<nav class="nb has-background-{{ include.color }}">
+{% else %}
 <nav class="nb has-background-primary">
-  
+{% endif %}
   <div class="nb-content">
     
     <div class="nb-item nb-breadcrumbs">
