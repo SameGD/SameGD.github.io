@@ -21,7 +21,7 @@ hobbylists:
       - name: Baton Twirling
         status: unstarted
       - name: Blogging
-        status: unstarted
+        status: finished
       - name: Board/Tabletop Games
         status: unstarted
       - name: Book Discussion Club
@@ -65,7 +65,7 @@ hobbylists:
       - name: Coloring
         status: unstarted
       - name: Computer Programming
-        status: unstarted
+        status: finished
       - name: Confectionery
         status: unstarted
       - name: Cooking
@@ -153,7 +153,7 @@ hobbylists:
       - name: Homebrewing
         status: unstarted
       - name: Houseplant Care
-        status: unstarted
+        status: in-progress
       - name: Hula Hooping
         status: unstarted
       - name: Humor
@@ -295,7 +295,7 @@ hobbylists:
       - name: Spreadsheets
         status: unstarted
       - name: Stand-up Comedy
-        status: in-progress
+        status: finished
       - name: Stamp Collecting
         status: unstarted
       - name: Table Tennis
@@ -317,7 +317,7 @@ hobbylists:
       - name: Virtual Reality
         status: unstarted
       - name: Watching Movies
-        status: unstarted
+        status: in-progress
       - name: Watching Television
         status: unstarted
       - name: Waxing

@@ -11,7 +11,7 @@
 
         {% if page.collectiontitle %}
 
-        <li {% if page.index == true %}class="is-active"{% endif %}><a class="subtitle is-5" href="/{{ page.collection }}/">{{ page.collectiontitle }}</a></li>
+        <li {% if include.index == true %}class="is-active"{% endif %}><a class="subtitle is-5" href="/{{ page.collection }}/">{{ page.collectiontitle }}</a></li>
 
         {% else %}
 
