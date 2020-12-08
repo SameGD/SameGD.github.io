@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Collections -->
+  
+  
+  
+  <!-- Blog -->
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/blog/</loc>
+    
+      <lastmod>2020-09-30T19:41:00+10:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/blog/posttest</loc>
+    
+      <lastmod>2020-10-27T18:30:00+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/blog/pleasegenerate</loc>
+    
+      <lastmod>2020-11-03T12:41:00+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/blog/water-fight</loc>
+    
+      <lastmod>2020-11-04T13:12:00+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/blog/abandoned-schools-p1</loc>
+    
+      <lastmod>2020-11-09T20:41:00+11:00</lastmod>
+    
+  </url>
+  
+  
+  
+  <!-- Hobby -->
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/hobby/blogging</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/computer-programming</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/geocaching</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/houseplant-care</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/oldindex</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/shortwave-listening</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/soapmaking</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/stand-up-comedy</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/hobby/watching-movies</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  
+  
+  <!-- Mental-illness -->
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/mental-illness/</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  
+  
+  <!-- Music -->
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/music/</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  
+  
+  <!-- Neurotransmitters -->
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/neurotransmitters/</loc>
+    
+      <lastmod>2020-12-08T19:32:01+11:00</lastmod>
+    
+  </url>
+  
+  
+  
+  <!-- Posts -->
+  
+  
+  
+  
+  
+  
+</urlset>

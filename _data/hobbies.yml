@@ -1,5 +1,5 @@
 hobbylists:
-  - title: General Hobbies
+  - title: General
     subtitle: Indoors
     hobbies:
       - name: 3D Printing
@@ -352,7 +352,7 @@ hobbylists:
         status: unstarted
       - name: Zumba
         status: unstarted
-  - title: General Hobbies
+  - title: General
     subtitle: Outdoors
     hobbies:
       - name: Air Sports
@@ -607,7 +607,7 @@ hobbylists:
         status: unstarted
       - name: Water Sports
         status: unstarted
-  - title: Educational Hobbies
+  - title: Educational
     subtitle: bazinga
     hobbies:
       - name: Astronomy
@@ -638,7 +638,7 @@ hobbylists:
         status: unstarted
       - name: Sports Science
         status: unstarted
-  - title: Collection Hobbies
+  - title: Collection
     subtitle: Indoors
     hobbies:
       - name: Action Figure
@@ -721,7 +721,7 @@ hobbylists:
         status: unstarted
       - name: Vinyl Records
         status: unstarted
-  - title: Collection Hobbies
+  - title: Collection
     subtitle: Outdoors
     hobbies:
       - name: Antiquities
@@ -748,7 +748,7 @@ hobbylists:
         status: unstarted
       - name: Stone Collecting
         status: unstarted
-  - title: Competitive Hobbies
+  - title: Competitive
     subtitle: Indoors
     hobbies:
       - name: Animal Fancy
@@ -853,7 +853,7 @@ hobbylists:
         status: unstarted
       - name: Wrestling
         status: unstarted
-  - title: Competitive Hobbies
+  - title: Competitive
     subtitle: Outdoors
     hobbies:
       - name: Airsoft
@@ -984,7 +984,7 @@ hobbylists:
         status: unstarted
       - name: Water Polo
         status: unstarted
-  - title: Observation Hobbies
+  - title: Observation
     subtitle: Indoors
     hobbies:
       - name: Audiophile
@@ -1003,7 +1003,7 @@ hobbylists:
         status: unstarted
       - name: Shortwave Listening
         status: in-progress
-  - title: Observation Hobbies
+  - title: Observation
     subtitle: Outdoors
     hobbies:
       - name: Aircraft Spotting

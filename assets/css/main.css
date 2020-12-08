@@ -365,7 +365,7 @@ Hobby Hobby Index
   position: absolute;
   width: inherit;
   height: inherit;
-  border: 1px solid black;
+  border: 1px solid var(--light);
   margin: -10px; /* This should offset the padding */
 }
 
@@ -384,6 +384,72 @@ Hobby Hobby Index
   background-color: #cc0f4c0A;
   pointer-events: none;
   cursor: default;
+}
+
+.hobby-box {
+  display: flex;
+  height: 75vh;
+}
+
+.hobby-box .hobby-tabs {
+  width: 20%;
+  min-width: 106px;
+/*    border-right: 1px solid grey;*/
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+  overflow-y: auto;
+  scrollbar-width: none;
+  background-color: var(--light);
+}
+
+.hobby-box .hobby-tabs::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.hobby-box .hobby-listitem {
+  cursor: pointer;
+  width: 100%;
+  padding: 0.50rem 0.50rem;
+  height: auto;
+  min-height: 60px;
+  transition: 0.1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hobby-box .hobby-listitem:hover {
+  background-color: var(--primary-light-select);
+}
+
+.hobby-box .hobby-listitem:first-child {
+  padding-top: 0.2;
+}
+
+.hobby-box .hobby-listitem:last-child {
+  padding-bottom: 0.2;
+}
+
+.hobby-box .hobby-lists {
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hobby-box .hobbygrid {
+  overflow-y: auto;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.hobby-listitem.active-hobby {
+  background-color: var(--primary-light);
+  border-right: 3px solid var(--primary);
 }
 
 /************** 

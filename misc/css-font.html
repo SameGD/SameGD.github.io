@@ -1,0 +1,40 @@
+---
+title: Blog Test 4 - CSS Font
+layout: blogpost
+date: 2020-12-08 12:41:00+11
+---
+
+<link rel="stylesheet" href="/assets/css/css-sans.css">
+
+<style>
+
+  .ltr {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .ltr::after {
+    
+  }
+  
+  .holder {
+    
+   display: block;
+
+  }
+  
+</style>
+
+{% assign contents = site.blog[2].content | strip_html | split:"" %}
+
+<div class="holder">
+<div class="line content">
+{% for letter in contents %}
+  {% if letter == " " %}
+  </div><div class="line">
+  {% else %}
+  <div class="ltr {{ letter | capitalize }}"></div>
+  {% endif %}
+{% endfor %}
+  </div>
+</div>
