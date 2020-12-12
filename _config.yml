@@ -10,6 +10,9 @@ title: Graphics Demo
 description: Where sin meets even more sin
 author: Sam Wade
 
+sass:
+  style: compressed
+
 collections:
   blog:
     output: true
@@ -40,7 +43,7 @@ defaults:
       type: "hobby"
     values:
       layout: "hobby"
-      collectiontitle: "Hobby Hobby"
+      collectiontitle: "Hobby"
   -
     scope:
       type: "mental-illness"

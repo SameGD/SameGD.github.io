@@ -8,3 +8,79 @@ subtitle: Music peaked with Axel F, it's been all downhill since then.
 {% include navbar.html index=true %}
 
 {% include hero-banner.html header="musicheader" %}
+
+<noscript>
+  <style>
+    .card-content.is-hidden {
+      display: block;
+    }
+    .collapseicon {
+      display: hidden;
+    }
+  </style>
+</noscript>
+<style>
+  .collapse {
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .collapse:hover {
+    background-color: var(--primary-light-select) !important;
+  }
+  
+  .collapseicon {
+    transition: transform 300ms ease;
+  }
+  
+</style>
+
+<div class="container">
+  <div class="box m-4">
+    
+    <p class="title is-4">Downloaded Albums</p>
+    
+    <div class="break"></div>
+
+{% for artist in site.data.downloaded-albums %}
+
+  <div class="card mb-4">
+    <header class="card-header has-background-primary-light collapse" onclick="collapse(this)">
+      <p class="card-header-title">{{ artist.artist }}</p>
+      <span class="card-header-icon collapseicon">
+        <p class="card-header-title is-3 is-pulled-right">&#5123;</p>
+      </span>
+    </header>
+    
+    <div class="card-content content is-hidden">
+      <ul>
+      {% for album in artist.albums %}
+        
+        <li>{{ album }}</li>
+
+      {% endfor %}
+      </ul>
+      </div>
+
+    </div>
+    
+{% endfor %}   
+  </div>
+  
+</div>
+
+<script>
+  
+  function collapse(e) {
+    let collapsediv = e.nextElementSibling;
+    
+    if (collapsediv.classList.contains("is-hidden")) {
+      e.lastElementChild.style = "transform: rotateX(-180deg);";
+      collapsediv.classList.remove("is-hidden");
+    } else {
+      e.lastElementChild.style = "transform: rotateX(-360deg);";
+      collapsediv.classList.add("is-hidden");
+    } 
+  }
+  
+</script>

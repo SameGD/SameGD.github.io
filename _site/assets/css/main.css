@@ -64,6 +64,11 @@ a {
   transition: 0.3s;
 }
 
+html {
+  background-color: var(--body-color);
+}
+
+
 .break {
   border-bottom: 2px solid #eee;
   height: 5px;
@@ -237,15 +242,15 @@ Index Page Headers
 ***************/
 
 .blogheader {
-  background-image: url("/assets/images/writetest2.png");
+  background-image: url("/assets/images/blogbg.svg");
 }
 
 .indexheader {
-  background-image: url("/assets/images/sketchbg.png");
+  background-image: url("/assets/images/sketchbg.svg");
 }
 
 .hobbyheader {
-  background-image: url("/assets/images/iconbg.png");
+  background-image: url("/assets/images/iconbg.svg");
 }
 
 .mentalheader {
@@ -277,7 +282,7 @@ Blog
 .blog-top {
   align-items: stretch;
   display: flex;
-  padding: 0.75rem;
+  padding: 0.5rem;
   background-color: var(--primary);
   box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
   margin-bottom: 1rem;
@@ -328,15 +333,72 @@ Hobby Hobby Index
   pointer-events: none;
 }
 
+.hobby-box {
+  display: flex;
+  height: 75vh;
+}
+
+.hobby-box .hobby-tabs {
+  width: 20%;
+  min-width: 111px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 0.5rem;
+}
+
+.hobby-box .hobby-tabs::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.hobby-box .hobby-listitem {
+  cursor: pointer;
+  width: 100%;
+  padding: 0.50rem 0.50rem;
+  height: auto;
+  min-height: 60px;
+/*  transition: color 0.28s ease; */
+  transition: 0.4s; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.hobby-box .hobby-listitem:hover {
+  background: linear-gradient(90deg, var(--primary-light), var(--dm-white));
+}
+
+.hobby-listitem.active-hobby {
+  background: linear-gradient(90deg, var(--primary-light), var(--dm-white));
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+
+.hobby-box .hobby-lists {
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .hobbygrid {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  overflow-y: auto;
+  position: relative;
+  padding: 1rem 0;
 }
+
 
 .hobbyitem {
   flex-grow: 1;
-  flex-shrink: 1;
+  flex-shrink: 0;
   width: 150px;
   max-width: 150px;
   height: 60px;
@@ -350,10 +412,6 @@ Hobby Hobby Index
   overflow: hidden;
   transition: 0.2s;
   text-transform: capitalize;
-}
-
-.hobbyitem:hover {
-  background-color: #e6e6e61A !important;
 }
 
 /* Pseudo-elements are fucking cursed */
@@ -374,9 +432,19 @@ Hobby Hobby Index
   background-color: #64ca570A;
 }
 
+.hobbyitem.finished:hover {
+  background-color: #64ca571A;
+  color: var(--dark);
+}
+
 .hobbyitem.in-progress {
   border-right: 5px solid #fed185;
   background-color: #fed1850A;
+}
+
+.hobbyitem.in-progress:hover {
+  background-color: #fed1851A;
+  color: var(--dark);
 }
 
 .hobbyitem.unstarted {
@@ -386,71 +454,11 @@ Hobby Hobby Index
   cursor: default;
 }
 
-.hobby-box {
-  display: flex;
-  height: 75vh;
+.hobbyitem.unstarted:hover {
+  background-color: #cc0f4c1A;
+  color: var(--dark);
 }
 
-.hobby-box .hobby-tabs {
-  width: 20%;
-  min-width: 106px;
-/*    border-right: 1px solid grey;*/
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
-  overflow-y: auto;
-  scrollbar-width: none;
-  background-color: var(--light);
-}
-
-.hobby-box .hobby-tabs::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-.hobby-box .hobby-listitem {
-  cursor: pointer;
-  width: 100%;
-  padding: 0.50rem 0.50rem;
-  height: auto;
-  min-height: 60px;
-  transition: 0.1s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.hobby-box .hobby-listitem:hover {
-  background-color: var(--primary-light-select);
-}
-
-.hobby-box .hobby-listitem:first-child {
-  padding-top: 0.2;
-}
-
-.hobby-box .hobby-listitem:last-child {
-  padding-bottom: 0.2;
-}
-
-.hobby-box .hobby-lists {
-  width: 80%;
-  height: 100%;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.hobby-box .hobbygrid {
-  overflow-y: auto;
-  position: relative;
-  padding: 1rem 0;
-}
-
-.hobby-listitem.active-hobby {
-  background-color: var(--primary-light);
-  border-right: 3px solid var(--primary);
-}
 
 /************** 
 Hobby Page

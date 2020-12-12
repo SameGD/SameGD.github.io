@@ -1,6 +1,6 @@
-I"V
+I"a
 <ul>
-  <li>List of Downloaded Music</li>
+  <li><del>List of Downloaded Music</del></li>
   <li>Playlists</li>
   <li>Rankings for every song (Number out of 10, plus optional comments)</li>
   <li>Way to keep track of new artist releases (maybe with discorgs api?)</li>

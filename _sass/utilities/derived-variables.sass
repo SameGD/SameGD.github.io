@@ -79,8 +79,8 @@ $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default
 
 html:root
   --dm-white: white
+  --body-color: #f5f5f5
 
-html:root
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     --#{$name}: #{$color}
@@ -106,8 +106,8 @@ html[data-theme="dark"]
   --grey-dark: #{$grey-lighter}
   --grey-darker: #{$grey-lightest}
   --dm-white: #171717
+  --body-color: #{$black}
 
-html[data-theme="dark"]
   @each $name, $pair in $colors
     @if length($pair) >= 4
       $color: nth($pair, 1)
