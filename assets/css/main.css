@@ -123,11 +123,11 @@ Dark Mode Button
 }
 
 .darkmode input[type=checkbox] + label { 
-  background-image: url(/assets/images/sun.png);
+  background-image: url(/assets/images/sun.svg);
 }
 
 .darkmode input[type=checkbox]:checked + label { 
-  background-image: url(/assets/images/moon.png);
+  background-image: url(/assets/images/moon.svg);
 }
 
 /************** 
@@ -242,7 +242,8 @@ Index Page Headers
 ***************/
 
 .blogheader {
-  background-image: url("/assets/images/blogbg.svg");
+  background-image: url("/assets/images/blog2.svg");
+  background-size: contain;
 }
 
 .indexheader {
@@ -251,18 +252,21 @@ Index Page Headers
 
 .hobbyheader {
   background-image: url("/assets/images/iconbg.svg");
+  background-size: contain;
 }
 
 .mentalheader {
-  background-image: url("/assets/images/brainbg.png");
+  background-image: url("/assets/images/brainbg.svg");
+  background-size: contain;
 }
 
 .musicheader {
-  background-image: url("/assets/images/musicbg.png");
+  background-image: url("/assets/images/musicbg.svg");
 }
 
 .neurotransmitterheader {
-  background-image: url("/assets/images/neuronbg4.png");
+  background-image: url("/assets/images/neuronbg.svg");
+  background-size: cover;
 }
 
 /************** 
