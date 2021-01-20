@@ -242,31 +242,40 @@ Index Page Headers
 ***************/
 
 .blogheader {
-  background-image: url("/assets/images/blog2.svg");
+  background-image: url("/assets/images/headers/blog2.svg");
   background-size: contain;
+  opacity: 85%;
 }
 
 .indexheader {
-  background-image: url("/assets/images/sketchbg.svg");
+  background-image: url("/assets/images/headers/sketchbg.svg");
 }
 
 .hobbyheader {
-  background-image: url("/assets/images/iconbg.svg");
+  background-image: url("/assets/images/headers/iconbg.svg");
   background-size: contain;
+  opacity: 85%;
 }
 
 .mentalheader {
-  background-image: url("/assets/images/brainbg.svg");
+  background-image: url("/assets/images/headers/brainbg.svg");
   background-size: contain;
+  opacity: 85%;
 }
 
 .musicheader {
-  background-image: url("/assets/images/musicbg.svg");
+  background-image: url("/assets/images/headers/musicbg.svg");
+  opacity: 85%;
 }
 
 .neurotransmitterheader {
-  background-image: url("/assets/images/neuronbg.svg");
+  background-image: url("/assets/images/headers/neuronbg.svg");
   background-size: cover;
+  opacity: 90%;
+}
+
+.projectheader {
+  background-image: url("/assets/images/headers/projectbg.svg")
 }
 
 /************** 
@@ -306,6 +315,17 @@ Blog
   padding: 1.5rem;
 }
 
+.blog-content img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.blog-content p sub  {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
   .blog.section {

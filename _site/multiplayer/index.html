@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="/assets/css/bulma.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+<script type="text/javascript" src="/assets/js/darkmode.js"></script>
+<script type="text/javascript" src="/assets/js/colour.js"></script>
+    
+    <title>
+      Graphics Demo  | Multiplayer Games 
+    </title>
+    
+  </head>
+  <body>
+    
+    
+<nav class="nb has-background-primary">
+
+  <div class="nb-content">
+    
+    <div class="nb-item nb-breadcrumbs">
+      <ul>
+        <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
+
+        
+
+        <li class="is-active"><a class="subtitle is-5" href="#">Multiplayer Games</a></li>
+
+        
+        
+        
+        
+      </ul>
+    </div>
+    
+    <div class="nb-item darkmode">
+      
+      <input id="darkmode" type="checkbox">
+      <label for="darkmode" title="Toggle Dark Mode"></label>
+      
+    </div>
+    
+  </div>
+  
+</nav>
+
+<section class="hero  has-background-primary-light ">
+  <div class="hero-body">
+    <div class="container">
+      <div class="card has-text-centered">
+        <div class="card-header has-background-primary p-2"></div>
+        <div class="card-content">
+          <h1 class="title is-2 has-text-weight-bold">
+            
+              Multiplayer Games
+            
+          </h1>
+          <h2 class="subtitle">Gotta play em all</h2>
+        </div>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<section class="section">
+
+  <div class="container is-centered has-text-centered">
+  
+    <div class="table-container box">
+      <table class="table is-fullwidth is-hoverable">
+        <thead>
+          <tr>
+            <th>Game</th>
+            <th>Played?</th>
+          </tr>
+        </thead>
+        <tbody id="gameTable">
+          
+        </tbody>
+      </table>
+    </div>
+  
+  </div>
+
+</section>
+
+<script src="/assets/js/papaparse.min.js"></script>
+
+<script>
+  
+  function init() {
+    Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vSPbxOHYhrQZQrEIvNVP7KOfIcVXt3Bxwehoh2AV5uc7SPvLGZZMmme9a9mh_KiFc7VeS9xAaBC0kSX/pub?output=csv', {
+      download: true,
+      header: true,
+      complete: function(results) {
+        let data = results.data;
+        console.log(data);
+        populateTable(data);
+      }
+    })
+  }
+  
+  function populateTable(data) {
+    
+    let table = document.getElementById("gameTable");
+    
+    data.forEach(game => {
+      
+      // Makes the row of the table for the current game
+      
+      let gameRow = document.createElement("tr");
+      
+      // Makes the td for the name of the game, sets it's value and adds it to the table row
+      
+      let gameName = document.createElement("td");
+      
+      gameName.innerHTML = game["Game"];
+      
+      gameRow.appendChild(gameName);
+      
+      // Makes the td for the played status of the game, sets it's value and adds it to the table row
+      
+      let gamePlayed = document.createElement("td");
+      
+      gamePlayed.innerHTML = game["Played?"];
+      
+      gameRow.appendChild(gamePlayed);
+      
+      if (game["Played?"] == "Yes") {
+        gameRow.classList.add("has-background-success-light");
+      }
+      
+      // Adds the row to the table
+      
+      table.appendChild(gameRow);
+      
+    });
+    
+  }
+  
+  window.addEventListener('DOMContentLoaded', init)
+  
+</script>
+    
+  </body>
+</html>

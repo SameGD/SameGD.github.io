@@ -121,12 +121,12 @@ $button-colors: $colors !default
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}
-      background-color: var(--#{$name})
+      background-color: varcolor($name)
       border-color: transparent
       color: $color-invert
       &:hover,
       &.is-hovered
-        background-color: bulmaDarken($color, 2.5%)
+        background-color: varcolor(#{$name}-select)
         border-color: transparent
         color: $color-invert
       &:focus,
@@ -134,15 +134,15 @@ $button-colors: $colors !default
         border-color: transparent
         color: $color-invert
         &:not(:active)
-          box-shadow: $button-focus-box-shadow-size bulmaRgba($color, 0.25)
+          box-shadow: $button-focus-box-shadow-size varcolor(#{$name}-light)
       &:active,
       &.is-active
-        background-color: bulmaDarken($color, 5%)
+        background-color: varcolor(#{$name}-select)
         border-color: transparent
         color: $color-invert
       &[disabled],
       fieldset[disabled] &
-        background-color: $color
+        background-color: varcolor($name)
         border-color: transparent
         box-shadow: none
       &.is-inverted

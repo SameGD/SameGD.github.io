@@ -15,12 +15,12 @@ $textarea-colors: $form-colors !default
   @each $name, $pair in $textarea-colors
     $color: nth($pair, 1)
     &.is-#{$name}
-      border-color: $color
+      border-color: varcolor($name)
       &:focus,
       &.is-focused,
       &:active,
       &.is-active
-        box-shadow: $input-focus-box-shadow-size bulmaRgba($color, 0.25)
+        box-shadow: $input-focus-box-shadow-size varcolor(#{$name}-light)
   // Sizes
   &.is-small
     +control-small
