@@ -47,6 +47,11 @@ Helper Variables
   border-left: solid 4px;
 }
 
+img.image-pop {
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+}
+
 .button.has-background-primary-light{
   transition: 0.3s;
 }
@@ -205,6 +210,99 @@ nav.nb.has-background-primary a:hover {
 }
 
 /************** 
+Image Slider
+***************/
+
+.slider {
+  text-align: center;
+  overflow: hidden;
+  -ms-overflow-style: none;
+}
+
+.slides {
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-color: transparent transparent;
+  /* thumb and track color */
+  scrollbar-width: none;
+  margin-bottom: 1rem;
+}
+  
+.slides::-webkit-scrollbar {
+  width: 0;
+}
+  
+.slides::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+  
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+  
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: auto;
+  border-radius: 0.25rem;
+  background: var(--light);
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  flex-direction: column;
+}
+
+.slides img {
+  height: 45vh;
+  width: auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+}
+
+.slides p {
+  height: 2vh;
+  margin: 0.5vh 0;
+}
+
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--light);
+  color: var(--grey-dark) !important;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
+}
+
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
+}
+
+/************** 
 Unique Color Defaults (Somewhat Deprecated)
 ***************/
 
@@ -276,6 +374,10 @@ Index Page Headers
 
 .projectheader {
   background-image: url("/assets/images/headers/projectbg.svg")
+}
+
+.plantheader {
+  background-image: url("/assets/images/headers/plantbg.svg")
 }
 
 /************** 
@@ -498,3 +600,9 @@ Hobby Page
   }
   
 }*/
+
+.plant-group {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+}

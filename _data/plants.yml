@@ -1,0 +1,42 @@
+---
+- name: "Benjamin"
+  species: "Crassula Ovata?"
+  description: "Benjamin was my first plant, that I got after an awful trip to Ikea. He's still small, but he's really improved from when I got him (and from that two month period where I accidentally underwatered him)."
+  photo-dates:
+    - "2020.12.3"
+    - "2021.01.21"
+- name: "Benju"
+  species: "Crassula Ovata?"
+  description: "Benju (or Benjamin Junior) was this random cutting I found in Benjamin's pot. He may or may not be dead."
+  photo-dates:
+    - "2021.01.21"
+- name: "Tyler"
+  species: "Aeonium Haworthii?"
+  description: "Tyler was my second plant, that I got from a farmers market. He used to be kept in my room, but after he was caught harboring a praying mantis I banished him to decking (along with all the other plants)."
+  photo-dates:
+    - "2021.01.21"
+- name: "Jamie"
+  species: "Crassula Rupestris?"
+  description: "Jamie was a Christmas gift from my sister, and I have no idea how they're progressing. What I can safely say is that they're either doing better or worse from when I got them."
+  photo-dates:
+    - "2021.01.21"
+- name: "Steven"
+  species: "Callisia Repens?"
+  description: "Steven was also a Christmas gift from my sister, so Jamie and him are essentially siblings. Steven was named after Steven Universe, because you know, they're both pink. I know, I'm a creative genius, no need to praise me."
+  photo-dates:
+    - "2021.01.21"
+- name: "Izzy"
+  species: "Crassula Arborescens?"
+  description: "I found Izzy in the backyard in the bowl she's currently in, except there were only rocks and no soil inside it. After replanting her, I think she's starting to do ok again, although I have no idea how to check if that's true."
+  photo-dates:
+    - "2021.01.21"
+- name: "Theo"
+  species: "Crassula Ovata?"
+  description: "Theo was in the same bowl as Izzy, but he was put in one of my sisters pottery attempts instead. I think he's actually doing quite well, he's definitely less shriveled than when I found him."
+  photo-dates:
+    - "2021.01.21"
+- name: "Penny"
+  species: "Portulacaria Afra?"
+  description: "Penny actually belongs to my parents, and was outside our house for years before I repotted her. Apparently you put this type of plant at the front of your door, and it brings the house money (which is why I named her Penny). Of course no one watered it for years, so she's not doing so hot right now."
+  photo-dates:
+    - "2021.01.21"
