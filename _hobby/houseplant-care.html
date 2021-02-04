@@ -6,13 +6,13 @@ subtitle: makes plant noises
 
 {% include navbar.html %}
 
-{% include hero-banner.html size="small" header="plantheader" %}
+{% include hero-banner.html size="small" header="plant-header" %}
 
 <section class="section">
   <div class="container">
-    
+
     <div class="box">
-  
+
       <p class="title is-5">Introduction</p>
 
       <p>As it turns out, I actually enjoy taking care of houseplants. Sure it's not the most involved of hobbies, but there's something really satisfying about checking up on your plants everyday and seeing them grow. Plus giving them names and taking care of them makes them feel like extremely low maintenance pets, which just adds to their appeal.</p>
@@ -20,9 +20,9 @@ subtitle: makes plant noises
       <br>
 
       <p>This page will be dedicated to showing off my steadily growing plant collection, and tracking how my plants change over time.</p>
-      
+
     </div>
-    
+
     <div class="card">
       <div class="card-header has-background-primary p-1"></div>
       <div class="card-content p-0 m-0">
@@ -30,7 +30,7 @@ subtitle: makes plant noises
         <img class="image plant-group" src="/assets/images/hobby/plants/2021.01.21-Group.jpg">
       </div>
     </div>
-    
+
   </div>
 </section>
 
@@ -43,37 +43,37 @@ subtitle: makes plant noises
       </div>
       <div class="card-header has-background-primary p-1" style="border-top-left-radius: : 0; border-top-right-radius: "></div>
     </div>
-    
+
     <div class="is-flex is-flex-wrap-wrap is-align-content-center is-justify-content-center">
-    
+
     {% for plant in site.data.plants %}
-    
+
       <div class="card m-4 is-flex-shrink-1">
         <div class="card-image">
           <figure>
             <div class="slider">
 
               <div class="slides">
-              
+
                 {% for date in plant.photo-dates reversed %}
-                
+
                 <div id="{{plant.name}}-{{forloop.index}}">
                   <img src="/assets/images/hobby/plants/{{date}}-{{plant.name}}.jpg" alt="{{plant.name}}">
                   <p class="subtitle is-6">{{date | date_to_long_string}}</p>
                 </div>
-                
+
                 {% endfor %}
-              
+
               </div>
-              
+
               {% for date in plant.photo-dates %}
-            
+
               <a href="#{{plant.name}}-{{forloop.index}}">{{forloop.index}}</a>
-              
+
               {% endfor %}
-              
+
             </div>
-            
+
           </figure>
         </div>
         <div class="card-content pt-0">
@@ -89,11 +89,11 @@ subtitle: makes plant noises
           </div>
         </div>
       </div>
-    
+
     {% endfor %}
-      
+
     </div>
-    
+
   </div>
-  
+
 </section>

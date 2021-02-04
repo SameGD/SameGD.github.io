@@ -1,0 +1,44 @@
+- category: "General"
+  tasks:
+    - "More vibrant colour selection for color.js"
+    - "Easy referencing system for pages"
+
+- category: "Future Ideas"
+  tasks:
+    - "Perfect Places"
+    - "Multiplayer (OG) Graphics Demo"
+    - "Shower Thoughts Page"
+    - "Somehow implement Sonic Shuffle (Very long-term project, if it happens at all)"
+
+- category: "Blog"
+  tasks:
+    - "Tags / categories for posts"
+    - "Center images on page"
+    - "Give images box-shadow"
+    - "Better display for the post list"
+    - "Better Header Image"
+
+- category: "Hobby"
+  tasks:
+    - "Search function for the hobbies"
+    - "Count for how many are Not Started, In-Progress and Finished"
+
+- category: "Neurotransmitters"
+  tasks:
+    - "Compile a list of the neurotransmitters and neuropeptides"
+    - "Make layout for individual pages"
+    - "Make the index page"
+
+- category: "Mental illnesses"
+  tasks:
+    - "Mental Illness quiz for each of the mental illnesses (or maybe one big one?), that uses AI to change the wording of the questions, as well as using negatives that can subtract from the final score"
+    - "Make layout for individual pages"
+    - "Make a non-placeholder index page"
+
+- category: "Music"
+  tasks:
+    - "List of Downloaded Music (Files)"
+    - "Playlists (with link to youtube?)"
+    - "Rankings for every song (Number out of 10, plus optional comments)"
+    - "Way to keep track of new artist releases (maybe with discorgs api?)"
+    - "Way to display recent emails from each artist's mailing list"

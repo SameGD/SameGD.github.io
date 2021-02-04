@@ -9,88 +9,26 @@ subtitle: I guess I should put content on this website at some point.
 
 {% include hero-banner.html size="small" header="" %}
 
-<!-- Content Variables for Cards-->
-
-<!-- General -->
-{% capture general %}
-* More vibrant colour selection for color.js
-* Easy referencing system for pages
-* ~~Dark Mode button~~
-* ~~Overthrow the janky Bulma CSS and use a more stripped down framework OR just make a css framework for the site~~
-* ~~Properly center navbar~~
-{% endcapture %}
-
-<!-- Future Ideas -->
-{% capture future %}
-* Perfect Places
-* Multiplayer (OG) Graphics Demo
-* Re-jiggered GD Messenger, possibly with encryption?
-* WebRTC Video / Voice Chat (Resurrected GD Video)
-* Shower Thoughts Page
-* Somehow implement Sonic Shuffle (Very long-term project, if it happens at all)
-{% endcapture %}
-
-<!-- Blog --> 
-{% capture blog %}
-* Tags / categories for posts
-* Center images on page
-* Better display for the post list
-* (Non-placeholder) Header Image
-{% endcapture %}
-
-<!-- Hobby -->
-{% capture hobby %}
-* ~~Improve collapse.js code / make page work without javascript enabled~~
-* Search function for the hobbies
-* ~~Nicer looking in-progress tab~~
-* ~~Hover for collapse button~~
-* (Non-placeholder) Header Image
-* Count for how many are Not Started, In-Progress and Finished
-{% endcapture %}
-
-<!-- Neurotransmitters -->
-{% capture neurotransmitters %}
-* Compile a list of the neurotransmitters and neuropeptides
-* Make layout for individual pages
-* (Non-placeholder) Header Image
-{% endcapture %}
-
-<!-- Mental Illness -->
-{% capture mental %}
-* Compile a list of all the mental illnesses
-* Mental Illness quiz for each of the mental illnesses (or maybe one big one?), that uses AI to change the wording of the questions, as well as using negatives that can subtract from the final score.
-* (Non-placeholder) Header Image 
-{% endcapture %}
-
-<!-- Music -->
-{% capture music %}
-* ~~List of Downloaded Music~~
-* Playlists
-* Rankings for every song (Number out of 10, plus optional comments)
-* Way to keep track of new artist releases (maybe with discorgs api?)
-* Way to display recent emails from each artist's mailing list
-* (Non-placeholder) Header Image
-{% endcapture %}
-
-<!-- End Content Variables -->
-
 <section class="section">
 
   <div class="container">
-  
-    {% include card-md.html title="General To-Do's" content=general %}
 
-    {% include card-md.html title="Future Ideas" content=future %}
+    {% for category in site.data.to-do  %}
 
-    {% include card-md.html title="Blog To-Do's" content=blog %}
+    <div class="card mb-4">
+      <header class="card-header has-background-primary-light">
+        <p class="card-header-title">{{ category.category }}</p>
+      </header>
+      <div class="card-content content">
+        <ul>
+          {% for task in category.tasks %}
+          <li>{{task}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 
-    {% include card-md.html title="Hobby To-Do's" content=hobby %}
+    {% endfor %}
 
-    {% include card-md.html title="Neurotransmitters To-Do's" content=neurotransmitters %}
-
-    {% include card-md.html title="Mental Illness To-Do's" content=mental %}
-
-    {% include card-md.html title="Music To-Do's" content=music %}
-    
   </div>
 </section>

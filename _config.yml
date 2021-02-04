@@ -30,7 +30,7 @@ collections:
   neurotransmitters:
     output: true
     permalink: /:collection/:name
-    
+
 defaults:
   -
     scope:

@@ -7,13 +7,13 @@ subtitle: Gotta play em all
 
 {% include navbar.html index=true %}
 
-{% include hero-banner.html size="small" header="" %}
+{% include hero-banner.html size="small" header="game-header" %}
 
 <section class="section">
 
   <div class="container is-centered has-text-centered">
-  
-    <div class="table-container box">
+
+    <div class="table-container box p-0">
       <table class="table is-fullwidth is-hoverable">
         <thead>
           <tr>
@@ -22,11 +22,11 @@ subtitle: Gotta play em all
           </tr>
         </thead>
         <tbody id="gameTable">
-          
+
         </tbody>
       </table>
     </div>
-  
+
   </div>
 
 </section>
@@ -34,7 +34,7 @@ subtitle: Gotta play em all
 <script src="/assets/js/papaparse.min.js"></script>
 
 <script>
-  
+
   function init() {
     Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vSPbxOHYhrQZQrEIvNVP7KOfIcVXt3Bxwehoh2AV5uc7SPvLGZZMmme9a9mh_KiFc7VeS9xAaBC0kSX/pub?output=csv', {
       download: true,
@@ -46,45 +46,45 @@ subtitle: Gotta play em all
       }
     })
   }
-  
+
   function populateTable(data) {
-    
+
     let table = document.getElementById("gameTable");
-    
+
     data.forEach(game => {
-      
+
       // Makes the row of the table for the current game
-      
+
       let gameRow = document.createElement("tr");
-      
+
       // Makes the td for the name of the game, sets it's value and adds it to the table row
-      
+
       let gameName = document.createElement("td");
-      
+
       gameName.innerHTML = game["Game"];
-      
+
       gameRow.appendChild(gameName);
-      
+
       // Makes the td for the played status of the game, sets it's value and adds it to the table row
-      
+
       let gamePlayed = document.createElement("td");
-      
+
       gamePlayed.innerHTML = game["Played?"];
-      
+
       gameRow.appendChild(gamePlayed);
-      
+
       if (game["Played?"] == "Yes") {
         gameRow.classList.add("has-background-success-light");
       }
-      
+
       // Adds the row to the table
-      
+
       table.appendChild(gameRow);
-      
+
     });
-    
+
   }
-  
+
   window.addEventListener('DOMContentLoaded', init)
-  
+
 </script>

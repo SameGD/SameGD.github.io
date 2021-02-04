@@ -153,7 +153,7 @@ hobbylists:
       - name: Homebrewing
         status: unstarted
       - name: Houseplant Care
-        status: in-progress
+        status: finished
       - name: Hula Hooping
         status: unstarted
       - name: Humor
@@ -520,7 +520,7 @@ hobbylists:
       - name: Rafting
         status: unstarted
       - name: Railway Journeys
-        status: unstarted
+        status: in-progress
       - name: Rappelling
         status: unstarted
       - name: Road Biking

@@ -2,24 +2,24 @@
 <html>
 <head>
   {% include header.html %}
-  <title>Graphics Demo | {{ page.title }}</title>
+  <title>{{ page.title }} | Graphics Demo</title>
 </head>
 
 <body class="hobby-page">
-  
+
   {% include navbar.html %}
-  
-  {% include hero-banner.html size="small" %}
+
+  {% include hero-banner.html size="small" header=page.header %}
 
 <section class="section">
   <div class="container">
     <div class="box content">
-      
+
       {{ content }}
-      
+
     </div>
   </div>
 </section>
-  
+
 </body>
 </html>

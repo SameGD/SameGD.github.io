@@ -1,6 +1,7 @@
 ---
 title: Geocaching
 subtitle: Possibly one of the sketchiest hobbies you can do that's completely legal
+header: map-header
 ---
 
 **Introduction**
@@ -19,9 +20,9 @@ While the material rewards for finding a cache are slim-to-none, geocaching is a
 
 <sub>_Examples of people logging their experience after a find._</sub>
 
-Geocaching to me, feels like an exemplification of the ideals of whimsy and adventure, and I _absolutely_ adore it. When I was growing up, I always used to imagine the world as being magical, full of treasures and secrets that were just waiting for me to find. Of course, as I grew up, I discovered that the world isn’t so magical; that the tree I walk past everyday doesn’t have a portal to another world; that the gate on the sidewalk isn’t a secret passage and is in fact, just a gate. And honestly, it was kind of depressing to realise that the world was so much smaller than I thought it was when I was younger. I feel like the people in the Geocaching community were a bit like me as a kid, but when faced with a world dwindling of magic, they decided to fight against it and make their own. 
+Geocaching to me, feels like an exemplification of the ideals of whimsy and adventure, and I _absolutely_ adore it. When I was growing up, I always used to imagine the world as being magical, full of treasures and secrets that were just waiting for me to find. Of course, as I grew up, I discovered that the world isn’t so magical; that the tree I walk past everyday doesn’t have a portal to another world; that the gate on the sidewalk isn’t a secret passage and is in fact, just a gate. And honestly, it was kind of depressing to realise that the world was so much smaller than I thought it was when I was younger. I feel like the people in the Geocaching community were a bit like me as a kid, but when faced with a world dwindling of magic, they decided to fight against it and make their own.
 
-There’s no point to Geocaching, no reason to seek out a cache apart from your own sense of curiosity and adventure. You could find no caches, or you could find a thousand of them, and honestly, nothing would change. 
+There’s no point to Geocaching, no reason to seek out a cache apart from your own sense of curiosity and adventure. You could find no caches, or you could find a thousand of them, and honestly, nothing would change.
 
 But I think that’s beside the point.
 

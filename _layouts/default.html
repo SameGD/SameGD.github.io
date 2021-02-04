@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+
     {% include header.html %}
-    
+
     <title>
-      Graphics Demo {% unless page.title == "Graphics Demo" %} | {{ page.title }} {% endunless %}
+      {% unless page.title == "Graphics Demo" %}{{ page.title }} | {% endunless %}Graphics Demo
     </title>
-    
+
   </head>
   <body>
-    
+
     {{ content }}
     
   </body>

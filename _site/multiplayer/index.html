@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <link rel="stylesheet" href="/assets/css/bulma.css">
@@ -9,14 +9,14 @@
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
 <script type="text/javascript" src="/assets/js/darkmode.js"></script>
 <script type="text/javascript" src="/assets/js/colour.js"></script>
-    
+
     <title>
-      Graphics Demo  | Multiplayer Games 
+      Multiplayer Games | Graphics Demo
     </title>
-    
+
   </head>
   <body>
-    
+
     
 <nav class="nb has-background-primary">
 
@@ -48,7 +48,7 @@
   
 </nav>
 
-<section class="hero  has-background-primary-light ">
+<section class="hero  has-background-primary-light game-header">
   <div class="hero-body">
     <div class="container">
       <div class="card has-text-centered">
@@ -69,8 +69,8 @@
 <section class="section">
 
   <div class="container is-centered has-text-centered">
-  
-    <div class="table-container box">
+
+    <div class="table-container box p-0">
       <table class="table is-fullwidth is-hoverable">
         <thead>
           <tr>
@@ -79,11 +79,11 @@
           </tr>
         </thead>
         <tbody id="gameTable">
-          
+
         </tbody>
       </table>
     </div>
-  
+
   </div>
 
 </section>
@@ -91,7 +91,7 @@
 <script src="/assets/js/papaparse.min.js"></script>
 
 <script>
-  
+
   function init() {
     Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vSPbxOHYhrQZQrEIvNVP7KOfIcVXt3Bxwehoh2AV5uc7SPvLGZZMmme9a9mh_KiFc7VeS9xAaBC0kSX/pub?output=csv', {
       download: true,
@@ -103,48 +103,49 @@
       }
     })
   }
-  
+
   function populateTable(data) {
-    
+
     let table = document.getElementById("gameTable");
-    
+
     data.forEach(game => {
-      
+
       // Makes the row of the table for the current game
-      
+
       let gameRow = document.createElement("tr");
-      
+
       // Makes the td for the name of the game, sets it's value and adds it to the table row
-      
+
       let gameName = document.createElement("td");
-      
+
       gameName.innerHTML = game["Game"];
-      
+
       gameRow.appendChild(gameName);
-      
+
       // Makes the td for the played status of the game, sets it's value and adds it to the table row
-      
+
       let gamePlayed = document.createElement("td");
-      
+
       gamePlayed.innerHTML = game["Played?"];
-      
+
       gameRow.appendChild(gamePlayed);
-      
+
       if (game["Played?"] == "Yes") {
         gameRow.classList.add("has-background-success-light");
       }
-      
+
       // Adds the row to the table
-      
+
       table.appendChild(gameRow);
-      
+
     });
-    
+
   }
-  
+
   window.addEventListener('DOMContentLoaded', init)
-  
+
 </script>
+
     
   </body>
 </html>

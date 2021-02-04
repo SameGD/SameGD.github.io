@@ -1,6 +1,7 @@
 ---
 title: Shortwave Listening
 subtitle: It's wave vibing time yo
+header: radio-header
 ---
 
 **Introduction**
@@ -23,5 +24,4 @@ So obviously I could completely cheese this hobby and just listen to one of the 
 2. Make a website to interface with this receiver and allow the shortwave radio to be listened to online, to satisfy the software component of this hobby.
 3. Write 5 reviews of different radio stations or broadcasts that I’ve listened to using the website and equipment I’ve setup.
 
-And bingo-bango, just like that I’ll be SWLing with the cool cats. 
-
+And bingo-bango, just like that I’ll be SWLing with the cool cats.

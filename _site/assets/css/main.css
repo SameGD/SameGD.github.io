@@ -1,4 +1,4 @@
-/************** 
+/**************
 Fonts
 ***************/
 /*
@@ -14,7 +14,7 @@ body {
 
 */
 
-/************** 
+/**************
 CSS Variables
 ***************/
 
@@ -25,7 +25,7 @@ CSS Variables
 }
 */
 
-/************** 
+/**************
 Helper Variables
 ***************/
 
@@ -61,7 +61,7 @@ img.image-pop {
   color: var(--primary) !important;
 }
 
-/************** 
+/**************
 Page Elements
 ***************/
 
@@ -79,10 +79,10 @@ html {
   height: 5px;
   margin-bottom: 15px;
   margin-top: 15px;
-  
+
 }
 
-/************** 
+/**************
 Navbar Shit
 ***************/
 
@@ -106,15 +106,15 @@ Navbar Shit
   margin-left: auto;
 }
 
-/************** 
+/**************
 Dark Mode Button
 ***************/
 
-.darkmode input[type=checkbox] { 
+.darkmode input[type=checkbox] {
   display: none;
 }
 
-.darkmode input[type=checkbox] + label { 
+.darkmode input[type=checkbox] + label {
   transition: 0.3s;
   display: inline-block;
   width: 36px;
@@ -123,19 +123,19 @@ Dark Mode Button
   background-size: contain;
   opacity: 50%;
 }
-.darkmode input[type=checkbox] + label:hover { 
+.darkmode input[type=checkbox] + label:hover {
   opacity: 100%;
 }
 
-.darkmode input[type=checkbox] + label { 
+.darkmode input[type=checkbox] + label {
   background-image: url(/assets/images/sun.svg);
 }
 
-.darkmode input[type=checkbox]:checked + label { 
+.darkmode input[type=checkbox]:checked + label {
   background-image: url(/assets/images/moon.svg);
 }
 
-/************** 
+/**************
 Navbar New
 ***************/
 
@@ -209,7 +209,7 @@ nav.nb.has-background-primary a:hover {
   align-items: center;
 }
 
-/************** 
+/**************
 Image Slider
 ***************/
 
@@ -232,20 +232,20 @@ Image Slider
   scrollbar-width: none;
   margin-bottom: 1rem;
 }
-  
+
 .slides::-webkit-scrollbar {
   width: 0;
 }
-  
+
 .slides::-webkit-scrollbar-thumb {
   background: transparent;
   border: none;
 }
-  
+
 .slides::-webkit-scrollbar-track {
   background: transparent;
 }
-  
+
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
@@ -302,7 +302,7 @@ Image Slider
   }
 }
 
-/************** 
+/**************
 Unique Color Defaults (Somewhat Deprecated)
 ***************/
 
@@ -335,7 +335,7 @@ Unique Color Defaults (Somewhat Deprecated)
   border-color: var(--primary);
 }
 
-/************** 
+/**************
 Index Page Headers
 ***************/
 
@@ -346,41 +346,122 @@ Index Page Headers
 }
 
 .indexheader {
-  background-image: url("/assets/images/headers/sketchbg.svg");
+  background-image: url("/assets/images/headers/og-sketch.svg");
 }
 
 .hobbyheader {
-  background-image: url("/assets/images/headers/iconbg.svg");
+  background-image: url("/assets/images/headers/og-icon.svg");
   background-size: contain;
   opacity: 85%;
 }
 
 .mentalheader {
-  background-image: url("/assets/images/headers/brainbg.svg");
+  background-image: url("/assets/images/headers/brainfolds.svg");
   background-size: contain;
   opacity: 85%;
 }
 
 .musicheader {
-  background-image: url("/assets/images/headers/musicbg.svg");
+  background-image: url("/assets/images/headers/music.svg");
   opacity: 85%;
 }
 
 .neurotransmitterheader {
-  background-image: url("/assets/images/headers/neuronbg.svg");
-  background-size: cover;
+  background-image: url("/assets/images/headers/neurons2.svg");
+  background-size: contain;
   opacity: 90%;
 }
 
-.projectheader {
-  background-image: url("/assets/images/headers/projectbg.svg")
+.humourheader {
+  background-image: url("/assets/images/headers/jerry.svg");
+  background-size: contain;
 }
 
-.plantheader {
-  background-image: url("/assets/images/headers/plantbg.svg")
+/**************
+Auto-Generated Headers
+***************/
+
+.animal-header {
+  background-image: url("/assets/images/headers/animal.svg");
+}
+.blog-header {
+  background-image: url("/assets/images/headers/blog.svg");
+}
+.blog2-header {
+  background-image: url("/assets/images/headers/blog2.svg");
+}
+.brain-header {
+  background-image: url("/assets/images/headers/brain.svg");
+}
+.brainfolds-header {
+  background-image: url("/assets/images/headers/brainfolds.svg");
+}
+.cinema-header {
+  background-image: url("/assets/images/headers/cinema.svg");
+}
+.cinema2-header {
+  background-image: url("/assets/images/headers/cinema2.svg");
+}
+.game-header {
+  background-image: url("/assets/images/headers/game.svg");
+}
+.icon-header {
+  background-image: url("/assets/images/headers/icon.svg");
+}
+.jerry-seinfeld-outline-header {
+  background-image: url("/assets/images/headers/jerry-seinfeld-outline.svg");
+}
+.jerry-seinfeld-header {
+  background-image: url("/assets/images/headers/jerry-seinfeld.svg");
+}
+.jerry-seinfeld2-header {
+  background-image: url("/assets/images/headers/jerry-seinfeld2.svg");
+}
+.jerry-header {
+  background-image: url("/assets/images/headers/jerry.svg");
+}
+.map-header {
+  background-image: url("/assets/images/headers/map.svg");
+}
+.metro-header {
+  background-image: url("/assets/images/headers/metro.svg");
+}
+.min-og-icon-header {
+  background-image: url("/assets/images/headers/min-og-icon.svg");
+}
+.min-og-sketch-header {
+  background-image: url("/assets/images/headers/min-og-sketch.svg");
+}
+.music-header {
+  background-image: url("/assets/images/headers/music.svg");
+}
+.neuron-header {
+  background-image: url("/assets/images/headers/neuron.svg");
+}
+.neurons2-header {
+  background-image: url("/assets/images/headers/neurons2.svg");
+}
+.og-icon-header {
+  background-image: url("/assets/images/headers/og-icon.svg");
+}
+.og-sketch-header {
+  background-image: url("/assets/images/headers/og-sketch.svg");
+}
+.plant-header {
+  background-image: url("/assets/images/headers/plant.svg");
+}
+.project-header {
+  background-image: url("/assets/images/headers/project.svg");
+}
+.radio-header {
+  background-image: url("/assets/images/headers/radio.svg");
+}
+.sketch-header {
+  background-image: url("/assets/images/headers/sketch.svg");
 }
 
-/************** 
+
+/**************
 Blog
 ***************/
 
@@ -421,6 +502,7 @@ Blog
   margin-left: auto;
   margin-right: auto;
   display: block;
+  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
 }
 
 .blog-content p sub  {
@@ -450,7 +532,7 @@ Blog
 }
 
 
-/************** 
+/**************
 Hobby Hobby Index
 ***************/
 
@@ -486,11 +568,11 @@ Hobby Hobby Index
   height: auto;
   min-height: 60px;
 /*  transition: color 0.28s ease; */
-  transition: 0.4s; 
+  transition: 0.4s;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
 }
 
 .hobby-box .hobby-listitem:hover {
@@ -586,7 +668,7 @@ Hobby Hobby Index
 }
 
 
-/************** 
+/**************
 Hobby Page
 ***************/
 
@@ -598,7 +680,7 @@ Hobby Page
   .hobby-page .hero-body {
     padding: 1rem;
   }
-  
+
 }*/
 
 .plant-group {

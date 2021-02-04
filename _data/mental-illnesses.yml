@@ -1,0 +1,185 @@
+---
+- category: "Personality Disorders"
+  conditions:
+    - "General Personality Disorder"
+  sub-categories:
+    - category: "Cluster A Personality Disorders"
+      conditions:
+        - "Paranoid Personality Disorder"
+        - "Schizoid Personality Disorder"
+        - "Schizotypal Personality Disoder"
+    - category: "Cluster B Personality Disorders"
+      conditions:
+        - "Antisocial Personality Disorder"
+        - "Borderline Personality Disorder"
+        - "Histrionic Personality Disorder"
+        - "Narcissistic Personality Disorder"
+    - category: "Cluster C Personality Disorders"
+      conditions:
+        - "Avoidant Personality Disorder"
+        - "Dependent Personality Disoder"
+        - "Obsessive-Compulsive Personality Disorder"
+
+- category: "Anxiety Disorders"
+  conditions:
+    - "Seperation Anxiety Disorder"
+    - "Selective Mutism"
+    - "Specific Phobia"
+    - "Social Anxiety Disorder (Social Phobia)"
+    - "Panic Disorder"
+    - "Panic Attack (Specifier)"
+    - "Agoraphobia"
+    - "Generalised Anxiety Disorder"
+
+- category: "Dissociative Disoders"
+  conditions:
+    - "Dissociative Idenity Disorder"
+    - "Dissociative Amnesia"
+    - "Depersonalisation/Derealisation Disorder"
+
+- category: "Depressive Disorders"
+  conditions:
+    - "Disruptive Mood Dysregulation Disorder"
+    - "Major Depressive Disorder, Single and Recurrent Episodes"
+    - "Persistent Depressive Disorder (Dysthymia)"
+
+- category: "Trauma- and Stressor-Related Disorders"
+  conditions:
+    - "Reactive Attachment Disorder"
+    - "Disinhibited Social Engagement Disoder"
+    - "Post-Traumatic Stress Disorder"
+    - "Acute Stress Disorder"
+    - "Adjustment Disorders"
+
+- category: "Bipolar and Related Disorders"
+  conditions:
+    - "Bipolar I Disorder"
+    - "Bipolar II Disoder"
+    - "Cyclothymic Disorder"
+
+- category: "Neurodevelopmental Disorders"
+  conditions:
+    - "Autism Spectrum Disorder"
+    - "Attention-Deficit/Hyperactivity Disorder"
+    - "Specific Learning Disorder"
+  sub-categories:
+    - category: "Intellectual Disabilities"
+      conditions:
+        - "Intellectual Disability"
+        - "Global Development Delay"
+    - category: "Communication Disorders"
+      conditions:
+        - "Language Disorder"
+        - "Speech Sound Disotder"
+        - "Childhood-Onset Fluency Disorder (Stuttering)"
+        - "Social (Pragmatic) Communication Disorder"
+    - category: "Motor Disorders"
+      conditions:
+        - "Developmental Coordination Disorder"
+        - "Stereotypic Motions Disorder"
+    - category: "Tic Disorders"
+      conditions:
+        - "Tourette's Disorder"
+        - "Persistent (Chronic) Motor or Vocal Tic Disorder"
+        - "Provisional Tic Disorder"
+
+- category: "Sleep-Wake Disorders"
+  conditions:
+    - "Insomnia Disorder"
+    - "Hypersomnolence Disorder"
+    - "Narcolepsy"
+    - "Circadian Rhythm Sleep-Wake Disorder"
+    - "Restless Legs Syndrome"
+  sub-categories:
+    - category: "Breathing-Related Sleep Disorders"
+      conditions:
+        - "Obstructive Sleep Apnea Hyponea"
+        - "Central Sleep Apnea"
+        - "Sleep-Related Hypoventilation"
+    - category: "Parasomnias"
+      conditions:
+        - "Sleepwalking"
+        - "Sleep Terrors"
+        - "Nightmare Disorder"
+        - "Rapid Eye Movement Sleep Behaviour Disorder"
+
+- category: "Neurocognitive Disorders"
+  conditions:
+    - "Delirium"
+    - "Major Neurocognitive Disorder"
+    - "Major or Mild Neurocognitive Disorder Due to Disease"
+
+- category: "Substance-Related and Addictive Disorders"
+  conditions:
+    - "Substance Use Disorders"
+    - "Substance Intoxication and Withdrawal"
+    - "Hallucinogen Persisting Perception Disorder"
+    - "Gambling Disorder"
+
+# - category: "Paraphilias"
+#   conditions:
+#     - "Voyeuristic Disorder"
+#     - "Exhibitionistic Disorder"
+#     - "Frotteuristic Disorder"
+#     - "Sexual Masochism Disorder"
+#     - "Sexual Sadism Disorder"
+#     - "Pedophilic Disorder"
+#     - "Fetishistic Disorder"
+
+- category: "Somatic Symptom and Related Disorders"
+  conditions:
+    - "Somatic Symptom Disorder"
+    - "Illness Anxiety Disorder"
+    - "Conversion Disorder (Functional Neurological Symptom Disorder)"
+    - "Psychological Factors Affecting Other Medical Conditions"
+    - "Factitious Disorder"
+
+# - category: "Sexual Dysfunctions"
+#   conditions:
+#     - "Delayed Ejaculation"
+#     - "Erectile Disorder"
+#     - "Female Orgasmic Disorder"
+#     - "Female Sexual Interest/Arousal Disorder"
+#     - "Genito-Pelvic Pain/Penetration Disorder"
+#     - "Male Hypoactive Sexual Desire Disorder"
+#     - "Premature Ejaculation"
+
+- category: "Elimination Disorders"
+  conditions:
+    - "Enuresis"
+    - "Encopresis"
+
+- category: "Feeding and Eating Disorders"
+  conditions:
+    - "Pica"
+    - "Rumination Disorder"
+    - "Avoidant/Restrictive Food Intake Disorder"
+    - "Anorexia Nervosa"
+    - "Bulimia Nervosa"
+    - "Binge-Eating Disorder"
+
+- category: "Disruptive, Impulse-Control and Conduct Disorders"
+  conditions:
+    - "Oppositional Defiant Disorder"
+    - "Intermittent Explosive Disorder"
+    - "Conduct Disorder"
+    - "Antisocial Personality Disorder"
+    - "Pyromania"
+    - "Kleptomania"
+
+- category: "Obsessive-Compulsive and Related Disorders"
+  conditions:
+    - "Obsessive-Compulsive Disorder"
+    - "Body Dysmorphic Disorder"
+    - "Hoarding Disorder"
+    - "Trichobilomania (Hair-Pulling Disorder)"
+    - "Excoriation (Skin-Picking Disorder)"
+
+- category: "Schizophrenia Spectrum and Other Psychotic Disorders"
+  conditions:
+    - "Catatonia"
+    - "Schizotypal Personality Disorder"
+    - "Delusional Disorder"
+    - "Schizophreniform Disorder"
+    - "Schizophrenia"
+    - "Schizoaffective Disorder"
