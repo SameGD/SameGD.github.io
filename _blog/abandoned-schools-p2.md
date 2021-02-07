@@ -7,9 +7,9 @@ Today, I bring you a tale of woe; a story punctuated by urban decay, poor mappin
 
 ---
 
-I started working on this post _months _ago, thinking it would be a quick project that I could research and write out in a day or two. After all, how hard could it possibly be to look at the street view of the 50 or so maybes from the last post?
+I started working on this post _months_ ago, thinking it would be a quick project that I could research and write out in a day or two. After all, how hard could it possibly be to look at the street view of the 50 or so maybes from the last post?
 
-As I quickly discovered, I was a naive fool. Since these schools are closed they’re actually not searchable on Google Maps directly, which means you need to find their address somewhere else. This sounds easy enough, but since most of these schools were located in obscure country towns, information on them is verrrry sparse on the internet. Because of this, I ended up almost exclusively using dud map sites, which haven’t updated their information in _many _years. Of course, since these map sites _suck_, their address data was vague and often inaccurate, which made finding these schools an absolute chore.
+As I quickly discovered, I was a naïve fool. Since these schools are closed they’re actually not searchable on Google Maps directly, which means you need to find their address somewhere else. This sounds easy enough, but since most of these schools were located in obscure country towns, information on them is verrrry sparse on the internet. Because of this, I ended up almost exclusively using dud map sites, which haven’t updated their information in _many_ years. Of course, since these map sites _suck_, their address data was vague and often inaccurate, which made finding these schools an absolute chore.
 
 This would have been bad enough, but there was another problem that soon reared it’s nasty head: Google Street View is extremely outdated in country towns. Combined with the often vague address information, I actually had trouble nailing down the location of a bunch of these schools. And the out-of-date street view means that I had to guesstimate from satellite data whether the sites were still standing or not.
 
