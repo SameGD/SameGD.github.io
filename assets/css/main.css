@@ -226,7 +226,7 @@ Image Slider
 }
 
 .slides {
-  height: 48vh;
+  height: calc(1rem + 45vh + 2vh);
   display: flex;
   flex-direction: column;
   overflow-y: auto;
@@ -267,18 +267,18 @@ Image Slider
   align-items: center;
   font-size: 100px;
   flex-direction: column;
+  margin-bottom: 20vh;
 }
 
 .slides img {
-  height: 45vh;
+  max-height: 45vh;
   width: auto;
   border-radius: 0.25rem;
   box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
 }
 
 .slides p {
-  height: 2vh;
-  margin: 0.5vh 0;
+  margin: 1vh 0;
 }
 
 .slider > a {
@@ -618,4 +618,17 @@ Hobby Page
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
   box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+}
+
+.slides.plant-collection {
+  height: calc(1rem + 43vw + 2vh);
+  max-height: calc(1rem + 47vh);
+}
+
+.plant-collection img {
+  height: 43vw;
+}
+
+.plant-collection > div {
+  margin-bottom: 0;
 }
