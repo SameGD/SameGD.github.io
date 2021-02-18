@@ -23,11 +23,87 @@ subtitle: makes plant noises
 
     </div>
 
-    <div class="card">
-      <div class="card-header has-background-primary p-1"></div>
-      <div class="card-content p-0 m-0">
-        <p class="title is-4 mt-4 ml-4">The Plant Gang</p>
-        <img class="image plant-group" src="/assets/images/hobby/plants/2021.01.21-Group.jpg">
+    <div class="is-flex is-flex-wrap-wrap is-align-content-center is-justify-content-center mb-4">
+
+      <div class="card is-flex-shrink-1">
+
+        <div class="card-content">
+          <p class="title is-3">Full Collection</p>
+        </div>
+        <div class="card-header has-background-primary p-1" style="border-radius: 0;"></div>
+
+        <div class="card-image">
+          <figure>
+            <div class="slider">
+
+              <div class="slides">
+
+                {% assign counter = 0 %}
+
+                {% for image in site.static_files reversed %}{% if image.path contains "images/hobby/plants/Group" %}
+
+                {% assign counter = counter | plus:1 %}
+
+                <div id="Group-{{counter}}">
+                  <img src="/assets/images/hobby/plants/Group/{{image.basename}}.jpg" alt="{{image.basename}} - Group Shot">
+                  <p class="subtitle is-6">{{image.basename | date_to_long_string}}</p>
+                </div>
+
+                {% endif %}{% endfor %}
+
+              </div>
+
+              {% for i in (1..counter) %}
+
+              <a href="#Group-{{i}}">{{i}}</a>
+
+              {% endfor %}
+
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="is-flex is-flex-wrap-wrap is-align-content-center is-justify-content-center">
+
+      <div class="card is-flex-shrink-1">
+
+        <div class="card-content">
+          <p class="title is-3">Cuttings</p>
+        </div>
+        <div class="card-header has-background-primary p-1" style="border-radius: 0;"></div>
+
+        <div class="card-image">
+          <figure>
+            <div class="slider">
+
+              <div class="slides">
+
+                {% assign counter = 0 %}
+
+                {% for image in site.static_files reversed %}{% if image.path contains "images/hobby/plants/Cuttings" %}
+
+                {% assign counter = counter | plus:1 %}
+
+                <div id="Cuttings-{{counter}}">
+                  <img src="/assets/images/hobby/plants/Cuttings/{{image.basename}}.jpg" alt="{{image.basename}} - Cuttings">
+                  <p class="subtitle is-6">{{image.basename | date_to_long_string}}</p>
+                </div>
+
+                {% endif %}{% endfor %}
+
+              </div>
+
+              {% for i in (1..counter) %}
+
+              <a href="#Cuttings-{{i}}">{{i}}</a>
+
+              {% endfor %}
+
+            </div>
+          </figure>
+        </div>
       </div>
     </div>
 
@@ -39,12 +115,12 @@ subtitle: makes plant noises
 
     <div class="card">
       <div class="card-content">
-        <p class="title is-3">Meet the Gang!</p>
+        <p class="title is-3">Plants</p>
       </div>
       <div class="card-header has-background-primary p-1" style="border-top-left-radius: : 0; border-top-right-radius: "></div>
     </div>
 
-    <div class="is-flex is-flex-wrap-wrap is-align-content-center is-justify-content-center">
+    <div class="is-flex is-flex-wrap-wrap is-align-content-center is-justify-content-center has-background-primary-light">
 
     {% for plant in site.data.plants %}
 
@@ -55,20 +131,24 @@ subtitle: makes plant noises
 
               <div class="slides">
 
-                {% for date in plant.photo-dates reversed %}
+                {% assign counter = 0 %}
 
-                <div id="{{plant.name}}-{{forloop.index}}">
-                  <img src="/assets/images/hobby/plants/{{date}}-{{plant.name}}.jpg" alt="{{plant.name}}">
-                  <p class="subtitle is-6">{{date | date_to_long_string}}</p>
+                {% for image in site.static_files reversed %}{% if image.path contains "images/hobby/plants/" %}{% if image.path contains plant.name %}
+
+                {% assign counter = counter | plus:1 %}
+
+                <div id="{{plant.name}}-{{counter}}">
+                  <img src="/assets/images/hobby/plants/{{plant.name}}/{{image.basename}}.jpg" alt="{{plant.name}}">
+                  <p class="subtitle is-6">{{image.basename | date_to_long_string}}</p>
                 </div>
 
-                {% endfor %}
+                {% endif %}{% endif %}{% endfor %}
 
               </div>
 
-              {% for date in plant.photo-dates %}
+              {% for i in (1..counter) %}
 
-              <a href="#{{plant.name}}-{{forloop.index}}">{{forloop.index}}</a>
+              <a href="#{{plant.name}}-{{i}}">{{i}}</a>
 
               {% endfor %}
 

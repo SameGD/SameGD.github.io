@@ -1,75 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<link rel="stylesheet" href="/assets/css/bulma.css">
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="shortcut icon" href="/assets/images/favicon.ico">
-<script type="text/javascript" src="/assets/js/darkmode.js"></script>
-<script type="text/javascript" src="/assets/js/colour.js"></script>
-    <title>Blog | Graphics Demo</title>
-  </head>
-
-  <body>
-
-    
-<nav class="nb has-background-primary">
-
-  <div class="nb-content">
-    
-    <div class="nb-item nb-breadcrumbs">
-      <ul>
-        <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
-
-        
-
-        <li ><a class="subtitle is-5" href="/blog/">Blog</a></li>
-
-        
-        
-        
-        
-        <li class="is-active"><a class="subtitle is-5">Abandoned Victorian Schools (Part 2)</a></li>
-        
-        
-        
-      </ul>
-    </div>
-    
-    <div class="nb-item darkmode">
-      
-      <input id="darkmode" type="checkbox">
-      <label for="darkmode" title="Toggle Dark Mode"></label>
-      
-    </div>
-    
-  </div>
-  
-</nav>
-
-    <section class="blog section">
-      <div class="container">
-        <div class="blog-container">
-          <div class="blog-top"></div>
-
-          <div class="blog-head">
-
-            <div class="blog-title">
-              <p class="title is-3 has-text-weight-bold">Abandoned Victorian Schools (Part 2)</p>
-              <p class="subtitle is-6">07 Feb 2021</p>
-            </div>
-
-            <div class="blog-navigation">
-              <a class="button bg-hover-colorthis"  href="/blog/abandoned-schools-p1" >Previous</a>
-              <a class="button bg-hover-colorthis"   disabled >Next</a>
-            </div>
-
-          </div>
-
-          <div class="blog-content content">
-
-            <p>Today, I bring you a tale of woe; a story punctuated by urban decay, poor mapping data, and the hubris of a writer. This is a story of the many abandoned schools in Victoria, and my efforts to determine whether they’ve withstood the trials of time, or fallen under its crushing weight. The bards might not sing of what transpires within these words, but nonetheless it’s a tale that must be told.</p>
+I"�k<p>Today, I bring you a tale of woe; a story punctuated by urban decay, poor mapping data, and the hubris of a writer. This is a story of the many abandoned schools in Victoria, and my efforts to determine whether they’ve withstood the trials of time, or fallen under its crushing weight. The bards might not sing of what transpires within these words, but nonetheless it’s a tale that must be told.</p>
 
 <hr />
 
@@ -501,13 +430,4 @@
 <hr />
 
 <p>Congratulations, you’ve reached the end of my ramblings (for now)! Stay tuned, for more excitement!, more drama!, more action!, and most of all, more government sales of property!; in the thrilling and hopeful conclusion of the Abandoned Victorian Schools saga!</p>
-
-
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-  </body>
-</html>
+:ET

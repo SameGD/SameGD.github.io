@@ -4,14 +4,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Collections -->
-  
+
   {% for collection in site.collections %}
-  
+
   <!-- {{ collection.label | capitalize }} -->
-  
+
   {% assign collectionlabel = collection.label %}
-  
-  {% for page in site.[collectionlabel] %}
+
+  {% for page in site[collectionlabel] %}
   <url>
     <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
     {% if page.date %}
@@ -22,5 +22,5 @@
   </url>
   {% endfor %}
   {% endfor %}
-  
+
 </urlset>
