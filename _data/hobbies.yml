@@ -37,7 +37,7 @@ hobbylists:
       - name: Building
         status: unstarted
       - name: Bullet Journaling
-        status: unstarted
+        status: in-progress
       - name: Cabaret
         status: unstarted
       - name: Calligraphy
@@ -63,7 +63,7 @@ hobbylists:
       - name: Collecting
         status: unstarted
       - name: Coloring
-        status: unstarted
+        status: in-progress
       - name: Computer Programming
         status: finished
       - name: Confectionery
@@ -223,7 +223,7 @@ hobbylists:
       - name: Painting
         status: unstarted
       - name: Palmistry
-        status: unstarted
+        status: in-progress
       - name: Pet Adoption & Fostering
         status: unstarted
       - name: Philately
@@ -289,7 +289,7 @@ hobbylists:
       - name: Slot Car
         status: unstarted
       - name: Soapmaking
-        status: unstarted
+        status: in-progress
       - name: Social Media
         status: unstarted
       - name: Spreadsheets

@@ -597,6 +597,10 @@ Hobby Hobby Index
   color: var(--dark);
 }
 
+.hobbyitem.finished::before {
+  content: "✔️";
+}
+
 .hobbyitem.in-progress {
   border-right: 5px solid #fed185;
   background-color: #fed1850A;
@@ -607,11 +611,19 @@ Hobby Hobby Index
   color: var(--dark);
 }
 
+.hobbyitem.in-progress::before {
+  content: "🚧";
+}
+
 .hobbyitem.unstarted {
   border-right: 5px solid #cc0f4c;
   background-color: #cc0f4c0A;
   pointer-events: none;
   cursor: default;
+}
+
+.hobbyitem.unstarted::before {
+  content: "❌";
 }
 
 .hobbyitem.unstarted:hover {
