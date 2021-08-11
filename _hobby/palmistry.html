@@ -1,0 +1,77 @@
+---
+title: Palmistry
+subtitle: Goes great with Faceistry
+header:
+---
+
+<section class="section">
+
+  <div class="container">
+
+    <article class="message">
+      <div class="message-body has-background-primary-light border-colorthis content">
+        <p class="title is-5">Idea:</p>
+        <p>Automatically generate palm reading using edge detection to find relevant palm lines. Then compare palm lines to values in a palm reading guide, and spit out the results.</p>
+        <p>To-Do: Everything</p>
+        <p>- Use <a href="https://victordibia.com/handtrack.js/#/">Handtrack.js</a> to isolate hand from image (or webcam feed).</p>
+        <p>- Use Edge detection to turn isolated hand into a black and white image, with the palm lines visible.</p>
+        <p>- Somehow identify major palm lines (heart, brain and life apparently), and measure the position, length and curvature of these lines (oh jeeze). Might have to literally train a neural network to accomplish this, but I'll probably abandon this idea if there's no pre-exisiting database / pre-trained model that I can use.</p>
+        <p>- Fancy graphic over palm image used, to show these lines (coloured lines over the major palm lines).</p>
+        <p>- Generate predictions using the measured variables.</p>
+      </div>
+    </article>
+
+    <article class="message">
+      <div class="message-body has-background-primary-light border-colorthis content">
+        <p class="title is-5">Sources:</p>
+        <p><a href="https://link.springer.com/chapter/10.1007/978-3-319-70016-8_18">https://link.springer.com/chapter/10.1007/978-3-319-70016-8_18</a></p>
+        <p><a href="https://www.researchgate.net/publication/344225276_Efficient_Palm-Line_Segmentation_with_U-Net_Context_Fusion_Module">https://www.researchgate.net/publication/344225276_Efficient_Palm-Line_Segmentation_with_U-Net_Context_Fusion_Module</a></p>
+        <p><a href="https://www.researchgate.net/publication/320589649_A_Simple_Technique_for_Palm_Recognition_Using_Major_Lines">https://www.researchgate.net/publication/320589649_A_Simple_Technique_for_Palm_Recognition_Using_Major_Lines</a></p>
+      </div>
+    </article>
+
+    <canvas id="canvas" width="1100" height="1100"></canvas>
+    <button class="button is-primary has-text-centered is-fullwidth" onClick="edgeDetection2();">Do The Mario</button>
+  </div>
+
+</section>
+<script type="text/javascript" src="/assets/js/marvinj-1.0.min.js"></script>
+
+<script type="text/javascript">
+  let original = new MarvinImage();
+  let image;
+  const canvas = document.getElementById("canvas");
+
+  original.load("/assets/images/hobby/palm.jpg", function() {
+    Marvin.scale(original.clone(), original, 300);
+    original.draw(canvas);
+  });
+
+  function whiteToAlpha(image){
+  	for(var y=0; y < image.getHeight(); y++){
+
+    	for(var x=0; x<image.getWidth(); x++){
+      	var r = image.getIntComponent0(x,y);
+        var g = image.getIntComponent1(x,y);
+        var b = image.getIntComponent2(x,y);
+
+        if(r >= 250 && g >= 250 && b >= 250){
+  				image.setIntColor(x, y, 0);
+        }
+      }
+    }
+  }
+
+  function edgeDetection2(){
+  	image = original.clone();
+    image.clear(0xFF000000);
+  	Marvin.prewitt(original, image);
+  	Marvin.invertColors(image, image);
+  	Marvin.thresholding(image, image, 220);
+
+  	image.draw(canvas);
+  }
+
+
+
+</script>

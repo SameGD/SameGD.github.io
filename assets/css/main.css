@@ -88,6 +88,23 @@ html {
   box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
 }
 
+.collapse {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.collapse:hover {
+  background-color: var(--primary-light-select) !important;
+}
+
+.collapseicon {
+  transition: transform 300ms ease;
+}
+
+.rotateX180 {
+  transform: rotateX(-180deg);
+}
+
 /**************
 Navbar Shit
 ***************/
@@ -383,6 +400,11 @@ Index Page Headers
   background-size: contain;
 }
 
+.placetest-header {
+  background-image: url("/assets/images/places/lilydaledomehouse.png");
+  background-size: fit;
+}
+
 /**************
 Auto-Generated Headers
 ***************/
@@ -466,7 +488,6 @@ Blog
 /**************
 Hobby Hobby Index
 ***************/
-
 
 .hobbylegend {
   pointer-events: none;
@@ -613,6 +634,35 @@ Hobby Page
   }
 
 }*/
+
+.pageCard {
+  background-color: var(--dm-white);
+  border-radius: .25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+  color: var(--grey-dark);
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.pageCard > *:first-child {
+  color: var(--grey-darker);
+  font-weight: 700;
+  border-bottom: .4rem solid var(--primary);
+  background-color: var(--primary-light);
+  box-shadow: 0 0.125em 0.25em rgba(10,10,10,0.1);
+  /* display: flex; */
+  padding: 0.75rem 1rem;
+}
+
+.pageCard > *:not(:first-child) {
+  padding: 0 1.5rem;
+}
+
+.pageCard > *:last-child {
+  padding-bottom: 0.75rem;
+}
+
 
 .plant-group {
   border-bottom-left-radius: 0.25rem;

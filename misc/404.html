@@ -7,3 +7,18 @@ permalink: /404.html
 {% include navbar.html index=true %}
 
 <img src="/assets/images/404.png" style="width: 100%">
+
+<!-- Script to redirect to page on localhost, since it doesn't work normally on my setup -->
+<script type="text/javascript">
+  let url = window.location.href;
+
+  if (url.includes("localhost")) {
+    console.log("Its localhost")
+    // Redirects if the url doesn't end with html
+    if (url.split(".").slice(-1).pop() != "html") {
+      console.log("Its redirect time (in theory)")
+       window.location.href += ".html";
+    }
+
+  }
+</script>

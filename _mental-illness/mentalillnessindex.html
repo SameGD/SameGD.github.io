@@ -29,7 +29,7 @@ subtitle: Mental illness be like, actually really horrible oh jeeze please stop.
 
 <div class="break"></div>
 
-<div class="container">
+<div class="container" id="ContentContainer">
   <div class="m-4">
   {% for mental-illness in site.data.mental-illnesses %}
   <div class="card mb-4">
@@ -40,7 +40,7 @@ subtitle: Mental illness be like, actually really horrible oh jeeze please stop.
     <div class="card-content content">
       <ul>
       {% for condition in mental-illness.conditions %}
-        <li>{{ condition }}</li>
+        <li><a href="/mental-illness/{{condition | slugify}}">{{ condition }}</a></li>
       {% endfor %}
 
       {% for sub-cateogry in mental-illness.sub-categories %}
@@ -48,7 +48,7 @@ subtitle: Mental illness be like, actually really horrible oh jeeze please stop.
       <ul>
       {% for condition in sub-cateogry.conditions %}
 
-        <li>{{ condition }}</li>
+        <li><a href="/mental-illness/{{condition | slugify}}">{{ condition }}</a></li>
 
       {% endfor %}
       </ul>
@@ -61,3 +61,33 @@ subtitle: Mental illness be like, actually really horrible oh jeeze please stop.
   {% endfor %}
   </div>
 </div>
+
+<script type="text/javascript">
+
+  let CardDivs = document.getElementById("ContentContainer").querySelectorAll(".card");
+
+  CardDivs.forEach(Card => {
+
+    let CardHeader = Card.querySelector(".card-header");
+    CardHeader.classList.add("collapse");
+
+    let CollapseSpan = document.createElement("span");
+    CollapseSpan.className = "card-header-icon collapseicon";
+
+    let CollapseIcon = document.createElement("p");
+    CollapseIcon.className = "card-header-title is-3 is-pulled-right";
+    CollapseIcon.innerHTML = "&#5123;";
+
+    CollapseSpan.appendChild(CollapseIcon);
+    CardHeader.appendChild(CollapseSpan);
+
+    CardHeader.nextElementSibling.classList.add("is-hidden");
+
+    CardHeader.addEventListener("click", event => {
+      let collapsediv = CardHeader.nextElementSibling;
+      collapsediv.classList.toggle("is-hidden");
+      CollapseSpan.classList.toggle("rotateX180");
+    });
+  });
+
+</script>

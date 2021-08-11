@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="/assets/css/bulma.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+<script type="text/javascript" src="/assets/js/darkmode.js"></script>
+<script type="text/javascript" src="/assets/js/colour.js"></script>
+
+    <title>
+      Miku Test | Graphics Demo
+    </title>
+
+  </head>
+  <body>
+
+    <style>
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #c {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .loading {
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loader{
+    -webkit-perspective: 120px;
+    -moz-perspective: 120px;
+    -ms-perspective: 120px;
+    perspective: 120px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .loader:before{
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: var(--primary);
+    animation: flip 1s infinite;
+  }
+
+  @keyframes flip {
+    0% {
+      transform: rotate(0);
+    }
+
+    50% {
+      transform: rotateY(180deg);
+    }
+
+    100% {
+      transform: rotateY(180deg)  rotateX(180deg);
+    }
+  }
+
+</style>
+
+
+<nav class="nb has-background-primary">
+
+  <div class="nb-content">
+    
+    <div class="nb-item nb-breadcrumbs">
+      <ul>
+        <li><a class="title is-4 always-text-white" href="/">Graphics Demo</a></li>
+
+        
+
+        <li class="is-active"><a class="subtitle is-5" href="#">Miku Test</a></li>
+
+        
+        
+        
+        
+      </ul>
+    </div>
+    
+    <div class="nb-item darkmode">
+      
+      <input id="darkmode" type="checkbox">
+      <label for="darkmode" title="Toggle Dark Mode"></label>
+      
+    </div>
+    
+  </div>
+  
+</nav>
+
+<div class="loading" id="js-loader"><div class="loader"></div></div>
+<div class="container">
+
+  <video id="video" playsinline autoplay style="display: none;"></video>
+
+  <div class="wrapper">
+    <!-- The canvas element is used to draw the 3D scene -->
+    <canvas id="c"></canvas>
+  </div>
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/mrdoob/Three.js@r92/examples/js/loaders/GLTFLoader.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+<script src="/assets/js/miku2.js"></script>
+
+    
+  </body>
+</html>

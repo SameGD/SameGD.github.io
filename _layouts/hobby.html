@@ -3,6 +3,7 @@
 <head>
   {% include header.html %}
   <title>{{ page.title }} | Graphics Demo</title>
+
 </head>
 
 <body class="hobby-page">
@@ -11,15 +12,8 @@
 
   {% include hero-banner.html size="small" header=page.header %}
 
-<section class="section">
-  <div class="container">
-    <div class="box content">
+  {{ content }}
 
-      {{ content }}
-
-    </div>
-  </div>
-</section>
 
 </body>
 </html>

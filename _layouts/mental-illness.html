@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include header.html %}
+  <title>{{ page.title }} | Graphics Demo</title>
+
+</head>
+
+<body class="">
+
+  {% include navbar.html %}
+
+  <!-- {% include hero-banner.html size="small" header=page.header %} -->
+  <section class="section has-background-primary-light">
+    <div class="container">
+      <p class="subtitle is-6 mb-1">{{ page.category }}</p>
+      <div class="pl-1">
+        <p class="title">{{ page.title }}</p>
+        <p class="subtitle">{{ page.subtitle }}</p>
+      </div>
+
+      <!-- <p class="subtitle is-6">Last Updated: {{ page.modified }}</p> -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="box content">
+
+        <p class="title is-4">Table of Contents</p>
+
+        <ul>
+          <li><a href="#Summary">Summary</a></li>
+          <li><a href="#History">History</a></li>
+          <li><a href="#Symptoms">Symptoms</a></li>
+          <li><a href="#Pathophysiology">Pathophysiology</a></li>
+          <li><a href="#Causes">Causes</a></li>
+          <li><a href="#Treatment">Treatment</a></li>
+          <li><a href="#References">References</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  {{ content }}
+
+
+</body>
+</html>

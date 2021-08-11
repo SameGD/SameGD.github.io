@@ -30,6 +30,9 @@ collections:
   neurotransmitters:
     output: true
     permalink: /:collection/:name
+  places:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   -
@@ -62,3 +65,9 @@ defaults:
     values:
       layout: "default"
       collectiontitle: "Neurotransmitters"
+  -
+    scope:
+      type: "places"
+    values:
+      layout: "default"
+      collectiontitle: "Places"

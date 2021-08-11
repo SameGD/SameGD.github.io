@@ -1,0 +1,33 @@
+---
+layout: default
+permalink: /places/
+title: Places
+subtitle: Oh the places you'll loiter
+---
+
+{% include navbar.html index=true %}
+
+{% include hero-banner.html header="map-header" ftitle="Places" %}
+
+<section class="section">
+  <div class="container">
+
+      <!-- <div class="box has-background-primary-light has-border-left border-colorthis">
+        <a class="has-text-primary" href="/blog.xml"><p>RSS Feed is available here.</p></a>
+      </div> -->
+
+
+    <div class="box content">
+      <p class="title is-4">Posts</p>
+      <div class="break"></div>
+      <ul>
+        {% for post in site.places reversed %}
+        {% unless post.title == "Places" %}
+          <li>{{ post.date | date_to_string}} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endunless %}
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
