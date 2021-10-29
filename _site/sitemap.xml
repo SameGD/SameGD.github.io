@@ -52,6 +52,27 @@
     
   </url>
   
+  <url>
+    <loc>/blog/lightboxes</loc>
+    
+      <lastmod>2021-09-03T15:22:00+10:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/blog/illegal-cacti</loc>
+    
+      <lastmod>2021-09-30T11:03:00+10:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/blog/illegal-sprinkles</loc>
+    
+      <lastmod>2021-10-21T11:51:00+11:00</lastmod>
+    
+  </url>
+  
   
 
   <!-- Hobby -->
@@ -62,98 +83,112 @@
   <url>
     <loc>/hobby/blogging</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/bullet-journaling</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/coloring</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/computer-programming</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/geocaching</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/hobby/hiking</loc>
+    
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/houseplant-care</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/oldindex</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/palmistry</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/railway-journeys</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/hobby/reading</loc>
+    
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/shortwave-listening</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/soapmaking</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/stand-up-comedy</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/hobby/watching-movies</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
@@ -167,14 +202,14 @@
   <url>
     <loc>/mental-illness/attention-deficit-hyperactivity-disorder</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
   <url>
     <loc>/mental-illness/</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
@@ -188,7 +223,7 @@
   <url>
     <loc>/music/</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
@@ -202,7 +237,7 @@
   <url>
     <loc>/neurotransmitters/</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-10-29T14:40:35+11:00</lastmod>
     
   </url>
   
@@ -214,16 +249,23 @@
 
   
   <url>
-    <loc>/places/lilydale-dome-house</loc>
+    <loc>/places/</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-09-29T19:41:00+10:00</lastmod>
     
   </url>
   
   <url>
-    <loc>/places/</loc>
+    <loc>/places/lilydale-dome-house</loc>
     
-      <lastmod>2021-08-11T14:18:51+10:00</lastmod>
+      <lastmod>2021-09-30T11:27:00+10:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/places/capricorn-international-resort</loc>
+    
+      <lastmod>2021-09-30T11:52:00+10:00</lastmod>
     
   </url>
   

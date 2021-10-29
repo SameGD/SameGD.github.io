@@ -675,6 +675,82 @@ Hobby Page
   padding-bottom: 0.75rem;
 }
 
+.book-head {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.book-info {
+  align-self: flex-end;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.book-info p {
+  flex: 1;
+  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+  border-radius: 4px;
+  font-size: 1rem;
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  color: var(--grey-dark);
+  padding: 1.0em 1.5em;
+  margin-right: 1em;
+  margin-bottom: 0.75rem;
+  white-space: nowrap
+}
+
+.book-info .is-good {
+  border-color: #48c774;
+  color: #257942;
+  background-color: #effaf3;
+}
+
+.book-info .is-ok {
+  background-color: #fffbeb;
+  border-color: #ffdd57;
+  color: #947600;
+}
+
+.book-info .is-bad {
+  background-color: #feecf0;
+  border-color: #f14668;
+  color: #cc0f35;
+}
+
+.book-title {
+  margin-bottom: 0.75rem;
+  flex-grow: 1;
+  padding: 0 0.5rem;
+  border-left: solid 4px var(--primary);
+}
+
+.book-body {
+  padding: 1rem 0.25rem;
+  border-bottom: 2px solid #eee;
+  border-top: 2px solid #eee;
+  margin: 0.25rem 0;
+}
+
+.book-body p {
+  padding: 0.25rem 0;
+}
+
+.book-footer {
+  padding: 0.5rem 0;
+}
+
+.places-nav {
+  display: flex;
+}
+
+.places-nav-body {
+  width: 100%;
+  padding: 0 2rem;
+  align-self: flex-end;
+
+}
 
 .plant-group {
   border-bottom-left-radius: 0.25rem;

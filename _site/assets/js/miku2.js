@@ -215,14 +215,13 @@
           decodingMethod: 'single-person'
         });
         poses = poses.concat(pose);
-        minPoseConfidence = 0.5;
-        minPartConfidence = 0.72;
+        minPartConfidence = 0.6;
 
         // For each pose (i.e. person) detected in an image, loop through the poses
         // and draw the resulting skeleton and keypoints if over certain confidence
         // scores
         poses.forEach(({score, keypoints}) => {
-          if (score >= minPoseConfidence) {
+          if (score >= minPartConfidence) {
 
             // Set center of the screen
 
@@ -234,17 +233,27 @@
 
             moveHead(keypoints[0].position);
 
+            //moveLeftJoint(keypoints[5].position, keypoints[7].position, bones["Hairband_L_Armature"], ) //Left Leg -> Left Shoulder, Left Elbow
+            //moveRightJoint(keypoints[6].position, keypoints[8].position, bones["Hairband_R_Armature"]) //Right Leg -> Right Shoulder, Right Elbow
+
+
+            moveTheJoint(keypoints[5].position, keypoints[7].position, bones["Leg_L_Armature"], 180, 360) //Left Leg -> Left Shoulder, Left Elbow
+            moveTheJoint(keypoints[6].position, keypoints[8].position, bones["Leg_R_Armature"], 180, 360) //Right Leg -> Right Shoulder, Right Elbow
+
+            moveTheJoint(keypoints[7].position, keypoints[9].position, bones["Knee_L_Armature"], 180, 0) // Left Ankle
+            moveTheJoint(keypoints[8].position, keypoints[10].position, bones["Knee_R_Armature"], 180, 0) // Right Ankle
+
             //moveLimb(keypoints[5].position, bones["Hairband_L_Armature"]);
             // moveLimb(keypoints[6].position, bones["Hairband_R_Armature"]);
 
-            moveLimb(keypoints[5].position, bones["Root_L_Armature"]); // Left Shoulder
-            moveLimb(keypoints[6].position, bones["Root_R_Armature"]); // Right Shoulder
+            //moveLimb(keypoints[5].position, bones["Root_L_Armature"]); // Left Shoulder
+            //moveLimb(keypoints[6].position, bones["Root_R_Armature"]); // Right Shoulder
 
-            moveLimb(keypoints[7].position, bones["Leg_L_Armature"]) // Left Elbow
-            moveLimb(keypoints[8].position, bones["Leg_R_Armature"]) // Right Elbow
+            //moveLimb(keypoints[7].position, bones["Leg_L_Armature"]) // Left Elbow
+            //moveLimb(keypoints[8].position, bones["Leg_R_Armature"]) // Right Elbow
 
-            moveLimb(keypoints[9].position, bones["Knee_L_Armature"]) // Left Knee
-            moveLimb(keypoints[10].position, bones["Knee_R_Armature"]) // Right Knee
+            //moveLimb(keypoints[9].position, bones["Knee_L_Armature"]) // Left Knee
+            //moveLimb(keypoints[10].position, bones["Knee_R_Armature"]) // Right Knee
 
             //moveJoint(keypoints[0].position, bones["Head_Armature"], 360) // Nose
 
@@ -358,13 +367,13 @@
      // 3. Find the percentage of that difference (percentage toward edge of screen)
      xPercentage = (xdiff / (w.x / 2)) * 100;
      // 4. Convert that to a percentage of the maximum rotation we allow for the head
-     dx = ((360 * xPercentage) / 100) * -1; }
+     dx = ((90 * xPercentage) / 100) * -1; }
 
  // Right (Rotates head right between 0 and degreeLimit)
    if (x >= w.x / 2) {
      xdiff = x - w.x / 2;
      xPercentage = (xdiff / (w.x / 2)) * 100;
-     dx = (360 * xPercentage) / 100;
+     dx = (90 * xPercentage) / 100;
    }
    // Up (Rotates head up between 0 and -degreeLimit)
    if (y <= w.y / 2) {
@@ -383,6 +392,122 @@
    head.rotation.y = THREE.Math.degToRad(dx);
    head.rotation.x = THREE.Math.degToRad(dy);
 
+  }
+
+  function moveTheJoint(Point1, Point2, Joint, XRotLim, YRotLim) {
+    let dx = 0,
+        dy = 0,
+        xdiff,
+        xPercentage,
+        ydiff,
+        yPercentage;
+    let x = Point2.x;
+    let y = Point2.y;
+    let w = { x: Point1.x, y: Point1.y };
+
+    // 1. If limb is in on the left
+   if (x <= w.x) {
+     // 2. Get the difference between two positions
+     xdiff = w.x - x;
+     // 3. Find the percentage of that difference
+     xPercentage = (xdiff / (w.x)) * 100;
+     // 4. Convert that to a percentage of the maximum rotation we allow for the joint
+     dx = ((YRotLim * xPercentage) / 100) * -1;
+   }
+
+  // Right (Rotates limb right between 0 and degreeLimit)
+   if (x >= w.x) {
+     xdiff = x - w.x;
+     xPercentage = (xdiff / (w.x)) * 100;
+     dx = ((YRotLim * xPercentage) / 100);
+   }
+
+   // Up (Rotates leg up between 0 and -degreeLimit)
+   if (y <= w.y) {
+     ydiff = w.y - y;
+     yPercentage = (ydiff / (w.y)) * 100;
+     dy = ((XRotLim * yPercentage) / 100) * -1;
+     }
+
+   // Down (Rotates leg down between 0 and degreeLimit)
+   if (y >= w.y) {
+     ydiff = y - w.y;
+     yPercentage = (ydiff / (w.y)) * 100;
+     dy = ((XRotLim * yPercentage) / 100);
+   }
+
+   Joint.rotation.y = THREE.Math.degToRad(dx);
+   Joint.rotation.x = THREE.Math.degToRad(dy);
+  }
+
+  function moveLeftJoint(Point1, Point2, Joint, XRotLim, YRotLim) {
+    let dx = 0,
+        dy = 0,
+        xdiff,
+        xPercentage,
+        ydiff,
+        yPercentage;
+    let x = Point2.x;
+    let y = Point2.y;
+    let w = { x: Point1.x, y: Point1.y };
+
+
+   // 1. Get the difference between two positions
+   xdiff = w.x - x;
+   // 2. Find the percentage of that difference
+   xPercentage = (xdiff / (w.x)) * 100;
+   // 3. Convert that to a percentage of the maximum rotation we allow for the joint
+   dx = ((YRotLim * xPercentage) / 100);
+
+   // Up (Rotates leg up between 0 and -degreeLimit)
+   if (y <= w.y) {
+     ydiff = w.y - y;
+     yPercentage = (ydiff / (w.y)) * 100;
+     dy = ((XRotLim * yPercentage) / 100) * -1;
+     }
+
+   // Down (Rotates leg down between 0 and degreeLimit)
+   if (y >= w.y) {
+     ydiff = y - w.y;
+     yPercentage = (ydiff / (w.y)) * 100;
+     dy = ((XRotLim * yPercentage) / 100);
+   }
+
+   Joint.rotation.y = THREE.Math.degToRad(dx);
+   Joint.rotation.x = THREE.Math.degToRad(dy);
+  }
+
+  function moveRightJoint(Point1, Point2, Joint, XRotLim, YRotLim) {
+    let dx = 0,
+        dy = 0,
+        xdiff,
+        xPercentage,
+        ydiff,
+        yPercentage;
+    let x = Point2.x;
+    let y = Point2.y;
+    let w = { x: Point1.x, y: Point1.y };
+
+    xdiff = x - w.x;
+    xPercentage = (xdiff / (w.x)) * 100;
+    dx = (YRotLim * xPercentage) / 100;
+
+   // Up (Rotates up between 0 and -degreeLimit)
+   if (y <= w.y) {
+     ydiff = w.y - y;
+     yPercentage = (ydiff / (w.y)) * 100;
+     dy = ((XRotLim * yPercentage) / 100) * -1;
+     }
+
+   // Down (Rotates down between 0 and degreeLimit)
+   if (y >= w.y) {
+     ydiff = y - w.y;
+     yPercentage = (ydiff / (w.y)) * 100;
+     dy = ((XRotLim * yPercentage) / 100);
+   }
+
+   Joint.rotation.y = THREE.Math.degToRad(dx);
+   Joint.rotation.x = THREE.Math.degToRad(dy);
   }
 
   function moveLimb(position, limb) {

@@ -261,7 +261,7 @@ hobbylists:
       - name: Rapping
         status: unstarted
       - name: Reading
-        status: unstarted
+        status: in-progress
       - name: Refinishing
         status: unstarted
       - name: Reiki
@@ -452,7 +452,7 @@ hobbylists:
       - name: High-Power Rocketry
         status: unstarted
       - name: Hiking
-        status: unstarted
+        status: in-progress
       - name: Hobby Horsing
         status: unstarted
       - name: Hobby Tunneling
@@ -997,8 +997,6 @@ hobbylists:
         status: unstarted
       - name: Microscopy
         status: unstarted
-      - name: Reading
-        status: unstarted
       - name: Research
         status: unstarted
       - name: Shortwave Listening
@@ -1017,8 +1015,6 @@ hobbylists:
       - name: Gongoozling
         status: unstarted
       - name: Herping
-        status: unstarted
-      - name: Hiking
         status: unstarted
       - name: Meteorology
         status: unstarted

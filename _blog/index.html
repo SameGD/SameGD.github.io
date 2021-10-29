@@ -15,20 +15,29 @@ date: 2020-09-30 20:41:00+11
 
       <div class="box has-background-primary-light has-border-left border-colorthis">
         <a class="has-text-primary" href="/blog.xml"><p>RSS Feed is available here.</p></a>
-      </div>  
+      </div>
 
-    
-    <div class="box content">
+    <div class="content">
       <p class="title is-4">Posts</p>
       <div class="break"></div>
-      <ul>
+
+      <div class="mx-4">
+
         {% for blogpost in site.blog reversed %}
         {% unless blogpost.title == "Blog" %}
-          <li>{{ blogpost.date | date_to_string}} - <a href="{{ blogpost.url }}">{{ blogpost.title }}</a></li>
+          <a href="{{ blogpost.url }}">
+            <div class="box content border-colorthis has-border-left bg-hover-colorthis my-4">
+              <p class="title is-5">{{ blogpost.title }}</p>
+              <p class="subtitle is-6">{{ blogpost.date | date_to_string}}</p>
+              <div class="break"></div>
+              <p>{{blogpost.excerpt | strip_html | truncatewords: 30}}</p>
+            </div>
+          </a>
         {% endunless %}
         {% endfor %}
-      </ul>
-    
-    </div> 
+
+      </div>
+    </div>
+
   </div>
 </section>
