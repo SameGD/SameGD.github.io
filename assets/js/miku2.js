@@ -237,11 +237,17 @@
             //moveRightJoint(keypoints[6].position, keypoints[8].position, bones["Hairband_R_Armature"]) //Right Leg -> Right Shoulder, Right Elbow
 
 
-            moveTheJoint(keypoints[5].position, keypoints[7].position, bones["Leg_L_Armature"], 180, 360) //Left Leg -> Left Shoulder, Left Elbow
-            moveTheJoint(keypoints[6].position, keypoints[8].position, bones["Leg_R_Armature"], 180, 360) //Right Leg -> Right Shoulder, Right Elbow
+          //  moveTheJoint(keypoints[5].position, keypoints[7].position, bones["Leg_L_Armature"], 180, 360) //Left Leg -> Left Shoulder, Left Elbow
+          //  moveTheJoint(keypoints[6].position, keypoints[8].position, bones["Leg_R_Armature"], 180, 360) //Right Leg -> Right Shoulder, Right Elbow
 
-            moveTheJoint(keypoints[7].position, keypoints[9].position, bones["Knee_L_Armature"], 180, 0) // Left Ankle
-            moveTheJoint(keypoints[8].position, keypoints[10].position, bones["Knee_R_Armature"], 180, 0) // Right Ankle
+          //  moveTheJoint(keypoints[7].position, keypoints[9].position, bones["Knee_L_Armature"], 180, 0) // Left Ankle
+          //  moveTheJoint(keypoints[8].position, keypoints[10].position, bones["Knee_R_Armature"], 180, 0) // Right Ankle
+
+           JointRotation(keypoints[5].position, keypoints[7].position, bones["Leg_L_Armature"], 180, 360) //Left Leg -> Left Shoulder, Left Elbow
+           JointRotation(keypoints[6].position, keypoints[8].position, bones["Leg_R_Armature"], 180, 360) //Right Leg -> Right Shoulder, Right Elbow
+
+           JointRotation(keypoints[7].position, keypoints[9].position, bones["Knee_L_Armature"], 180, 0) // Left Ankle
+           JointRotation(keypoints[8].position, keypoints[10].position, bones["Knee_R_Armature"], 180, 0) // Right Ankle
 
             //moveLimb(keypoints[5].position, bones["Hairband_L_Armature"]);
             // moveLimb(keypoints[6].position, bones["Hairband_R_Armature"]);
@@ -392,6 +398,21 @@
    head.rotation.y = THREE.Math.degToRad(dx);
    head.rotation.x = THREE.Math.degToRad(dy);
 
+  }
+
+  function JointRotation(RootPosition, JointPosition, Joint) {
+
+    // Calculate the direction vector from the root joint to the current joint
+    const direction = {
+      x: JointPosition.x - RootPosition.x,
+      y: JointPosition.y - RootPosition.y
+    };
+
+    const rotationX = Math.atan2(direction.y, direction.x);
+    const rotationY = Math.atan2(-direction.x, direction.y);
+
+    Joint.rotation.y = THREE.Math.degToRad(rotationY);
+    Joint.rotation.x = THREE.Math.degToRad(rotationX);
   }
 
   function moveTheJoint(Point1, Point2, Joint, XRotLim, YRotLim) {
