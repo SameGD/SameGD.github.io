@@ -26,14 +26,15 @@
   const ResNetInputResolution = 250;
 
   let center;
-
+  //possibly change knee back to being (1,0,0)
+  // actually possibly change knee to be (1,1,1) even though that makes no sense arhgsdf
   const OffsetDirections = {
     Hairband_L_Armature: new THREE.Vector3(1, 0, 0),
     Leg_L_Armature: new THREE.Vector3(1, 0, 0),
+    Knee_L_Armature: new THREE.Vector3(1, -1, 0),
+    Hairband_R_Armature: new THREE.Vector3(-1, 0, 0),
     Leg_R_Armature: new THREE.Vector3(-1, 0, 0),
-    Hairband_R_Armature: new THREE.Vector3(1, 0, 0),
-    Knee_L_Armature: new THREE.Vector3(1, 0, 0),
-    Knee_R_Armature: new THREE.Vector3(-1, 0, 0)
+    Knee_R_Armature: new THREE.Vector3(-1, -1, 0)
   };
 
   // Initialises Everything
@@ -296,17 +297,22 @@
             // console.log(RootRotation);
 
             //RotateJoint(bones["Head_Armature"], RootRotation);
-            bones["Head_Armature"].setRotationFromMatrix(RootRotation);
+            bones["Head_Armature"].setRotationFromQuaternion(RootRotation);
 
             //getLeftShoulderRotation(KeypointsDict, RootRotation);
             //getRightShoulderRotation(KeypointsDict, RootRotation);
             //rotateJointly(KeypointsDict["leftShoulder"], KeypointsDict["leftElbow"], "Hairband_L_Armature");
+            //rotateJointly(KeypointsDict["leftShoulder"], KeypointsDict["leftElbow"], "Hairband_R_Armature");
+
             rotateJointly(KeypointsDict["leftShoulder"], KeypointsDict["leftElbow"], "Leg_L_Armature");
             rotateJointly(KeypointsDict["leftElbow"], KeypointsDict["leftWrist"], "Knee_L_Armature");
-            //rotateJointly(KeypointsDict["leftShoulder"], KeypointsDict["leftElbow"], "Hairband_R_Armature");
             rotateJointly(KeypointsDict["rightShoulder"], KeypointsDict["rightElbow"], "Leg_R_Armature");
             rotateJointly(KeypointsDict["rightElbow"], KeypointsDict["rightWrist"], "Knee_R_Armature");
 
+            // rotateJointlyest(KeypointsDict["leftShoulder"], KeypointsDict["leftElbow"], "Leg_L_Armature", RootRotation);
+            // // rotateJointlyest(KeypointsDict["leftElbow"], KeypointsDict["leftWrist"], "Knee_L_Armature");
+            // rotateJointlyest(KeypointsDict["rightShoulder"], KeypointsDict["rightElbow"], "Leg_R_Armature", RootRotation);
+            // rotateJointlyest(KeypointsDict["rightElbow"], KeypointsDict["rightWrist"], "Knee_R_Armature");
 
           }
         });
@@ -373,23 +379,30 @@
 
     let RootU = new THREE.Vector3();
     RootU.subVectors(PositionDict["leftShoulder"], PositionDict["neck"]).normalize();
-    //RootU.subVectors(PositionDict["neck"], PositionDict["rightShoulder"]).normalize();
-    //RootU.subVectors(PositionDict["leftEar"], PositionDict["nose"]).normalize();
-    //RootU.subVectors(PositionDict["leftShoulder"], PositionDict["rightShoulder"]).normalize();
+    //RootU.subVectors(PositionDict["neck"], PositionDict["leftShoulder"]).normalize();
 
     let RootV = new THREE.Vector3();
     RootV.subVectors(PositionDict["nose"], PositionDict["neck"]).normalize();
+    //RootV.subVectors(PositionDict["neck"], PositionDict["nose"]).normalize();
 
     let RootW = new THREE.Vector3();
     RootW.crossVectors(RootU, RootV);
+
+    //RootW.reflect(RootU);
 
     // If these are the direction / unit vectors that define the xyz axis respectively, I think we can use .makeBasis to create our rotation matrix
     // Either that or .lookAt somehow
 
     const m = new THREE.Matrix4();
-    m.makeBasis(RootU, RootV, RootW);
+    // m.makeBasis(RootU, RootV, RootW);
 
-    return m;
+    const q = new THREE.Quaternion();
+    //q.setFromRotationMatrix(m);
+    //q.normalize();
+    const v = new THREE.Vector3(0, 0, 1);
+    q.setFromUnitVectors(v, RootW);
+
+    return q;
 
   }
 
@@ -403,10 +416,42 @@
     let Quaternion = new THREE.Quaternion();
 
     // Sets this quaternion to the rotation required to rotate direction vector vFrom to direction vector vTo.
-    // vFrom is being defined by the OffsetDirections, which has something to do with T posing I think? This just magically worked so idk.
+    // vFrom is being defined by the OffsetDirections, which indicates which direction the object is initally facing.
+    // For the Left Bones this would be towards the positive x axis, and for the Right bones this would be towards the negative x axis
     Quaternion.setFromUnitVectors(OldDirection, NewDirection);
 
     bones[Joint].setRotationFromQuaternion(Quaternion);
+
+  }
+
+  function rotateJointlyest(Point1, Point2, Joint, ParentRotation) {
+    let OldDirection = OffsetDirections[Joint];
+    //OldDirection.applyMatrix4(Joint.matrix).normalize();
+
+
+    // Applies rotation of parent bone to unit vector, which should get the directional/unitvector of the current rotation
+    //OldDirection.applyQuaternion(ParentRotation);
+    //OldDirection.applyQuaternion(ParentRotation);
+    //OldDirection.normalize();
+
+    //0, 0, 1 means that by default, the object is facing towards the positive z axis
+    //let OldDirection = new THREE.Vector3(0, 0, 1)
+
+    let NewDirection = new THREE.Vector3();
+    NewDirection.subVectors(Point2, Point1).normalize();
+
+    let Quaternion = new THREE.Quaternion();
+
+    // Sets this quaternion to the rotation required to rotate direction vector vFrom to direction vector vTo.
+    // vFrom is being defined by the OffsetDirections, which indicates which direction the object is initally facing.
+    // For the Left Bones this would be towards the positive x axis, and for the Right bones this would be towards the negative x axis
+    Quaternion.setFromUnitVectors(OldDirection, NewDirection);
+
+    Quaternion.multiply(ParentRotation.conjugate()).normalize();
+
+    bones[Joint].setRotationFromQuaternion(Quaternion);
+
+    return Quaternion;
 
   }
 

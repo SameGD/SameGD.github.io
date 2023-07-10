@@ -1,0 +1,23 @@
+I"ú<p class="title">Blog Test 4</p>
+
+<p class="subtitle">Revenge of the blog test</p>
+
+<p>This is a test to see if I can use google docs to write the content for my websites, since that will be way easier than doing it inside brackets. <strong>This should be bold.</strong> <em>This should be in italics.</em> <sup>This should be superscript.</sup> <sub>This should be subscript. </sub></p>
+
+<ul>
+  <li>This should be dot point 1</li>
+  <li>This should be dot point 2</li>
+  <li>This should be dot point 3</li>
+</ul>
+
+<p><del>This should be strikethroughed. <span style="text-decoration:underline;">This should be underlined and strikethroughed.</span></del></p>
+
+<p><span style="text-decoration:underline;">This should be underlined</span></p>
+
+<ol>
+  <li>This should be numbered 1</li>
+  <li>This should be numbered 2</li>
+</ol>
+
+<p>Well dope, looks like Iâ€™m using docs to write the site content! Oh god this is the first post on this blog that actually has any sort of content. Is this a sign of things to come?</p>
+:ET
